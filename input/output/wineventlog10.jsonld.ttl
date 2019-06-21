@@ -1,0 +1,367 @@
+<http://example.org/sepses/hle#cecb6378-9f38-47e1-876e-5941db70d095>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x235c from(C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x235c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#83a29802-653c-4e4e-857b-aff1b4e397c5>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x2d24 from(C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x2d24" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#99ed6ffc-9f2a-45cb-a297-fc3b3b7d1c38>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache\\YDA64iuZiGG847KPM-7BvnWKITyGyTwHbb6fVYwRx1I to C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache\\prefetch_cache handle: 0xedc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0xedc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache\\YDA64iuZiGG847KPM-7BvnWKITyGyTwHbb6fVYwRx1I" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache\\prefetch_cache" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#3ff2bf2f-b47f-44e6-9f00-7d137d568fcd>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Moved to recycle bin C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt to C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$R81PQ4B.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "moved to recycle bin" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x2d24" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$R81PQ4B.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#d7f916ab-aec1-44e7-a1a9-e6901dfe24ff>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt to C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt handle: 0x207c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x207c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#084e868d-57ab-48c3-b4d7-2921c2fc3189>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt:com.dropbox.attributes process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x11b4 from(C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attributes)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x11b4" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#ac5321dc-1b31-4158-9ec2-e876005ca3ec>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt:com.dropbox.attrs process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x1930 from(C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attrs)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1930" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attrs" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt:com.dropbox.attrs" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#60b60460-1c2f-4fad-8f16-3641ebc7ca4f>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt to C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt handle: 0x2d24" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x2d24" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#a8c0926c-72de-4a41-9e74-460ba7670ac5>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt:com.dropbox.attrs process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x1930 from(C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attrs)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1930" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attrs" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt:com.dropbox.attrs" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#6c4b1d02-a602-4548-af44-8360ad757a03>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attrs process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1e6c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1e6c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attrs" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#76332b09-f717-4fcc-873e-fd8442015095>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1d70" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d70" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#5c5ed110-897e-4327-b7c0-fcbdf7d027c8>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attrs process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1f04" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1f04" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attrs" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#e9c2510d-f504-4556-ac96-505ffc763e91>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt to C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache handle: 0x1ee0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1ee0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#3ccef51c-c2ac-4246-a1b3-6507a53602af>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Moved to recycle bin C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt to C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$ROIXXCY.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "moved to recycle bin" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x2d24" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$ROIXXCY.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#c97fa769-9e96-4bdf-bedd-22d6ff402fcf>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt:com.dropbox.attributes process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x11b4 from(C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x11b4" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#3dc2bd52-d091-4717-8df1-2891c0e41ef9>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attributes process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1e6c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1e6c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .

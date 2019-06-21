@@ -1,0 +1,783 @@
+<http://example.org/sepses/#3f9f5d55-5c7e-45b3-a26a-5ac82b864ce2>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#dbe4a99a-2e29-452e-9b1e-dd8dffe7440d>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#34b02123-dedc-4e73-8241-9fe9dc81975c>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "moved to recycle bin" .
+
+<http://example.org/sepses/#7a4d2ea6-4d7f-430c-9a56-3478a2d1a86c>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#184fd96b-0d79-4945-9536-b12534d7c87b>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#2f6661b3-a305-4962-9dca-81e5905ac8ad>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#3ba8157e-80f5-43fb-82e5-bb2435099ebb> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#3588658c-663d-4e6f-b19a-0d3648dbadff> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#36fb6bc4-a0d9-47e3-a5e3-f3a45fd84dbf> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#720becb9-0764-4559-b1c1-3f020a3d6bec> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#0f9b6b3d-53b1-4e34-9ad0-9ab8c209e07c> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#6ba75031-e741-4441-8d8f-a5d8ccfc2c3c> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#833a2a7d-07aa-41a7-9faf-bd6d0bab764d> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:48.991Z" .
+
+<http://example.org/sepses/#35ba11ba-7910-422f-a6d8-9b8186d8cc69>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt" .
+
+<http://example.org/sepses/#c9cd22dd-3469-4178-8d89-1d3a7807a9b1>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#5806367a-889b-4b5c-b62d-ce95144fbb18>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" .
+
+<http://example.org/sepses/fileAccessEvent#18843dee-391b-4f9c-9a14-4e49223ccaf3>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#5fc5ace4-f3e3-4b85-ad08-a77ef3d6ac23> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#1ddbe9a3-304b-4dd8-ac85-0569866cbf17> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#89a612ab-3b1c-4e27-a2d9-c7b9f5fc42cc> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#94c7f1d0-512b-42fd-b8e2-72b037eae1f0> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#9bde7c67-c79f-4943-be45-9c8d5d8ca2c2> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#46d63801-8f3c-4edf-a0ce-8ba0bba7f656> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#0371fe92-6821-4899-a991-80cf5cdf4c86> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:54.379Z" .
+
+<http://example.org/sepses/#45cae64a-04cd-4088-bdc9-1cbc1b60ada1>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#e8c3afe1-5a1f-462e-9b67-6dc086e20ef3>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#1ae496c0-c182-42d1-8d56-87528b62af69>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#09001dda-5791-4b80-a14f-73f56cfd5c74>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "" .
+
+<http://example.org/sepses/#29501fc5-a97c-4e0b-9b72-dd8260675e02>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#46d63801-8f3c-4edf-a0ce-8ba0bba7f656>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#2fec2faf-2780-4a39-9cc7-7bcd7eee8d37>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "moved to recycle bin" .
+
+<http://example.org/sepses/#648f0bc3-a5e7-4075-b89b-3ce4408dec43>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#efabd242-713d-44ab-9e4e-ae6ecffc848f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt:com.dropbox.attributes" .
+
+<http://example.org/sepses/#eccc05c4-fcef-4b60-8126-796145275d67>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#baa4aa31-1dbd-4bb6-b2e2-dd5d3084a796>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#11da5083-a0c8-4ece-b9c2-e74e971c058b>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "created/modified" .
+
+<http://example.org/sepses/#fd555821-b223-4874-ae5b-5bd1fec4b432>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" .
+
+<http://example.org/sepses/#3588658c-663d-4e6f-b19a-0d3648dbadff>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#ee87bbed-8ca1-4f5f-ae45-4027028cc07e>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#b0f1c161-b191-4741-a47d-ebad9f85fcf7>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#198c3156-a6d8-4151-91b4-b2728d7680d3>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "create/modified/copied" .
+
+<http://example.org/sepses/#9bde7c67-c79f-4943-be45-9c8d5d8ca2c2>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" .
+
+<http://example.org/sepses/#ec7c4222-d4c8-437b-94f0-ba2f08a40f3f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#eb457fbd-f21f-4b6a-8b32-cdbcdfb57ddf>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" .
+
+<http://example.org/sepses/#02fc2ebc-f724-4073-9819-87416704ad12>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#51c7b06e-e6fe-4191-a50b-13465476267c>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#7656790b-5f33-4e64-bbf5-247fe6e4f37e>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#0f9b6b3d-53b1-4e34-9ad0-9ab8c209e07c>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#fa6735f9-c0cd-4edc-8a02-4111c9a4085f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#703d0bf2-ea69-42fb-b30e-cb36b7f446b8>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/fileAccessEvent#ce3676c2-1b16-4f3f-979b-22cbdfbed0e4>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#50aff25d-1d40-47ba-8279-83c2044610fe> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#45cae64a-04cd-4088-bdc9-1cbc1b60ada1> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#3a7a4b43-7283-43d6-9c7c-cdbead70a452> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#3b31f4e0-ecfc-49bd-bbc4-f335926b6dc1> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#1a83826c-537b-426b-9e5a-0b23d27c6ded> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#1ae496c0-c182-42d1-8d56-87528b62af69> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#b0f1c161-b191-4741-a47d-ebad9f85fcf7> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:48.981Z" .
+
+<http://example.org/sepses/fileAccessEvent#fae710d8-2a0e-4e64-a539-b6270ed8904f>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#0e20a0b5-bb52-4446-b045-daab7cbaf845> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#3f4c581d-b265-4ed7-bea9-fbbd60a4eaf0> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#eb457fbd-f21f-4b6a-8b32-cdbcdfb57ddf> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#ed15e602-c0f3-4c58-be2a-331d4d11410d> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#46156879-f402-452e-9e5f-ed0148ecdb6d> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#02fc2ebc-f724-4073-9819-87416704ad12> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#dbd3c286-d105-4604-95d0-d1f8b9f20f94> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:54.367Z" .
+
+<http://example.org/sepses/#3baba8a8-d60f-4a93-8401-cbe6a189ca28>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache\\prefetch_cache" .
+
+<http://example.org/sepses/#ed22d16e-0744-40f8-abb1-e8c4035caad6>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#ff317412-97b5-4573-89ed-70f827ae3b42>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/fileAccessEvent#14ba8454-b31f-4573-9620-bb1f4cb64eb6>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#b4e538f6-da8a-400a-b5d7-ffd34537cc91> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#4f5a799a-dd48-4f13-92a9-5c8823a58555> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#b783d42f-14fb-4196-b18a-cbd459731a98> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#bb941b26-0f6a-47af-affc-85a7451172d1> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#3baba8a8-d60f-4a93-8401-cbe6a189ca28> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#580755b1-5801-4cf2-a1b3-a72e51ebfd84> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#04a11d54-609e-48ef-8f36-7edc485ce131> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:53:57.565Z" .
+
+<http://example.org/sepses/#d7bec43a-4f5b-4224-a2d6-36026a233df0>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "" .
+
+<http://example.org/sepses/#ed15e602-c0f3-4c58-be2a-331d4d11410d>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#0f9f16c3-35b8-4f46-9084-dccdc54ff676>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/fileAccessEvent#f0cc4d69-2968-45ca-9fc4-b400f98dfe00>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#82ac2d7e-3b36-4a8b-8a5e-136262428cd3> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#638024ed-9d02-482f-b878-ed28151661ad> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#c161075d-6b0a-41ec-89c7-0158d0140179> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#c9cd22dd-3469-4178-8d89-1d3a7807a9b1> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#35ba11ba-7910-422f-a6d8-9b8186d8cc69> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#7fbfdd6a-5266-491c-9e41-ffa2a87543aa> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#4c6281ba-1904-45f7-b8b6-2a16c2ccdfb2> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:48.980Z" .
+
+<http://example.org/sepses/fileAccessEvent#718b4dd3-25ea-41e4-b093-1b1d5592cbf4>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#564a69a3-6e83-4f66-b75b-4d0846d76a8a> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#4bb69fd0-bfeb-4102-b6f5-a98cf5bba4a8> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#0f9f16c3-35b8-4f46-9084-dccdc54ff676> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#453e6bfa-0c83-4c20-bb6e-9846e5578e0e> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#7656790b-5f33-4e64-bbf5-247fe6e4f37e> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#4fcc4664-cc3e-466e-bf6e-1e4c2e6b9a43> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#6bd371ff-0f5c-4d75-810d-615b29e4944f> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:48.983Z" .
+
+<http://example.org/sepses/#d656582d-7eb1-4569-9e01-f3cf3615da9b>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attributes" .
+
+<http://example.org/sepses/#aa0be8e2-9fea-4157-b607-eb93763dc142>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#564a69a3-6e83-4f66-b75b-4d0846d76a8a>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "create/modified/copied" .
+
+<http://example.org/sepses/#7fbfdd6a-5266-491c-9e41-ffa2a87543aa>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#87742a99-1037-4cfe-b245-3b4dcd4ce066>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "created/modified" .
+
+<http://example.org/sepses/#36fb6bc4-a0d9-47e3-a5e3-f3a45fd84dbf>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#46156879-f402-452e-9e5f-ed0148ecdb6d>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" .
+
+<http://example.org/sepses/#1ddbe9a3-304b-4dd8-ac85-0569866cbf17>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#a68023e4-add7-4454-a250-ef2481eddbc6>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#c23a58db-c7c2-4f4a-870d-7ce4a1988fd3>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" .
+
+<http://example.org/sepses/#6d21bd3d-7d02-41a0-8e37-282dada9ab37>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$R81PQ4B.txt" .
+
+<http://example.org/sepses/#86cdeaa3-5b0a-4c13-9ea9-e2d71801ea09>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes" .
+
+<http://example.org/sepses/#0cf983fd-80af-4937-a116-323e96764568>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#1a83826c-537b-426b-9e5a-0b23d27c6ded>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test2 - Copy.txt:com.dropbox.attributes" .
+
+<http://example.org/sepses/#41b782e5-6eab-4f4d-b6aa-fc2c54032b45>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "" .
+
+<http://example.org/sepses/#94c7f1d0-512b-42fd-b8e2-72b037eae1f0>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#4094f67d-87f6-4efb-a92b-e7762f5eb5a9>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "renamed" .
+
+<http://example.org/sepses/#82ac2d7e-3b36-4a8b-8a5e-136262428cd3>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "create/modified/copied" .
+
+<http://example.org/sepses/#dbc98ab5-3270-4126-b54c-6f27b1667927>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#04a11d54-609e-48ef-8f36-7edc485ce131>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#a68510a5-2daa-43c1-897c-5ae47081f00b>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#c8d46ea4-4eb6-4bf8-8d61-fc74d3d59d03>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#833a2a7d-07aa-41a7-9faf-bd6d0bab764d>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#a1f3543d-34ed-4678-aef6-5422876ae0b5>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#3f4c581d-b265-4ed7-bea9-fbbd60a4eaf0>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#6b9d78e8-aeef-414f-84b5-2bbbd78d5882>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\test1.txt" .
+
+<http://example.org/sepses/#2e100db1-9b4f-4b24-a4a7-28eb46f6b18e>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#5fc5ace4-f3e3-4b85-ad08-a77ef3d6ac23>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "renamed" .
+
+<http://example.org/sepses/fileAccessEvent#a6eaeda7-0203-43b4-aed6-d288aff25b79>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#e21ccaf8-3da7-4c5b-8ea8-013478f64b52> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#3f9f8b7e-fdf0-4db6-8b9f-5ecd5a90edf5> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#0cf983fd-80af-4937-a116-323e96764568> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#297fb07e-cb00-49c0-886c-472e741fe726> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#09001dda-5791-4b80-a14f-73f56cfd5c74> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#aa0be8e2-9fea-4157-b607-eb93763dc142> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#7a2876aa-7d6f-4995-8914-b03c9beb8d8f> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:53:57.469Z" .
+
+<http://example.org/sepses/#3b31f4e0-ecfc-49bd-bbc4-f335926b6dc1>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#638024ed-9d02-482f-b878-ed28151661ad>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/fileAccessEvent#77fe054b-b7d2-495b-8780-3ddcbbff91b8>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#198c3156-a6d8-4151-91b4-b2728d7680d3> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#648f0bc3-a5e7-4075-b89b-3ce4408dec43> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#d656582d-7eb1-4569-9e01-f3cf3615da9b> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#ff317412-97b5-4573-89ed-70f827ae3b42> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#efabd242-713d-44ab-9e4e-ae6ecffc848f> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#e8c3afe1-5a1f-462e-9b67-6dc086e20ef3> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#a7373bee-437c-4c7f-9f33-7514a3d195c8> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:48.989Z" .
+
+<http://example.org/sepses/#dc8c4225-196a-4787-83a2-9157079abfad>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/fileAccessEvent#186f616a-adce-46fc-b427-bcec06d218bd>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#34b02123-dedc-4e73-8241-9fe9dc81975c> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#7a4d2ea6-4d7f-430c-9a56-3478a2d1a86c> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#fd555821-b223-4874-ae5b-5bd1fec4b432> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#51c7b06e-e6fe-4191-a50b-13465476267c> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#6d21bd3d-7d02-41a0-8e37-282dada9ab37> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#fa6735f9-c0cd-4edc-8a02-4111c9a4085f> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#a68510a5-2daa-43c1-897c-5ae47081f00b> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:54.379Z" .
+
+<http://example.org/sepses/#c8add7be-7e75-4974-931a-477913e0af08>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#0e20a0b5-bb52-4446-b045-daab7cbaf845>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "renamed" .
+
+<http://example.org/sepses/fileAccessEvent#69d49dc2-024b-4f42-a7de-4e76ce305589>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#11da5083-a0c8-4ece-b9c2-e74e971c058b> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#ed22d16e-0744-40f8-abb1-e8c4035caad6> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#3f9f5d55-5c7e-45b3-a26a-5ac82b864ce2> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#dbe4a99a-2e29-452e-9b1e-dd8dffe7440d> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#f50c7d95-9d28-4377-a904-e0a99cfd6563> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#6474fe5d-529a-4f4b-85e3-48fb51096819> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#a1f3543d-34ed-4678-aef6-5422876ae0b5> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:52:06.231Z" .
+
+<http://example.org/sepses/#720becb9-0764-4559-b1c1-3f020a3d6bec>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#6bd371ff-0f5c-4d75-810d-615b29e4944f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#b783d42f-14fb-4196-b18a-cbd459731a98>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache\\YDA64iuZiGG847KPM-7BvnWKITyGyTwHbb6fVYwRx1I" .
+
+<http://example.org/sepses/#b4e538f6-da8a-400a-b5d7-ffd34537cc91>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "renamed" .
+
+<http://example.org/sepses/#453e6bfa-0c83-4c20-bb6e-9846e5578e0e>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/fileAccessEvent#3f52295b-41f0-41e4-8b49-da54657855a7>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#2fec2faf-2780-4a39-9cc7-7bcd7eee8d37> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#b915f2d5-52bc-4a7c-a69d-0f90137e5edc> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#d7719f59-abc6-4fb2-b6d1-674798b56570> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#29501fc5-a97c-4e0b-9b72-dd8260675e02> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#a592da4d-5002-442c-9724-c8c3f387b79f> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#ec976012-64d3-4979-b81b-d7daaff4bded> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#2e100db1-9b4f-4b24-a4a7-28eb46f6b18e> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:54.444Z" .
+
+<http://example.org/sepses/#3a7a4b43-7283-43d6-9c7c-cdbead70a452>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes" .
+
+<http://example.org/sepses/#0371fe92-6821-4899-a991-80cf5cdf4c86>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/fileAccessEvent#cf4acab7-dcdf-41bd-af9a-ddde3a925bd9>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#87742a99-1037-4cfe-b245-3b4dcd4ce066> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#eac9c3d6-2669-405c-8f8b-00b4ab0e3501> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#86cdeaa3-5b0a-4c13-9ea9-e2d71801ea09> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#6910d19f-1ef4-4176-a3ec-20054eefe26d> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#d7bec43a-4f5b-4224-a2d6-36026a233df0> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#a68023e4-add7-4454-a250-ef2481eddbc6> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#ec7c4222-d4c8-437b-94f0-ba2f08a40f3f> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:53:57.425Z" .
+
+<http://example.org/sepses/#6910d19f-1ef4-4176-a3ec-20054eefe26d>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#4c6281ba-1904-45f7-b8b6-2a16c2ccdfb2>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#dbd3c286-d105-4604-95d0-d1f8b9f20f94>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#3ba8157e-80f5-43fb-82e5-bb2435099ebb>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "create/modified/copied" .
+
+<http://example.org/sepses/#50aff25d-1d40-47ba-8279-83c2044610fe>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "create/modified/copied" .
+
+<http://example.org/sepses/#297fb07e-cb00-49c0-886c-472e741fe726>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#4f5a799a-dd48-4f13-92a9-5c8823a58555>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#e40be680-1c51-40df-ad29-6f2c1d25f81e>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#4094f67d-87f6-4efb-a92b-e7762f5eb5a9> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#184fd96b-0d79-4945-9536-b12534d7c87b> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#c23a58db-c7c2-4f4a-870d-7ce4a1988fd3> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#dc8c4225-196a-4787-83a2-9157079abfad> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#c34bdb84-1c22-4610-816c-a4be434a408d> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#703d0bf2-ea69-42fb-b30e-cb36b7f446b8> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#ee87bbed-8ca1-4f5f-ae45-4027028cc07e> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:46:46.253Z" .
+
+<http://example.org/sepses/#6ba75031-e741-4441-8d8f-a5d8ccfc2c3c>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#b262b6ac-fc36-4450-ac17-d8b5a0aa3f31>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#3f9f8b7e-fdf0-4db6-8b9f-5ecd5a90edf5>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#f50c7d95-9d28-4377-a904-e0a99cfd6563>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "" .
+
+<http://example.org/sepses/#e21ccaf8-3da7-4c5b-8ea8-013478f64b52>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "created/modified" .
+
+<http://example.org/sepses/#d7719f59-abc6-4fb2-b6d1-674798b56570>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" .
+
+<http://example.org/sepses/#b8bd1dd0-7a60-4e21-9397-522f2b3f1e27>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "create/modified/copied" .
+
+<http://example.org/sepses/#abe5256c-cf14-46a4-80d9-8337dfdfbb2e>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt:com.dropbox.attributes" .
+
+<http://example.org/sepses/#a7373bee-437c-4c7f-9f33-7514a3d195c8>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#bb941b26-0f6a-47af-affc-85a7451172d1>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#a0c79251-af7b-4cea-bf3d-4b773d301a50>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#a592da4d-5002-442c-9724-c8c3f387b79f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$ROIXXCY.txt" .
+
+<http://example.org/sepses/#89a612ab-3b1c-4e27-a2d9-c7b9f5fc42cc>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test1.txt" .
+
+<http://example.org/sepses/#580755b1-5801-4cf2-a1b3-a72e51ebfd84>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#7a2876aa-7d6f-4995-8914-b03c9beb8d8f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#userName>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/#4fcc4664-cc3e-466e-bf6e-1e4c2e6b9a43>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#c161075d-6b0a-41ec-89c7-0158d0140179>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\test2 - Copy.txt" .
+
+<http://example.org/sepses/fileAccessEvent#248b6f3d-9eec-4aa2-b611-8bbaa9bcf1e8>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#b8bd1dd0-7a60-4e21-9397-522f2b3f1e27> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#dbc98ab5-3270-4126-b54c-6f27b1667927> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#5806367a-889b-4b5c-b62d-ce95144fbb18> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#c8add7be-7e75-4974-931a-477913e0af08> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#6b9d78e8-aeef-414f-84b5-2bbbd78d5882> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#c329913d-ae60-471c-875e-d332c6b2a5c7> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#eccc05c4-fcef-4b60-8126-796145275d67> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:54:48.988Z" .
+
+<http://example.org/sepses/#b915f2d5-52bc-4a7c-a69d-0f90137e5edc>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#eac9c3d6-2669-405c-8f8b-00b4ab0e3501>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#f36fc422-f4e6-4df1-8ce1-392bb327c4da>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#actionName>
+                "created/modified" .
+
+<http://example.org/sepses/#6474fe5d-529a-4f4b-85e3-48fb51096819>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#ec976012-64d3-4979-b81b-d7daaff4bded>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .
+
+<http://example.org/sepses/#4bb69fd0-bfeb-4102-b6f5-a98cf5bba4a8>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgramName>
+                "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#c34bdb84-1c22-4610-816c-a4be434a408d>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#fileName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\.dropbox.cache" .
+
+<http://example.org/sepses/fileAccessEvent#4e5dacef-2d79-416d-8f0c-97ba2a2f352b>
+        a       <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#FileAccessEvent> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#eventID>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasAction>
+                <http://example.org/sepses/#f36fc422-f4e6-4df1-8ce1-392bb327c4da> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasProgram>
+                <http://example.org/sepses/#a0c79251-af7b-4cea-bf3d-4b773d301a50> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceFile>
+                <http://example.org/sepses/#abe5256c-cf14-46a4-80d9-8337dfdfbb2e> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasSourceHost>
+                <http://example.org/sepses/#b262b6ac-fc36-4450-ac17-d8b5a0aa3f31> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetFile>
+                <http://example.org/sepses/#41b782e5-6eab-4f4d-b6aa-fc2c54032b45> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasTargetHost>
+                <http://example.org/sepses/#baa4aa31-1dbd-4bb6-b2e2-dd5d3084a796> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hasUser>
+                <http://example.org/sepses/#c8d46ea4-4eb6-4bf8-8d61-fc74d3d59d03> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#timestamp>
+                "2018-08-29T11:52:06.214Z" .
+
+<http://example.org/sepses/#c329913d-ae60-471c-875e-d332c6b2a5c7>
+        <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#hostName>
+                "" .

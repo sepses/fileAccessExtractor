@@ -1,0 +1,233 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fae:   <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+<http://example.org/sepses/#6ead259f-5079-42b7-8830-76b4b2999f51>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/#da513023-95f9-4c8e-aaf8-f0784744e266>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/fileAccessEvent#ef488369-dcfa-47c2-a9b8-38d1bda3f796>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#de1d7003-85b1-487e-8bfd-62d1f5660578> ;
+        fae:hasSourceFile      <http://example.org/sepses/#96bc7d84-3d82-4fa9-9037-13d1c7b90284> ;
+        fae:hasSourceHost      <http://example.org/sepses/#1411a4bd-65c5-4478-85e1-4e8e79476681> ;
+        fae:hasTargetFile      <http://example.org/sepses/#33e8f54c-59e0-48ca-9cb8-af4a33e6c9e7> ;
+        fae:hasTargetHost      <http://example.org/sepses/#852cd5cf-bcc0-45c9-88d1-8b03e05c3fd4> ;
+        fae:hasUser            <http://example.org/sepses/#6ead259f-5079-42b7-8830-76b4b2999f51> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2018-11-14T11:09:57.228Z" .
+
+<http://example.org/sepses/#039f6bc6-1600-4de5-ae74-f35fb9c93c81>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#c94337f2-2246-4366-abb8-bb872f33cfc9>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#65db3cba-9f57-4be4-9e4d-d9df75190c92>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#9ea11b37-ec34-45e3-a3aa-779c8cca6c9d>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad.rtf" .
+
+<http://example.org/sepses/#78e5c29e-9efd-4edd-9ff8-a0b3b241bd06>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#d9931c6b-0713-4532-8a9c-4da070e36724>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" .
+
+<http://example.org/sepses/#13fecc6b-0fd1-460a-b95c-134b649af30d>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\Dropbox\\wordpad_rename.rtf" .
+
+<http://example.org/sepses/#27d3eb9f-73e6-43fb-8bef-2077511be8ec>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#de1d7003-85b1-487e-8bfd-62d1f5660578>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#b819b34b-7dc0-4954-8a74-f2f9648c976b>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/fileAccessEvent#4473ee61-005e-40f1-95e3-21e6e73be0fb>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#b819b34b-7dc0-4954-8a74-f2f9648c976b> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#cc2bde0a-dd26-4aa9-9e4d-fff355313a5a> ;
+        fae:hasSourceFile      <http://example.org/sepses/#04fb3c06-c764-48f1-8417-b30ce37357db> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c5cec07b-2c33-48a7-804c-8ed9dec96bba> ;
+        fae:hasTargetFile      <http://example.org/sepses/#9ea11b37-ec34-45e3-a3aa-779c8cca6c9d> ;
+        fae:hasTargetHost      <http://example.org/sepses/#1b29435a-c18e-4b3d-938e-9baec9c41de0> ;
+        fae:hasUser            <http://example.org/sepses/#c9399552-4e79-48dc-b0f9-8fde51bff571> ;
+        fae:targetFile         "wordpad.rtf" ;
+        fae:timestamp          "2018-11-14T11:09:05.059Z" .
+
+<http://example.org/sepses/#96bc7d84-3d82-4fa9-9037-13d1c7b90284>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\Dropbox\\wordpad_rename.rtf:com.dropbox.attributes" .
+
+<http://example.org/sepses/#6eba367a-747a-47ba-b9d8-714931e96f8e>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#770d1757-c6ca-415f-ab4f-87f2cf6d735f>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/fileAccessEvent#a69feb8c-c3cf-4099-ba42-14702ad7e350>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Copied> ;
+        fae:hasProgram         <http://example.org/sepses/#6eba367a-747a-47ba-b9d8-714931e96f8e> ;
+        fae:hasSourceFile      <http://example.org/sepses/#d9931c6b-0713-4532-8a9c-4da070e36724> ;
+        fae:hasSourceHost      <http://example.org/sepses/#27d3eb9f-73e6-43fb-8bef-2077511be8ec> ;
+        fae:hasTargetFile      <http://example.org/sepses/#13fecc6b-0fd1-460a-b95c-134b649af30d> ;
+        fae:hasTargetHost      <http://example.org/sepses/#8bc55f8e-afa3-4231-861e-dd2492bcb156> ;
+        fae:hasUser            <http://example.org/sepses/#0e219b5c-b6a2-45f9-a9c4-61d04ed602f6> ;
+        fae:targetFile         "wordpad_rename.rtf" ;
+        fae:timestamp          "2018-11-14T11:09:56.669Z" .
+
+<http://example.org/sepses/fileAccessEvent#4c493742-2149-4178-b05e-477dff43874b>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#MovedToRecycleBin> ;
+        fae:hasProgram         <http://example.org/sepses/#1d06c571-ca15-4f5e-a232-94e90ee20912> ;
+        fae:hasSourceFile      <http://example.org/sepses/#8411b53a-a5a4-4ba2-b561-b0f427ef6599> ;
+        fae:hasSourceHost      <http://example.org/sepses/#78e5c29e-9efd-4edd-9ff8-a0b3b241bd06> ;
+        fae:hasTargetFile      <http://example.org/sepses/#e60959d5-2ff9-4c1d-bfb3-3b4a8439fbc5> ;
+        fae:hasTargetHost      <http://example.org/sepses/#f927414d-65d6-4a41-aaa3-b08738c75bc5> ;
+        fae:hasUser            <http://example.org/sepses/#d6f794bd-23b1-4fca-8bc1-706d70843022> ;
+        fae:targetFile         "$RHGJ1AA.rtf" ;
+        fae:timestamp          "2018-11-14T11:10:08.395Z" .
+
+<http://example.org/sepses/#c9399552-4e79-48dc-b0f9-8fde51bff571>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/#c5cec07b-2c33-48a7-804c-8ed9dec96bba>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#852cd5cf-bcc0-45c9-88d1-8b03e05c3fd4>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#fefd05c0-b5d5-4186-b340-5f46c528fd94>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/fileAccessEvent#cc2bde0a-dd26-4aa9-9e4d-fff355313a5a>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#770d1757-c6ca-415f-ab4f-87f2cf6d735f> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#77968470-55fd-4cae-b861-25c87b4198bf> , <http://example.org/sepses/fileAccessEvent#a69feb8c-c3cf-4099-ba42-14702ad7e350> , <http://example.org/sepses/fileAccessEvent#4c493742-2149-4178-b05e-477dff43874b> ;
+        fae:hasSourceFile      <http://example.org/sepses/#802a1556-ee1d-4bef-95fb-c62d0878818b> ;
+        fae:hasSourceHost      <http://example.org/sepses/#485f3b7d-09a2-4480-a0fa-cd40f58312c9> ;
+        fae:hasTargetFile      <http://example.org/sepses/#d55b98a4-25c5-484a-a583-72600e5fbab8> ;
+        fae:hasTargetHost      <http://example.org/sepses/#c94337f2-2246-4366-abb8-bb872f33cfc9> ;
+        fae:hasUser            <http://example.org/sepses/#8d84bb4e-3d09-4ad0-a7b6-06a857731e7e> ;
+        fae:targetFile         "wordpad_rename.rtf" ;
+        fae:timestamp          "2018-11-14T11:09:15.840Z" .
+
+<http://example.org/sepses/#8bc55f8e-afa3-4231-861e-dd2492bcb156>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#b82f52d3-7f2d-4323-8196-c7758779c93d>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#8b017f02-60e7-42cd-9e76-a1b48b59d139>
+        fae:fileName  "\\Device\\HarddiskVolume3\\wordpad_rename.rtf" .
+
+<http://example.org/sepses/#04fb3c06-c764-48f1-8417-b30ce37357db>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\New Rich Text Document.rtf" .
+
+<http://example.org/sepses/#e60959d5-2ff9-4c1d-bfb3-3b4a8439fbc5>
+        fae:fileName  "C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$RHGJ1AA.rtf" .
+
+<http://example.org/sepses/#d6f794bd-23b1-4fca-8bc1-706d70843022>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/#0e219b5c-b6a2-45f9-a9c4-61d04ed602f6>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/#e1f19629-3a5b-495c-aebf-01629a3fca4f>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#c98d06ea-7fce-4638-913e-462ba2be0c5a>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\New Rich Text Document.rtf" .
+
+<http://example.org/sepses/#8411b53a-a5a4-4ba2-b561-b0f427ef6599>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" .
+
+<http://example.org/sepses/#8d84bb4e-3d09-4ad0-a7b6-06a857731e7e>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/#485f3b7d-09a2-4480-a0fa-cd40f58312c9>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/#33e8f54c-59e0-48ca-9cb8-af4a33e6c9e7>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#ee2b7cfa-11a3-41f8-9eb9-29324e8ecfc9>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#18a5f601-4211-4e49-95f9-348ec72535d2>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" .
+
+<http://example.org/sepses/fileAccessEvent#77968470-55fd-4cae-b861-25c87b4198bf>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Copied> ;
+        fae:hasProgram         <http://example.org/sepses/#e1f19629-3a5b-495c-aebf-01629a3fca4f> ;
+        fae:hasSourceFile      <http://example.org/sepses/#18a5f601-4211-4e49-95f9-348ec72535d2> ;
+        fae:hasSourceHost      <http://example.org/sepses/#da513023-95f9-4c8e-aaf8-f0784744e266> ;
+        fae:hasTargetFile      <http://example.org/sepses/#8b017f02-60e7-42cd-9e76-a1b48b59d139> ;
+        fae:hasTargetHost      <http://example.org/sepses/#ee2b7cfa-11a3-41f8-9eb9-29324e8ecfc9> ;
+        fae:hasUser            <http://example.org/sepses/#3a59f87a-c128-445b-a123-b762b89bd0e0> ;
+        fae:targetFile         "wordpad_rename.rtf" ;
+        fae:timestamp          "2018-11-14T11:10:02.001Z" .
+
+<http://example.org/sepses/#879c42b6-c166-4ed3-9ed2-f21f3ca96614>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#3a59f87a-c128-445b-a123-b762b89bd0e0>
+        fae:userName  "Virtual Windows 10" .
+
+<http://example.org/sepses/#d55b98a4-25c5-484a-a583-72600e5fbab8>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" .
+
+<http://example.org/sepses/#f927414d-65d6-4a41-aaa3-b08738c75bc5>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#1d06c571-ca15-4f5e-a232-94e90ee20912>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#1411a4bd-65c5-4478-85e1-4e8e79476681>
+        fae:hostName  "DESKTOP-MAC610T" .
+
+<http://example.org/sepses/fileAccessEvent#c83e4b1c-5448-4e0b-aa4b-bc8383f8635d>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#65db3cba-9f57-4be4-9e4d-d9df75190c92> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#4473ee61-005e-40f1-95e3-21e6e73be0fb> ;
+        fae:hasSourceFile      <http://example.org/sepses/#c98d06ea-7fce-4638-913e-462ba2be0c5a> ;
+        fae:hasSourceHost      <http://example.org/sepses/#b82f52d3-7f2d-4323-8196-c7758779c93d> ;
+        fae:hasTargetFile      <http://example.org/sepses/#879c42b6-c166-4ed3-9ed2-f21f3ca96614> ;
+        fae:hasTargetHost      <http://example.org/sepses/#039f6bc6-1600-4de5-ae74-f35fb9c93c81> ;
+        fae:hasUser            <http://example.org/sepses/#fefd05c0-b5d5-4186-b340-5f46c528fd94> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2018-11-14T11:08:52.085Z" .
+
+<http://example.org/sepses/#1b29435a-c18e-4b3d-938e-9baec9c41de0>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#802a1556-ee1d-4bef-95fb-c62d0878818b>
+        fae:fileName  "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad.rtf" .
+		
+<http://example.org/sepses/#da513023-95f9-4c8e-aaf8-f0784744e266> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .
+<http://example.org/sepses/#78e5c29e-9efd-4edd-9ff8-a0b3b241bd06> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .
+<http://example.org/sepses/#27d3eb9f-73e6-43fb-8bef-2077511be8ec> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .
+<http://example.org/sepses/#c5cec07b-2c33-48a7-804c-8ed9dec96bba> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .
+<http://example.org/sepses/#b82f52d3-7f2d-4323-8196-c7758779c93d> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .
+<http://example.org/sepses/#485f3b7d-09a2-4480-a0fa-cd40f58312c9> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .
+<http://example.org/sepses/#1411a4bd-65c5-4478-85e1-4e8e79476681> owl:sameAs <http://example.org/sepses/bg-knowledge#bg93f2287a-07e2-4757-874b-990f37a26db9> .

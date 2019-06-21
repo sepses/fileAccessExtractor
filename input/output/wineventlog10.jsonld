@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#"
+    xmlns:j.1="http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#">
+  <rdf:Description rdf:about="http://example.org/sepses/hle#4dd8476a-3893-4092-8569-0be7eb9c1a3f">
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:handleId>0x1f04</j.0:handleId>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attrs process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1f04</j.1:logMessage>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attrs</j.0:sourceObjectName>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:targetObjectName></j.0:targetObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#2af83ed6-a1b0-4f2c-b805-038451bca96a">
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.1:logMessage>Moved to recycle bin C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt to C:\$Recycle.Bin\S-1-5-21-2889181789-4222170037-1347726928-1001\$R81PQ4B.txt</j.1:logMessage>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:targetObjectName>C:\$Recycle.Bin\S-1-5-21-2889181789-4222170037-1347726928-1001\$R81PQ4B.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:handleId>0x2d24</j.0:handleId>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>moved to recycle bin</j.0:action>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#c4727b11-2ca7-4226-8c8a-7d934d8f6dc0">
+    <j.0:handleId>0x235c</j.0:handleId>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\UserDocuments\test2 - Copy.txt process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x235c from(C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt)</j.1:logMessage>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#c0689f66-c919-4cfe-8b95-34fd28be44ea">
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:handleId>0x1930</j.0:handleId>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\UserDocuments\test1.txt:com.dropbox.attrs process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x1930 from(C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attrs)</j.1:logMessage>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attrs</j.0:sourceObjectName>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\test1.txt:com.dropbox.attrs</j.0:targetObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#e4a25f19-fa4d-42e3-b3df-f8de23ded7ce">
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:handleId>0x1e6c</j.0:handleId>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attrs process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1e6c</j.1:logMessage>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attrs</j.0:sourceObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#246ec9b9-ce24-48e1-89a6-66bc7384a726">
+    <j.0:handleId>0x11b4</j.0:handleId>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\UserDocuments\test1.txt:com.dropbox.attributes process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x11b4 from(C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attributes)</j.1:logMessage>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\test1.txt:com.dropbox.attributes</j.0:targetObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#0a8938c7-4124-493f-9b2d-826e447196a2">
+    <j.0:handleId>0x1d70</j.0:handleId>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attributes process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1d70</j.1:logMessage>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#acd2da3c-3671-4a26-9037-0a7be7406faa">
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:handleId>0x1930</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\test2 - Copy.txt:com.dropbox.attrs</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attrs</j.0:sourceObjectName>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\UserDocuments\test2 - Copy.txt:com.dropbox.attrs process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x1930 from(C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attrs)</j.1:logMessage>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:accessMask>0x2</j.0:accessMask>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#f6bf1f20-3a95-44b4-b77c-53c2b69f0c90">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:action>renamed</j.0:action>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1ee0</j.0:handleId>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.1:logMessage>Renamed C:\Users\Virtual Windows 10\Dropbox\test1.txt to C:\Users\Virtual Windows 10\Dropbox\.dropbox.cache handle: 0x1ee0</j.1:logMessage>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\Dropbox\.dropbox.cache</j.0:targetObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#b7b3bf18-11c0-4403-a7cc-2273e99d347a">
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\Dropbox\test1.txt:com.dropbox.attributes process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1e6c</j.1:logMessage>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:handleId>0x1e6c</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#36c6878a-d828-4cb2-81f0-b6fc9ad7eddf">
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\.dropbox.cache\YDA64iuZiGG847KPM-7BvnWKITyGyTwHbb6fVYwRx1I</j.0:sourceObjectName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:action>renamed</j.0:action>
+    <j.0:handleId>0xedc</j.0:handleId>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>Renamed C:\Users\Virtual Windows 10\Dropbox\.dropbox.cache\YDA64iuZiGG847KPM-7BvnWKITyGyTwHbb6fVYwRx1I to C:\Users\Virtual Windows 10\Dropbox\.dropbox.cache\prefetch_cache handle: 0xedc</j.1:logMessage>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\Dropbox\.dropbox.cache\prefetch_cache</j.0:targetObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#7e5472d0-1bf5-4592-836a-cc867d3d4aeb">
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\UserDocuments\test2 - Copy.txt:com.dropbox.attributes process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x11b4 from(C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attributes)</j.1:logMessage>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\test2 - Copy.txt:com.dropbox.attributes</j.0:targetObjectName>
+    <j.0:handleId>0x11b4</j.0:handleId>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:user>Virtual Windows 10</j.0:user>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#a2a43c87-3921-4951-aad2-471b13184eff">
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>moved to recycle bin</j.0:action>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:targetObjectName>C:\$Recycle.Bin\S-1-5-21-2889181789-4222170037-1347726928-1001\$ROIXXCY.txt</j.0:targetObjectName>
+    <j.1:logMessage>Moved to recycle bin C:\Users\Virtual Windows 10\Dropbox\test1.txt to C:\$Recycle.Bin\S-1-5-21-2889181789-4222170037-1347726928-1001\$ROIXXCY.txt</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.0:handleId>0x2d24</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#3c09405d-2a27-4668-be59-bb4cae39bb68">
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.1:logMessage>Renamed C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt to C:\Users\Virtual Windows 10\Dropbox\test1.txt handle: 0x207c</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt</j.0:targetObjectName>
+    <j.0:handleId>0x207c</j.0:handleId>
+    <j.0:action>renamed</j.0:action>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#67ef233b-bdbf-46d9-8f6c-1dc190736e59">
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.0:handleId>0x2d24</j.0:handleId>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:action>renamed</j.0:action>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>Renamed C:\Users\Virtual Windows 10\Dropbox\test1.txt to C:\Users\Virtual Windows 10\Dropbox\test2 - Copy.txt handle: 0x2d24</j.1:logMessage>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:accessMask>0x80</j.0:accessMask>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#6b4ba9af-f50f-42ae-b6d0-3845a2f76ad6">
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\test1.txt</j.0:targetObjectName>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\UserDocuments\test1.txt process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x2d24 from(C:\Users\Virtual Windows 10\Dropbox\test1.txt)</j.1:logMessage>
+    <j.0:handleId>0x2d24</j.0:handleId>
+  </rdf:Description>
+</rdf:RDF>

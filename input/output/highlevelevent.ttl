@@ -1,0 +1,219 @@
+<http://example.org/sepses/hle#a850f2bb-fb3d-402b-8762-d8918e58d0dd>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\Dropbox\\wordpad_rename.rtf process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x244c from(C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x244c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\wordpad_rename.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#8c90491c-03fb-4636-b8f1-46f2d0b4d886>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\Dropbox\\notepad++_rename.txt:com.dropbox.attributes process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1fec" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1fec" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\notepad++_rename.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#b1ed3ebe-2e4c-49ba-8855-bfbe4588534b>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad.rtf to C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf handle: 0xb00" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0xb00" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#245d7dd4-045d-462b-b80e-792f29cc9c89>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Moved to recycle bin C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf to C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$RDQHGHH.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "moved to recycle bin" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1dc8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad_rename.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\$Recycle.Bin\\S-1-5-21-2889181789-4222170037-1347726928-1001\\$RDQHGHH.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#66656ead-9181-4c83-ae23-c9359fce9f61>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++.txt to C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++_rename.txt handle: 0x2294" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x2294" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++_rename.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#9c8ae4e4-66d8-4637-80a7-30d9e7623acb>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad.rtf process: C:\\Program Files\\windows nt\\accessories\\wordpad.exe accountName: Virtual Windows 10 handle: 0x564" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x564" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files\\windows nt\\accessories\\wordpad.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\wordpad.rtf" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#b8c6e8d7-1b98-49b9-ae4a-4825fded546f>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++_rename.txt process: C:\\Windows\\System32\\notepad.exe accountName: Virtual Windows 10 handle: 0x414" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x414" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\System32\\notepad.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++_rename.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#b452ca9e-9270-42d6-9d99-5adb4d8d4b74>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++.txt process: C:\\Program Files (x86)\\Notepad++\\notepad++.exe accountName: Virtual Windows 10 handle: 0xc2c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0xc2c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Notepad++\\notepad++.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#86e56353-6970-422f-9a57-673769d2d44b>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\Virtual Windows 10\\Dropbox\\wordpad_rename.rtf:com.dropbox.attributes process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: Virtual Windows 10 handle: 0x2010" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x2010" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\wordpad_rename.rtf:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .
+
+<http://example.org/sepses/hle#cc5a8576-510b-4079-a02d-712163367ede>
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\Virtual Windows 10\\Dropbox\\notepad++_rename.txt process: C:\\Windows\\explorer.exe accountName: Virtual Windows 10 handle: 0x22f4 from(C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++_rename.txt)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x22f4" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "DESKTOP-MAC610T" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\Virtual Windows 10\\UserDocuments\\notepad++_rename.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\Virtual Windows 10\\Dropbox\\notepad++_rename.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "Virtual Windows 10" .

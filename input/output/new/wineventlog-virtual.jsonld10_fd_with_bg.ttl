@@ -1,0 +1,623 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fae:   <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#> .
+
+<http://example.org/sepses/fileAccessEvent#1bc7569b-6067-44e4-a048-df5bc05907f6>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#f3636a93-e84d-49fb-b57e-79e9207510a3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#20341102-cd2e-4648-895e-705f4b36fc02> ;
+        fae:hasSourceHost      <http://example.org/sepses/#d250d4a0-1665-4068-9fdb-816da41db06c> ;
+        fae:hasTargetFile      <http://example.org/sepses/#4bd07305-281f-438d-b753-c5f3aa2a0469> ;
+        fae:hasTargetHost      <http://example.org/sepses/#dd181f27-218a-416a-9253-1c624cad3e80> ;
+        fae:hasUser            <http://example.org/sepses/#a13e1c8a-31cc-440d-90d4-dddc6bbcaf80> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.291Z" .
+
+<http://example.org/sepses/#f3636a93-e84d-49fb-b57e-79e9207510a3>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#cd1ebdc9-b9f3-4609-9a72-e38eec068708>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test10_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#5c6af188-bb72-41aa-b8b2-9b6a27d1c553>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#f1873135-28bd-4264-abdd-9c66d6153aa5>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#52c9ea1d-560f-4cfd-9895-6b865575688e>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#565c8d66-6fb0-4143-9155-e60e574d3d75> ;
+        fae:hasSourceFile      <http://example.org/sepses/#6e772300-e512-4451-aac8-aa60fe6e37e1> ;
+        fae:hasSourceHost      <http://example.org/sepses/#9ff09251-46dd-4464-a630-8bc87206c0d2> ;
+        fae:hasTargetFile      <http://example.org/sepses/#3b4d1869-bfc6-425d-a15f-3a66fd956cde> ;
+        fae:hasTargetHost      <http://example.org/sepses/#c4b9696d-39dd-4ffb-8de3-ffbe57edb341> ;
+        fae:hasUser            <http://example.org/sepses/#20def6c9-bcb6-4291-b76e-b79e158385de> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.244Z" .
+
+<http://example.org/sepses/#ef12c787-36ae-45a6-8c75-255e87c00f0a>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/fileAccessEvent#04920a32-8324-4c14-bfbd-4261311a579d>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#14107344-9acd-44a0-ba55-7ef64bf1fced> ;
+        fae:hasSourceFile      <http://example.org/sepses/#a84f80c9-fd7f-418d-b5af-841927410584> ;
+        fae:hasSourceHost      <http://example.org/sepses/#5c6af188-bb72-41aa-b8b2-9b6a27d1c553> ;
+        fae:hasTargetFile      <http://example.org/sepses/#759c4dbe-24a1-4d27-8797-ef0a8b2c0daa> ;
+        fae:hasTargetHost      <http://example.org/sepses/#86f969a0-1315-4117-8f9b-a9c7a86184c5> ;
+        fae:hasUser            <http://example.org/sepses/#8bb84c53-1073-4469-bfe2-da4fd28650b7> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.275Z" .
+
+<http://example.org/sepses/#a84f80c9-fd7f-418d-b5af-841927410584>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test7_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#565c8d66-6fb0-4143-9155-e60e574d3d75>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/fileAccessEvent#ec42bbde-8637-487b-8b60-0a3496c9fb17>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#1649c71d-f5fd-46a6-95a2-bc032a7923de> ;
+        fae:hasSourceFile      <http://example.org/sepses/#06ba7959-c802-4f0a-9523-acf4d6f0c147> ;
+        fae:hasSourceHost      <http://example.org/sepses/#4d8e47f3-aef2-4f24-b45c-bdd50b7aec08> ;
+        fae:hasTargetFile      <http://example.org/sepses/#5f62bd20-b776-445f-becd-ca151798c9d0> ;
+        fae:hasTargetHost      <http://example.org/sepses/#400e4602-c389-46f3-b4f3-78c60833c1e9> ;
+        fae:hasUser            <http://example.org/sepses/#2263dcc7-3618-4762-8459-15af4ff877e9> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.244Z" .
+
+<http://example.org/sepses/#a13e1c8a-31cc-440d-90d4-dddc6bbcaf80>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#dd181f27-218a-416a-9253-1c624cad3e80>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#d250d4a0-1665-4068-9fdb-816da41db06c>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#483a2c25-e784-405e-a876-41e5fad56203>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#6ed09756-c380-4874-a9c7-0f0033b6545b>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#c745b82c-81ff-4bf8-9918-e7bf3b75ff17>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test5_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#68369317-536b-4b5d-a52a-b404df68fb09>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#e2fc008d-54dc-40e7-ba16-554fd8f105f1> ;
+        fae:hasSourceFile      <http://example.org/sepses/#c745b82c-81ff-4bf8-9918-e7bf3b75ff17> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c959739e-a246-48c8-b571-25842369c02d> ;
+        fae:hasTargetFile      <http://example.org/sepses/#f636dca3-eef5-4483-b996-4d776da825e7> ;
+        fae:hasTargetHost      <http://example.org/sepses/#101814b8-a94c-4bd0-8e5e-fbb63556bcdf> ;
+        fae:hasUser            <http://example.org/sepses/#3869f169-d216-4c28-9390-dd1dd9102231> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.260Z" .
+
+<http://example.org/sepses/#00de27ab-e87b-440b-a334-5b8998994b35>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test2_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#c308eea0-6747-4e8e-9352-e049db3a1ec4>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#406b8caf-933a-4005-b82a-6f9ec5b8e123> ;
+        fae:hasSourceFile      <http://example.org/sepses/#e6c928c1-98f7-4ed2-9b5c-b16ade741876> ;
+        fae:hasSourceHost      <http://example.org/sepses/#f986ba98-67cb-4089-88f7-a4bad4071168> ;
+        fae:hasTargetFile      <http://example.org/sepses/#0e34f7a5-719b-43d5-a0a5-d6f53e17784b> ;
+        fae:hasTargetHost      <http://example.org/sepses/#f8bb96cb-5406-455a-9945-c9bf05036e04> ;
+        fae:hasUser            <http://example.org/sepses/#cbb693ad-5d92-4ba0-8e7c-ba8fe074ca32> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.228Z" .
+
+<http://example.org/sepses/#e2fc008d-54dc-40e7-ba16-554fd8f105f1>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#9b310555-b0d8-4d3d-9942-bef9032d1031>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#49b789ca-c776-44d9-bb6f-01e25a7a089d>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#34e75aff-019b-42e3-9419-ded6d4820ce0>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#10efc86b-374b-4cb9-bc30-acf33ded541f>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#5b7decb4-44af-4067-84d7-6a81be902d07>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test7_copy_rename.txt" .
+
+<http://example.org/sepses/#e6c928c1-98f7-4ed2-9b5c-b16ade741876>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test1_copy_rename.txt" .
+
+<http://example.org/sepses/#fb046b37-c2dc-4340-abcf-740cf7657bf3>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#e41fbc64-a065-4828-9496-c806bff466c3>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#1649c71d-f5fd-46a6-95a2-bc032a7923de>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#19277189-c8cf-405a-be11-a08a090f70eb>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#5b3dc39f-eb51-484f-8ccf-e16f642c25e8>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#8fbd4784-3388-41f4-ab37-7abea252f815>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#342677ec-a84c-4c65-b11a-a7f7850bcbc2>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#a27f43c6-f1c5-4778-a071-c578fa51957f>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#73313ba4-4b20-44ae-b423-29b4dfb0cbe4>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#e41fbc64-a065-4828-9496-c806bff466c3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#816de511-5b96-41b0-89b1-b19dd238c44d> ;
+        fae:hasSourceHost      <http://example.org/sepses/#4759733d-d823-4415-bf67-9cd2152b3dbd> ;
+        fae:hasTargetFile      <http://example.org/sepses/#f1873135-28bd-4264-abdd-9c66d6153aa5> ;
+        fae:hasTargetHost      <http://example.org/sepses/#a27f43c6-f1c5-4778-a071-c578fa51957f> ;
+        fae:hasUser            <http://example.org/sepses/#960f021f-9504-4484-b494-fe2f74b96a1a> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.228Z" .
+
+<http://example.org/sepses/#1f38ac6f-5e2a-4a96-8819-cad7abedb9aa>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#470595f3-f63c-437b-a0c2-4afa22041de8>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#101814b8-a94c-4bd0-8e5e-fbb63556bcdf>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#26203f6e-2ed3-4807-a4cd-2acb8bbff2be>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#e0bf8d4b-345c-4429-af7d-f3376935d4b1>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#0e518513-ad0d-4f77-9ed7-d201b82cce07>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#b61352d0-9fe2-4a48-84cf-a23ba0ca9119>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#2fabaa97-6521-4724-b0ef-a4e93c7b1510>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test6_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#3b4d1869-bfc6-425d-a15f-3a66fd956cde>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#a5c81ef8-41e4-44be-9922-57fe23a92e1c>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#013d83d6-c127-4a11-84a8-2811be9e6bd4>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#0d08135d-802f-4842-b71b-f7de22c2a61e>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test9_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#7e7dda4b-6865-4097-9578-779f2a3bdd22>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/fileAccessEvent#8bab7e93-f87d-4600-9cb3-77304d4b86f0>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#7c704486-b89b-455e-9bf6-3b479eb03d31> ;
+        fae:hasSourceFile      <http://example.org/sepses/#cd1ebdc9-b9f3-4609-9a72-e38eec068708> ;
+        fae:hasSourceHost      <http://example.org/sepses/#8251257c-93ab-4edf-b541-0b0c5cd19f54> ;
+        fae:hasTargetFile      <http://example.org/sepses/#7561b455-16d3-403d-b02a-778824977191> ;
+        fae:hasTargetHost      <http://example.org/sepses/#d9d749f8-6a8f-4910-8ab6-2567981785d4> ;
+        fae:hasUser            <http://example.org/sepses/#d7536e0b-0590-4383-b186-0b411ee032b0> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.213Z" .
+
+<http://example.org/sepses/#897ef9b0-2492-4647-a375-0078143b5fd9>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#a63e1a0c-fda0-4cdb-a6ce-562a69d66751>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#14107344-9acd-44a0-ba55-7ef64bf1fced>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#20341102-cd2e-4648-895e-705f4b36fc02>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test9_copy_rename.txt" .
+
+<http://example.org/sepses/#799502da-13df-4936-ab56-8bc8e01355e4>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#7a7f02a3-7ba9-42fa-93c9-ad619e5722e1>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#c32236dc-1d7d-42ee-83ab-cc51a29ec833>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#efdc0409-b56a-4e8a-b67a-ec0143dfdd06>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test3_copy_rename.txt" .
+
+<http://example.org/sepses/#084c511f-83b5-480d-ab1d-2f536781cc3d>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test2_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/fileAccessEvent#9e22b06a-4a6f-49b7-a05a-40181136d5f4>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#912cb953-38ed-4a2d-8166-d897a46c3d7b> ;
+        fae:hasSourceFile      <http://example.org/sepses/#9d25526e-ef66-46fc-92d8-27e366bd6894> ;
+        fae:hasSourceHost      <http://example.org/sepses/#fb046b37-c2dc-4340-abcf-740cf7657bf3> ;
+        fae:hasTargetFile      <http://example.org/sepses/#f283ec5a-2345-4d2d-9305-e01a9bf9a096> ;
+        fae:hasTargetHost      <http://example.org/sepses/#9cb4d47d-7567-4c55-aae0-31325ce3686b> ;
+        fae:hasUser            <http://example.org/sepses/#d7169908-69bd-4c2d-912d-0e01bb09c2cc> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.260Z" .
+
+<http://example.org/sepses/#f283ec5a-2345-4d2d-9305-e01a9bf9a096>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#20def6c9-bcb6-4291-b76e-b79e158385de>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#74e72ea7-5cdf-4504-af9d-7e2978953376>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#9ff09251-46dd-4464-a630-8bc87206c0d2>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/fileAccessEvent#b0bfda5d-76d7-4dfb-815d-a4cce4ff8f6f>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#5c47571e-11b9-4a60-9b57-39b3b2001e54> ;
+        fae:hasSourceFile      <http://example.org/sepses/#6e3dc672-5aaf-47e5-95c9-ffcf048d4f02> ;
+        fae:hasSourceHost      <http://example.org/sepses/#7a7f02a3-7ba9-42fa-93c9-ad619e5722e1> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b3564dd8-c9bb-44d9-bd2a-211b56831e45> ;
+        fae:hasTargetHost      <http://example.org/sepses/#afe87435-6f97-4010-b101-57e973cc0f74> ;
+        fae:hasUser            <http://example.org/sepses/#aeea3b83-621e-44b6-9c61-f3bc8bbd611e> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.244Z" .
+
+<http://example.org/sepses/#c4b9696d-39dd-4ffb-8de3-ffbe57edb341>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#9fe4df0c-43ac-4be7-8857-c902122e1946>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#a63e1a0c-fda0-4cdb-a6ce-562a69d66751> ;
+        fae:hasSourceFile      <http://example.org/sepses/#efdc0409-b56a-4e8a-b67a-ec0143dfdd06> ;
+        fae:hasSourceHost      <http://example.org/sepses/#6b8f5437-c1a0-43f2-98fc-682871fad51f> ;
+        fae:hasTargetFile      <http://example.org/sepses/#3c6e4c07-6441-4a0e-8792-5d1b9fcae808> ;
+        fae:hasTargetHost      <http://example.org/sepses/#b0253f14-5abc-4e02-8985-cea3528091c2> ;
+        fae:hasUser            <http://example.org/sepses/#49b789ca-c776-44d9-bb6f-01e25a7a089d> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.244Z" .
+
+<http://example.org/sepses/#7c704486-b89b-455e-9bf6-3b479eb03d31>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#f2d25783-b934-42d4-a3c4-ba03c6f895b1>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#fabba6c1-9e4c-4397-a399-3f71589fc28e>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/fileAccessEvent#e099272b-2d53-40ec-a2b4-b870a46c1fc6>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#8a58b523-11b8-454a-85d9-be811ac64354> ;
+        fae:hasSourceFile      <http://example.org/sepses/#0d08135d-802f-4842-b71b-f7de22c2a61e> ;
+        fae:hasSourceHost      <http://example.org/sepses/#73720ade-77b0-4792-a268-9161ea599058> ;
+        fae:hasTargetFile      <http://example.org/sepses/#71748c92-8580-4a8c-8d50-a486f8e607a7> ;
+        fae:hasTargetHost      <http://example.org/sepses/#be32e39c-b9a1-4059-ab18-0126a5f506ad> ;
+        fae:hasUser            <http://example.org/sepses/#fabba6c1-9e4c-4397-a399-3f71589fc28e> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.291Z" .
+
+<http://example.org/sepses/#c116cca6-4760-4d18-bd53-33c7083f0918>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#912cb953-38ed-4a2d-8166-d897a46c3d7b>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#6b8f5437-c1a0-43f2-98fc-682871fad51f>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#afe87435-6f97-4010-b101-57e973cc0f74>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#0671e89b-43e4-451e-aa77-4e61c34e0a3c>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#de2300d2-2800-4c7a-81f7-17f81f90c83a>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#342677ec-a84c-4c65-b11a-a7f7850bcbc2> ;
+        fae:hasSourceFile      <http://example.org/sepses/#4acd2cbc-3871-4159-b8a0-b0af8f990838> ;
+        fae:hasSourceHost      <http://example.org/sepses/#db834bfb-0533-4528-9434-bce767850b39> ;
+        fae:hasTargetFile      <http://example.org/sepses/#8fbd4784-3388-41f4-ab37-7abea252f815> ;
+        fae:hasTargetHost      <http://example.org/sepses/#0671e89b-43e4-451e-aa77-4e61c34e0a3c> ;
+        fae:hasUser            <http://example.org/sepses/#10efc86b-374b-4cb9-bc30-acf33ded541f> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.260Z" .
+
+<http://example.org/sepses/#406b8caf-933a-4005-b82a-6f9ec5b8e123>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#0e34f7a5-719b-43d5-a0a5-d6f53e17784b>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#5f62bd20-b776-445f-becd-ca151798c9d0>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#a8f8d72a-2353-46f4-b3d7-9bccefe3e4ac>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#75ba38b7-70b4-415a-9dac-42d52e8767c6>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#4759733d-d823-4415-bf67-9cd2152b3dbd>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#816de511-5b96-41b0-89b1-b19dd238c44d>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test1_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#be32e39c-b9a1-4059-ab18-0126a5f506ad>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#cd4305c7-31f8-4feb-8bb7-55bdc2257e4d>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test8_copy_rename.txt" .
+
+<http://example.org/sepses/#f986ba98-67cb-4089-88f7-a4bad4071168>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/fileAccessEvent#2f7d7b4a-ca5a-4d0e-b1cf-7bed4816c6eb>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#19277189-c8cf-405a-be11-a08a090f70eb> ;
+        fae:hasSourceFile      <http://example.org/sepses/#60b67a45-96e1-4b57-9354-e3ce23034ae2> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c116cca6-4760-4d18-bd53-33c7083f0918> ;
+        fae:hasTargetFile      <http://example.org/sepses/#470595f3-f63c-437b-a0c2-4afa22041de8> ;
+        fae:hasTargetHost      <http://example.org/sepses/#86221b7e-03d3-4efe-9816-081033dfe491> ;
+        fae:hasUser            <http://example.org/sepses/#013d83d6-c127-4a11-84a8-2811be9e6bd4> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.213Z" .
+
+<http://example.org/sepses/#ac5d5d4d-9fd8-4e18-9ce1-adce5705dd23>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#06ba7959-c802-4f0a-9523-acf4d6f0c147>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test3_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#9e3c1957-bac5-47ec-aa49-a4e59dca0f7b>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#5584c7bc-56a1-4c8b-ae37-379435f3e414>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#5b3dc39f-eb51-484f-8ccf-e16f642c25e8> ;
+        fae:hasSourceFile      <http://example.org/sepses/#084c511f-83b5-480d-ab1d-2f536781cc3d> ;
+        fae:hasSourceHost      <http://example.org/sepses/#a8f8d72a-2353-46f4-b3d7-9bccefe3e4ac> ;
+        fae:hasTargetFile      <http://example.org/sepses/#1f38ac6f-5e2a-4a96-8819-cad7abedb9aa> ;
+        fae:hasTargetHost      <http://example.org/sepses/#9b310555-b0d8-4d3d-9942-bef9032d1031> ;
+        fae:hasUser            <http://example.org/sepses/#3c97d4ab-18c6-4a08-93d2-a9f5718fafdb> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.228Z" .
+
+<http://example.org/sepses/#e191a060-719e-46fe-89db-6af89934ca7a>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test8_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#86f969a0-1315-4117-8f9b-a9c7a86184c5>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4bd07305-281f-438d-b753-c5f3aa2a0469>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#960f021f-9504-4484-b494-fe2f74b96a1a>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#6e772300-e512-4451-aac8-aa60fe6e37e1>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test4_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#d7169908-69bd-4c2d-912d-0e01bb09c2cc>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#73720ade-77b0-4792-a268-9161ea599058>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#5c47571e-11b9-4a60-9b57-39b3b2001e54>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#4acd2cbc-3871-4159-b8a0-b0af8f990838>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test5_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#b0253f14-5abc-4e02-8985-cea3528091c2>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4d8e47f3-aef2-4f24-b45c-bdd50b7aec08>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#8bb84c53-1073-4469-bfe2-da4fd28650b7>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#aeea3b83-621e-44b6-9c61-f3bc8bbd611e>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#400e4602-c389-46f3-b4f3-78c60833c1e9>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#9a92af40-618b-415c-9895-73b801669991>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#19a76709-8cd2-4b66-a581-a9534b5f750b>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#65e1c046-0966-47d1-b6bf-f23ab4b56f66> ;
+        fae:hasSourceFile      <http://example.org/sepses/#cd4305c7-31f8-4feb-8bb7-55bdc2257e4d> ;
+        fae:hasSourceHost      <http://example.org/sepses/#ef12c787-36ae-45a6-8c75-255e87c00f0a> ;
+        fae:hasTargetFile      <http://example.org/sepses/#4ac1f9f3-ada0-4e4f-95f9-023650accac6> ;
+        fae:hasTargetHost      <http://example.org/sepses/#9e3c1957-bac5-47ec-aa49-a4e59dca0f7b> ;
+        fae:hasUser            <http://example.org/sepses/#799502da-13df-4936-ab56-8bc8e01355e4> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.291Z" .
+
+<http://example.org/sepses/fileAccessEvent#27741f77-3756-4de3-8950-07b51a332db1>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#a5c81ef8-41e4-44be-9922-57fe23a92e1c> ;
+        fae:hasSourceFile      <http://example.org/sepses/#2fabaa97-6521-4724-b0ef-a4e93c7b1510> ;
+        fae:hasSourceHost      <http://example.org/sepses/#b61352d0-9fe2-4a48-84cf-a23ba0ca9119> ;
+        fae:hasTargetFile      <http://example.org/sepses/#20db060a-5933-40f1-b27f-f5dd35c21937> ;
+        fae:hasTargetHost      <http://example.org/sepses/#f2d25783-b934-42d4-a3c4-ba03c6f895b1> ;
+        fae:hasUser            <http://example.org/sepses/#733aaf0d-0548-4418-a89a-414d7aae5d5a> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.260Z" .
+
+<http://example.org/sepses/#f636dca3-eef5-4483-b996-4d776da825e7>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#60b67a45-96e1-4b57-9354-e3ce23034ae2>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test10_copy_rename.txt" .
+
+<http://example.org/sepses/#759c4dbe-24a1-4d27-8797-ef0a8b2c0daa>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#3869f169-d216-4c28-9390-dd1dd9102231>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#d9d749f8-6a8f-4910-8ab6-2567981785d4>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4ac1f9f3-ada0-4e4f-95f9-023650accac6>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#65e1c046-0966-47d1-b6bf-f23ab4b56f66>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#6e3dc672-5aaf-47e5-95c9-ffcf048d4f02>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test4_copy_rename.txt" .
+
+<http://example.org/sepses/#b3564dd8-c9bb-44d9-bd2a-211b56831e45>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#624b6101-ca27-4703-8206-d6c94ef0a3fb>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#897ef9b0-2492-4647-a375-0078143b5fd9> ;
+        fae:hasSourceFile      <http://example.org/sepses/#e191a060-719e-46fe-89db-6af89934ca7a> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c32236dc-1d7d-42ee-83ab-cc51a29ec833> ;
+        fae:hasTargetFile      <http://example.org/sepses/#ac5d5d4d-9fd8-4e18-9ce1-adce5705dd23> ;
+        fae:hasTargetHost      <http://example.org/sepses/#9a92af40-618b-415c-9895-73b801669991> ;
+        fae:hasUser            <http://example.org/sepses/#34e75aff-019b-42e3-9419-ded6d4820ce0> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.291Z" .
+
+<http://example.org/sepses/#c959739e-a246-48c8-b571-25842369c02d>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/fileAccessEvent#1e55291b-94de-4fac-818c-fd4ca34ae4fb>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#6ed09756-c380-4874-a9c7-0f0033b6545b> ;
+        fae:hasSourceFile      <http://example.org/sepses/#5b7decb4-44af-4067-84d7-6a81be902d07> ;
+        fae:hasSourceHost      <http://example.org/sepses/#bedf9086-8f9b-4ed8-9ccc-e473f8e49e65> ;
+        fae:hasTargetFile      <http://example.org/sepses/#0e518513-ad0d-4f77-9ed7-d201b82cce07> ;
+        fae:hasTargetHost      <http://example.org/sepses/#74e72ea7-5cdf-4504-af9d-7e2978953376> ;
+        fae:hasUser            <http://example.org/sepses/#483a2c25-e784-405e-a876-41e5fad56203> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.275Z" .
+
+<http://example.org/sepses/#f8bb96cb-5406-455a-9945-c9bf05036e04>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#71748c92-8580-4a8c-8d50-a486f8e607a7>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#7561b455-16d3-403d-b02a-778824977191>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#3c97d4ab-18c6-4a08-93d2-a9f5718fafdb>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#2263dcc7-3618-4762-8459-15af4ff877e9>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#86221b7e-03d3-4efe-9816-081033dfe491>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#db834bfb-0533-4528-9434-bce767850b39>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#9cb4d47d-7567-4c55-aae0-31325ce3686b>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#bedf9086-8f9b-4ed8-9ccc-e473f8e49e65>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#3c6e4c07-6441-4a0e-8792-5d1b9fcae808>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#cbb693ad-5d92-4ba0-8e7c-ba8fe074ca32>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#d7536e0b-0590-4383-b186-0b411ee032b0>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/fileAccessEvent#6faa4496-5751-4a8e-8997-3a04fbba756e>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#26203f6e-2ed3-4807-a4cd-2acb8bbff2be> ;
+        fae:hasSourceFile      <http://example.org/sepses/#00de27ab-e87b-440b-a334-5b8998994b35> ;
+        fae:hasSourceHost      <http://example.org/sepses/#7e7dda4b-6865-4097-9578-779f2a3bdd22> ;
+        fae:hasTargetFile      <http://example.org/sepses/#e0bf8d4b-345c-4429-af7d-f3376935d4b1> ;
+        fae:hasTargetHost      <http://example.org/sepses/#b4a03e67-9738-4d4e-b462-af4a5fc54895> ;
+        fae:hasUser            <http://example.org/sepses/#75ba38b7-70b4-415a-9dac-42d52e8767c6> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T14:00:13.228Z" .
+
+<http://example.org/sepses/#8a58b523-11b8-454a-85d9-be811ac64354>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#733aaf0d-0548-4418-a89a-414d7aae5d5a>
+        fae:userName  "VirtualWindows8User" .
+
+<http://example.org/sepses/#8251257c-93ab-4edf-b541-0b0c5cd19f54>
+        fae:hostName  "VirtualWindows8" .
+
+<http://example.org/sepses/#b4a03e67-9738-4d4e-b462-af4a5fc54895>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#20db060a-5933-40f1-b27f-f5dd35c21937>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#9d25526e-ef66-46fc-92d8-27e366bd6894>
+        fae:fileName  "C:\\Users\\VirtualWindows8User\\UserDocuments\\Secret\\test6_copy_rename.txt" .

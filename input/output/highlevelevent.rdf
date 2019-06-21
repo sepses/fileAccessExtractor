@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#"
+    xmlns:j.1="http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#">
+  <rdf:Description rdf:about="http://example.org/sepses/hle#76158d26-c39e-4e1b-bc02-68755a06d402">
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\notepad++.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>renamed</j.0:action>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\notepad++_rename.txt</j.0:targetObjectName>
+    <j.0:handleId>0x2294</j.0:handleId>
+    <j.1:logMessage>Renamed C:\Users\Virtual Windows 10\UserDocuments\notepad++.txt to C:\Users\Virtual Windows 10\UserDocuments\notepad++_rename.txt handle: 0x2294</j.1:logMessage>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#75c35ef1-729c-424a-a8f4-ee54653d20fb">
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\notepad++.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:processName>C:\Program Files (x86)\Notepad++\notepad++.exe</j.0:processName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\UserDocuments\notepad++.txt process: C:\Program Files (x86)\Notepad++\notepad++.exe accountName: Virtual Windows 10 handle: 0xc2c</j.1:logMessage>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:handleId>0xc2c</j.0:handleId>
+    <j.0:user>Virtual Windows 10</j.0:user>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#f2e15ffe-67ef-4fcd-ad58-88bef02894ea">
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>renamed</j.0:action>
+    <j.1:logMessage>Renamed C:\Users\Virtual Windows 10\UserDocuments\wordpad.rtf to C:\Users\Virtual Windows 10\UserDocuments\wordpad_rename.rtf handle: 0xb00</j.1:logMessage>
+    <j.0:handleId>0xb00</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\UserDocuments\wordpad_rename.rtf</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\wordpad.rtf</j.0:sourceObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#319b6928-8578-48f1-9fb6-6dfeb50ba6c9">
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\notepad++_rename.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:action>create/modified</j.0:action>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:handleId>0x1fec</j.0:handleId>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\Dropbox\notepad++_rename.txt:com.dropbox.attributes process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: Virtual Windows 10 handle: 0x1fec</j.1:logMessage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#5ac26e05-f9c1-41f8-99d2-efa27c7e581c">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\Dropbox\wordpad_rename.rtf:com.dropbox.attributes process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: Virtual Windows 10 handle: 0x2010</j.1:logMessage>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\Dropbox\wordpad_rename.rtf:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:handleId>0x2010</j.0:handleId>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:action>create/modified</j.0:action>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#c90a13f1-a3e6-4fba-897a-6042f42bea1e">
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\Dropbox\wordpad_rename.rtf</j.0:targetObjectName>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:handleId>0x244c</j.0:handleId>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\Dropbox\wordpad_rename.rtf process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x244c from(C:\Users\Virtual Windows 10\UserDocuments\wordpad_rename.rtf)</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\wordpad_rename.rtf</j.0:sourceObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>create/modified/copied</j.0:action>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#b67424ea-00bd-41db-b72d-e79b69e272eb">
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\notepad++_rename.txt</j.0:sourceObjectName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:handleId>0x22f4</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\Virtual Windows 10\Dropbox\notepad++_rename.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>create/modified/copied C:\Users\Virtual Windows 10\Dropbox\notepad++_rename.txt process: C:\Windows\explorer.exe accountName: Virtual Windows 10 handle: 0x22f4 from(C:\Users\Virtual Windows 10\UserDocuments\notepad++_rename.txt)</j.1:logMessage>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#828964f8-1608-4cdd-b239-733eb3e3f9eb">
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\UserDocuments\notepad++_rename.txt process: C:\Windows\System32\notepad.exe accountName: Virtual Windows 10 handle: 0x414</j.1:logMessage>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:processName>C:\Windows\System32\notepad.exe</j.0:processName>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\notepad++_rename.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:handleId>0x414</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#312605ee-9ee5-4ea7-b18d-7bf1fcef1717">
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.1:logMessage>created/modified C:\Users\Virtual Windows 10\UserDocuments\wordpad.rtf process: C:\Program Files\windows nt\accessories\wordpad.exe accountName: Virtual Windows 10 handle: 0x564</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\wordpad.rtf</j.0:sourceObjectName>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:handleId>0x564</j.0:handleId>
+    <j.0:processName>C:\Program Files\windows nt\accessories\wordpad.exe</j.0:processName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#e7b15c5c-3217-4b62-b44b-bcd0eae2875b">
+    <j.0:handleId>0x1dc8</j.0:handleId>
+    <j.0:sourceObjectName>C:\Users\Virtual Windows 10\UserDocuments\wordpad_rename.rtf</j.0:sourceObjectName>
+    <j.0:sourceHost>DESKTOP-MAC610T</j.0:sourceHost>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:targetObjectName>C:\$Recycle.Bin\S-1-5-21-2889181789-4222170037-1347726928-1001\$RDQHGHH.rtf</j.0:targetObjectName>
+    <j.0:user>Virtual Windows 10</j.0:user>
+    <j.0:action>moved to recycle bin</j.0:action>
+    <j.1:logMessage>Moved to recycle bin C:\Users\Virtual Windows 10\UserDocuments\wordpad_rename.rtf to C:\$Recycle.Bin\S-1-5-21-2889181789-4222170037-1347726928-1001\$RDQHGHH.rtf</j.1:logMessage>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+  </rdf:Description>
+</rdf:RDF>

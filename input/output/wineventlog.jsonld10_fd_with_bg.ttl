@@ -1,0 +1,1972 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fae:   <http://sepses.ifs.tuwien.ac.at/vocab/event/fileAccessEvent#> .
+
+<http://example.org/sepses/#b36bdaa3-e973-4e8d-838c-303512c42e61>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#1e10e7b7-e182-4090-91e3-3e59a1ad97d8>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test1_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#4c3eca47-6d1e-4d8a-a03d-c818844490d4>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#cfd07268-607b-4283-a18d-d4f616ec4550>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#de957e5b-e91c-4673-b8a8-4b1854550c49>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test4_rename.txt" .
+
+<http://example.org/sepses/#22a2c88e-1ef4-4333-90ce-db8e1f042578>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#d8ca1b7c-cdd9-472e-a666-49fd8b7e0afa>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#122b2ce7-6079-4942-8e84-c0d7ed768c5e>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test5.txt" .
+
+<http://example.org/sepses/#65696017-ccb5-4ce3-9b95-d218b4abd2d6>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#ccd2e6de-f2e0-41fc-9b31-17117abed139>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#5a75cd9b-8a08-4cf7-b991-d340d47dd8b3>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#dd3f5953-f042-48f3-b13e-dcff5022636e>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\b0dbf54084effc6452403fa43509a277" .
+
+<http://example.org/sepses/#78c39f11-3943-4f03-8f28-b4ca3ddefaf5>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test2_copy_rename.txt" .
+
+<http://example.org/sepses/#be02223f-d48f-4e79-9312-5a1e01741857>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#306f0e4e-d84a-41be-8f64-02b615667ba8>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#565956b2-3bb9-4843-9dc2-2f69fcda16d9>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#353dbe0c-bd48-474f-878c-90dc6758a650>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#a31cf17f-920a-4993-b912-34600c563ec9> ;
+        fae:hasSourceFile      <http://example.org/sepses/#29de5a1b-e2a5-49bd-af2d-c2bce211b568> ;
+        fae:hasSourceHost      <http://example.org/sepses/#b8416f62-5b95-4dd1-a987-fbde4ac8bc53> ;
+        fae:hasTargetFile      <http://example.org/sepses/#8b7ab1c8-efff-461a-99c8-ad87dffe4151> ;
+        fae:hasTargetHost      <http://example.org/sepses/#7eaaaff8-7cdc-4719-93ad-ec40885e0014> ;
+        fae:hasUser            <http://example.org/sepses/#2e858645-1095-4877-9f71-f604b5e5a465> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.046Z" .
+
+<http://example.org/sepses/#20c238b8-0cb2-4470-8523-670c7156520c>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#aae24d89-eb71-47bf-ba05-5910f388bd2b>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#aecf7a48-f541-4f40-9620-2f2c4b0a7517>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#a451e110-62e7-45f2-9316-4c18a6e8e03f>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#eb01173a-4f7c-41c1-aa24-6fb566e07f41> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#c330bdbc-c0ef-4441-a862-3b36606cfdf9> ;
+        fae:hasSourceFile      <http://example.org/sepses/#bbd32eaf-5f18-499a-b553-0904a38f24ab> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c36b9e84-5ab5-4483-ba80-e9326275bcc5> ;
+        fae:hasTargetFile      <http://example.org/sepses/#59096982-70f9-4c64-b55b-59d4416ba9f6> ;
+        fae:hasTargetHost      <http://example.org/sepses/#ef9f185d-d122-4bad-9ced-2f033784b56e> ;
+        fae:hasUser            <http://example.org/sepses/#7733a14e-8cc1-4dd3-b5ec-2a0b5eb74444> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.223Z" .
+
+<http://example.org/sepses/#dc9a1839-b9f2-40f5-b0d6-e2e950f4e866>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test4_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#fd2ee48c-eaf4-40cd-8343-0b75748e5bda>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#1de295b1-112b-499e-8f4f-ce99bd8984c9>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#0eacda9c-43dc-4180-8591-4d07b32b2c84>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test7_copy_rename.txt" .
+
+<http://example.org/sepses/#9bdb026d-8d33-4c82-8d64-97c1bdf407fa>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\926d96a0bd22df846cbd556a32e12644" .
+
+<http://example.org/sepses/#db3f348b-8727-4243-8e7a-7a84c9b8eeae>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#78cad981-adc5-42cd-9cf5-2a496915caab>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#eb952272-8b4c-47f1-95db-337d26e82f45> ;
+        fae:hasSourceFile      <http://example.org/sepses/#82ecbfa9-184d-48b6-9054-f24268065d33> ;
+        fae:hasSourceHost      <http://example.org/sepses/#dc3decba-1df5-48f5-9676-f73fbe469008> ;
+        fae:hasTargetFile      <http://example.org/sepses/#128bb8e8-7837-4422-a567-7d18cabdbf05> ;
+        fae:hasTargetHost      <http://example.org/sepses/#90da06fc-244b-4e65-befe-ae22135f2f24> ;
+        fae:hasUser            <http://example.org/sepses/#41de26cd-97ec-4ec9-84b5-1c675893d197> ;
+        fae:targetFile         "test1_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.125Z" .
+
+<http://example.org/sepses/#bb3917db-33a3-4916-83e4-86d85ad471ec>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#ef8833d0-d4b4-4c9f-88ac-7bcacedfe872>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#a0837232-cddc-428b-8e57-1a447ba7e365>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#52da73eb-3a6c-4fbf-bc9e-b365c886db99>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#aef62db3-8518-4d0b-984c-0e884fa37425>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#ec74eb19-e8cc-441f-8a34-26589c6439d5>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#a618b8e6-284c-4cff-963b-f5aebd9d9ab6>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test4.txt" .
+
+<http://example.org/sepses/#faf619a5-5fa1-4050-b1c2-2cfb111010a1>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#e5c91887-f131-4b1b-a5f6-0dda34c99ce3>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#5693ee81-7eb2-4214-be15-cdbabc0e0635>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#d27d1b85-e8d9-40eb-bcbf-75c3f3b79e33>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\test.bat" .
+
+<http://example.org/sepses/#587a0e73-8de4-4113-ab96-e4647be0ab69>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#b5e85073-5d47-4d63-b028-99b12ea20761>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#b159d3d3-94ea-4d9e-87f7-618fb46cc961>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#402793c8-e2a6-4ab2-a644-3ca2f70b365e>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#ca099ed9-e07a-4df4-b326-87ec885d1ed7>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#b30817b5-1d6f-4fee-9066-55e6256f186f>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\c1a7ae58541c1fdcc0a16084eca3b1c0" .
+
+<http://example.org/sepses/#a3423a50-169a-43ec-a693-68fda652486e>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#a849387b-b86e-435d-b376-4f7fc7455061>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#50a530ec-298d-4923-bf78-5144bebce767>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test4_copy_rename.txt" .
+
+<http://example.org/sepses/#c5b11c2e-ade2-46bf-a6f9-bcc64a329e54>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#4198d462-db6b-467e-b631-2e36f70bc5fe>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test9_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#43f51f5e-f83f-485e-b934-4e0ccf0a803b>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#e09fa9e3-1fcd-40c7-82cf-2e995f87c701>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#ef551a2e-700a-4a3b-9acd-913b5ef065e3> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#3a7cdfe4-ba18-4207-b3d7-965313f3f8f8> ;
+        fae:hasSourceFile      <http://example.org/sepses/#c9896967-a53f-477a-8bdd-4a8215bc3fcb> ;
+        fae:hasSourceHost      <http://example.org/sepses/#baba7124-3c8a-4ac5-b85d-5b34868bb041> ;
+        fae:hasTargetFile      <http://example.org/sepses/#aae24d89-eb71-47bf-ba05-5910f388bd2b> ;
+        fae:hasTargetHost      <http://example.org/sepses/#4ea35d52-ae9b-4a2b-9de2-4493a6eb5354> ;
+        fae:hasUser            <http://example.org/sepses/#0a159b91-4af4-4188-9d09-7512773fb7f7> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.981Z" .
+
+<http://example.org/sepses/#7f0968ee-69bf-4867-881f-a050554cb093>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test5_copy_rename.txt" .
+
+<http://example.org/sepses/#e3d6009f-48d8-4169-80ef-0b7812c9ee05>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#5b161fda-70f1-4937-b280-0347504b8594>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#23bf0af6-4167-4736-b55d-cdd5b3101f7d> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#36d8d7f6-8f79-44fe-a2d6-917c6ad93b37> ;
+        fae:hasSourceFile      <http://example.org/sepses/#56213a39-b4cd-4418-965f-d1e78eae5b5d> ;
+        fae:hasSourceHost      <http://example.org/sepses/#5ac23085-ad9a-440c-a070-a39bd5de326d> ;
+        fae:hasTargetFile      <http://example.org/sepses/#4d018f2c-9683-4c49-b47e-30bb63e505a1> ;
+        fae:hasTargetHost      <http://example.org/sepses/#1189fef1-19ca-42c9-b288-c22f1720b728> ;
+        fae:hasUser            <http://example.org/sepses/#accc3203-ca9b-4ccb-aa0f-e9942dba5cfc> ;
+        fae:targetFile         "b0dbf54084effc6452403fa43509a277" ;
+        fae:timestamp          "2019-05-15T12:59:31.621Z" .
+
+<http://example.org/sepses/#597f6b8a-3932-41eb-bbe6-c151519c4ee2>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test5_copy_rename.txt" .
+
+<http://example.org/sepses/#a7b03fd8-5cd2-40bf-a7e4-625b3e299fed>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test9_copy_rename.txt" .
+
+<http://example.org/sepses/#23bf0af6-4167-4736-b55d-cdd5b3101f7d>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#ee061a91-abc7-47b6-b411-f46f7301c06a>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test1_rename.txt" .
+
+<http://example.org/sepses/#e7c4574b-46bf-43d6-b6ea-5ac4789a4a7d>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test2.txt" .
+
+<http://example.org/sepses/#b09029cf-363c-449d-9019-da3582f2caf7>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#c61f4aad-3e75-4df1-933f-5fc7b912b7aa>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#f06dc77f-c1f1-4aa0-a2bb-e40066ae40ab>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#91343a21-361b-4427-be41-01f893512d5b> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#f360a621-8c63-4c48-bf6a-4a16cd171c58> ;
+        fae:hasSourceFile      <http://example.org/sepses/#5273314f-fafc-47d5-a02d-c7a796c04cfd> ;
+        fae:hasSourceHost      <http://example.org/sepses/#2b3c43b2-5a3f-437a-8525-5106868af6c8> ;
+        fae:hasTargetFile      <http://example.org/sepses/#ab93684b-4e8c-47b3-bcfb-0d61bb53797d> ;
+        fae:hasTargetHost      <http://example.org/sepses/#a849387b-b86e-435d-b376-4f7fc7455061> ;
+        fae:hasUser            <http://example.org/sepses/#a6c435ae-dace-4f3a-b19c-693cf8975139> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.179Z" .
+
+<http://example.org/sepses/#fc0458b0-2b8b-4701-82f9-e0814f607f91>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test5.txt" .
+
+<http://example.org/sepses/#dbfbb141-cda5-42e9-8a68-d25cd5f78aae>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#1189fef1-19ca-42c9-b288-c22f1720b728>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#c77946ee-f33d-49b2-a50b-f332aafa955c>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#7eaaaff8-7cdc-4719-93ad-ec40885e0014>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#a734eab7-8ad6-42cd-91a0-131d65c787fa>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#c330bdbc-c0ef-4441-a862-3b36606cfdf9>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#dbfbb141-cda5-42e9-8a68-d25cd5f78aae> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#39e94f7f-d178-49aa-8776-e98110ec97e4> , <http://example.org/sepses/fileAccessEvent#ea52c1fe-63f8-49c1-bd99-d530369d2411> ;
+        fae:hasSourceFile      <http://example.org/sepses/#597f6b8a-3932-41eb-bbe6-c151519c4ee2> ;
+        fae:hasSourceHost      <http://example.org/sepses/#f6dc67f5-7a35-4677-bf1d-508cf2f0199b> ;
+        fae:hasTargetFile      <http://example.org/sepses/#50a530ec-298d-4923-bf78-5144bebce767> ;
+        fae:hasTargetHost      <http://example.org/sepses/#47ec6350-dcc8-4d80-9556-89ab2d061264> ;
+        fae:hasUser            <http://example.org/sepses/#83ab35c4-88c5-41b0-ba65-28566892b878> ;
+        fae:targetFile         "test4_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.524Z" .
+
+<http://example.org/sepses/fileAccessEvent#982f8c3f-026d-48ba-9bb1-badcded1ffbf>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#15a7d607-3343-4272-8f70-4065bb33d3b0> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#c298506d-c84f-4986-b3ec-41b211edb063> , <http://example.org/sepses/fileAccessEvent#78cad981-adc5-42cd-9cf5-2a496915caab> ;
+        fae:hasSourceFile      <http://example.org/sepses/#a4a44df3-9209-4e43-bd2a-d313ba938061> ;
+        fae:hasSourceHost      <http://example.org/sepses/#49c1ae42-c628-4388-8345-61aadd2f0d36> ;
+        fae:hasTargetFile      <http://example.org/sepses/#f413d438-f2f5-41a0-a6dc-b377577ffffd> ;
+        fae:hasTargetHost      <http://example.org/sepses/#0b1bc212-5275-4235-8809-1add1cabc627> ;
+        fae:hasUser            <http://example.org/sepses/#088b1865-bed1-4dda-815b-80b6316b1106> ;
+        fae:targetFile         "test10.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.082Z" .
+
+<http://example.org/sepses/#3613e188-c0f3-4bf6-a7cb-884565d6c5ae>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#554abfdc-ad37-4427-a4a2-35131b3af6cc>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#b52951ee-f8fe-4f03-a8ad-ca3b1dfe5dd5>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#7a7db863-f2c3-4869-877e-642fc1da28c5>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#19c37e58-083b-4335-9617-8eb097b7a509>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#5d881e5c-e0a0-40da-b550-3da9c3147efe>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/fileAccessEvent#21dbaa04-0082-404a-8caa-57615d5d4246>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#989551aa-f9d0-48ab-be41-01e89f46fbf7> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#5aadbe9f-1a3a-406c-9ee4-8fb01fe96261> ;
+        fae:hasSourceFile      <http://example.org/sepses/#4f7772b2-f114-4293-8969-d34a71cc4477> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c2072010-2021-4190-8147-ca7d63ec8ee2> ;
+        fae:hasTargetFile      <http://example.org/sepses/#f18b6218-ea4a-4aa4-863c-7cf3f311e2b3> ;
+        fae:hasTargetHost      <http://example.org/sepses/#5693ee81-7eb2-4214-be15-cdbabc0e0635> ;
+        fae:hasUser            <http://example.org/sepses/#fcf7f34d-b56b-45ab-b5f7-39486e482b11> ;
+        fae:targetFile         "6a956d61b4750b85ceeee5206bea61b5" ;
+        fae:timestamp          "2019-05-15T12:59:31.610Z" .
+
+<http://example.org/sepses/#5e1883a9-77bf-4559-b8ee-b5599e0dd256>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#4d018f2c-9683-4c49-b47e-30bb63e505a1>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\b0dbf54084effc6452403fa43509a277" .
+
+<http://example.org/sepses/fileAccessEvent#c32ca2fa-72b5-45a3-b570-8584701d6682>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#e5c91887-f131-4b1b-a5f6-0dda34c99ce3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#21db9129-e884-4c17-8f03-c9762617a5f6> ;
+        fae:hasSourceHost      <http://example.org/sepses/#f9641447-8e76-4e61-b435-16228ac047fd> ;
+        fae:hasTargetFile      <http://example.org/sepses/#186ee39d-310e-4206-a0a3-80ed6c34ec06> ;
+        fae:hasTargetHost      <http://example.org/sepses/#dbfc3e5b-7f1e-40c2-a743-5b07962403df> ;
+        fae:hasUser            <http://example.org/sepses/#591ff71d-f996-4bb4-9e85-0d1b21ed331f> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.044Z" .
+
+<http://example.org/sepses/#c0a1cfff-1957-4829-a651-75d179020a1a>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test8_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#b7a2e299-4648-47b6-acc5-1c6a95028ea1>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#114f2fd5-3b22-4abd-81ad-92798b654a80> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#f06dc77f-c1f1-4aa0-a2bb-e40066ae40ab> , <http://example.org/sepses/fileAccessEvent#f360a621-8c63-4c48-bf6a-4a16cd171c58> ;
+        fae:hasSourceFile      <http://example.org/sepses/#f6839267-8dc9-4f60-856c-93e4f41273c4> ;
+        fae:hasSourceHost      <http://example.org/sepses/#644edc04-20ac-44e3-9476-1a84a332477c> ;
+        fae:hasTargetFile      <http://example.org/sepses/#c65cf1ac-f3b9-4319-9a29-f5e08a9cbb7c> ;
+        fae:hasTargetHost      <http://example.org/sepses/#bb3917db-33a3-4916-83e4-86d85ad471ec> ;
+        fae:hasUser            <http://example.org/sepses/#e1edd110-e0bb-4ef6-a378-7605cc433a8d> ;
+        fae:targetFile         "test3_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.546Z" .
+
+<http://example.org/sepses/#f9744be0-bb68-472d-acba-36a34e288cd6>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#88c482a9-3c30-4fd8-9fe4-405b27e63277>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#dbfc3e5b-7f1e-40c2-a743-5b07962403df>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4d633733-90d3-4c54-be1e-7cd7418dd53c>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#92b26e94-0cae-406b-8c3a-893c33478dda>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test1_copy_rename.txt" .
+
+<http://example.org/sepses/#20e929ce-8792-4347-a6c1-fe483ae29427>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test7.txt" .
+
+<http://example.org/sepses/#bd30e9f7-f986-400c-b31e-7aa56552c325>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#610a71c3-76d9-425c-a8c1-42e985de1615>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#5286dcd5-ea5e-4daf-8935-aed6d2021160>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#cd043631-c1fc-421c-ace9-a8f717782587>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#eb952272-8b4c-47f1-95db-337d26e82f45>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#4b4ac6e5-17e7-4bc6-89ad-a4a6cd1c6487>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#e6662998-23c4-4fc9-a45b-11dae99c45b6>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#3a7cdfe4-ba18-4207-b3d7-965313f3f8f8>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#3c431c4d-3933-423a-bd55-bc3f7304b826> ;
+        fae:hasSourceFile      <http://example.org/sepses/#1d73e629-4600-43d4-b5be-53c9c36efd40> ;
+        fae:hasSourceHost      <http://example.org/sepses/#4f3e4e6c-aba3-4594-9ed1-fea4771deb11> ;
+        fae:hasTargetFile      <http://example.org/sepses/#de957e5b-e91c-4673-b8a8-4b1854550c49> ;
+        fae:hasTargetHost      <http://example.org/sepses/#18b7d49b-cd50-45cb-a51f-3fb7eddab3d5> ;
+        fae:hasUser            <http://example.org/sepses/#6fff081d-bed6-4185-9831-55b5964d96b4> ;
+        fae:targetFile         "test4_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.209Z" .
+
+<http://example.org/sepses/#f7f8496b-dc9b-433d-8640-9c86c94047a9>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#327712df-b406-4a7c-8d66-64394598e9ad>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#19796b1f-f4b2-4242-9cab-856b2d9923fe>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#8cd9088a-bf9a-4449-a39c-bd28d8e885c1>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#47a6e429-cf34-4102-9f8c-c930a27c1bb8>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#ba364e85-7b86-45da-bebc-603b9de83bbf>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#a34bd819-1feb-4ed8-b9d2-bec872969ad3>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#df387c58-2677-44f2-8749-876044cfd12c>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test3_copy_rename.txt" .
+
+<http://example.org/sepses/#3e722f4f-599c-4db6-a888-c5191a0b45d8>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test3.txt" .
+
+<http://example.org/sepses/#aebb92c9-998c-4433-9568-6de7ed5aa211>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#eb01173a-4f7c-41c1-aa24-6fb566e07f41>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/fileAccessEvent#ea52c1fe-63f8-49c1-bd99-d530369d2411>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#4d633733-90d3-4c54-be1e-7cd7418dd53c> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#f529d91d-1396-444f-b495-ccab256120ab> , <http://example.org/sepses/fileAccessEvent#373f5a10-1667-4a27-b82d-e017dde376a7> ;
+        fae:hasSourceFile      <http://example.org/sepses/#e13cacfa-96fb-4df9-b82b-67f57e6d1060> ;
+        fae:hasSourceHost      <http://example.org/sepses/#aef62db3-8518-4d0b-984c-0e884fa37425> ;
+        fae:hasTargetFile      <http://example.org/sepses/#78c39f11-3943-4f03-8f28-b4ca3ddefaf5> ;
+        fae:hasTargetHost      <http://example.org/sepses/#079d2a7c-d0c5-43f4-a7db-cc89ffab52a7> ;
+        fae:hasUser            <http://example.org/sepses/#a3423a50-169a-43ec-a693-68fda652486e> ;
+        fae:targetFile         "test2_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.531Z" .
+
+<http://example.org/sepses/fileAccessEvent#f529d91d-1396-444f-b495-ccab256120ab>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#bd30e9f7-f986-400c-b31e-7aa56552c325> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#f06dc77f-c1f1-4aa0-a2bb-e40066ae40ab> , <http://example.org/sepses/fileAccessEvent#f360a621-8c63-4c48-bf6a-4a16cd171c58> ;
+        fae:hasSourceFile      <http://example.org/sepses/#d008eb91-ad9d-4006-93ba-ca341492fb8f> ;
+        fae:hasSourceHost      <http://example.org/sepses/#098b021a-347c-4b76-9964-f8e5806d7738> ;
+        fae:hasTargetFile      <http://example.org/sepses/#1c410556-307e-439b-ba33-eabe3a0768bd> ;
+        fae:hasTargetHost      <http://example.org/sepses/#76e4d67b-6671-4be4-b2be-fe8b2ea20782> ;
+        fae:hasUser            <http://example.org/sepses/#22a2c88e-1ef4-4333-90ce-db8e1f042578> ;
+        fae:targetFile         "test3_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.545Z" .
+
+<http://example.org/sepses/#fcf7f34d-b56b-45ab-b5f7-39486e482b11>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#12f4ca4f-d34d-4e1c-9d43-a67f7057495b>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#cd043631-c1fc-421c-ace9-a8f717782587> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#445511fb-ec0b-4fd3-ad63-dfb3302f3548> , <http://example.org/sepses/fileAccessEvent#a5cf042d-e272-45cd-9ed8-ed2e7e854918> ;
+        fae:hasSourceFile      <http://example.org/sepses/#a49bffa2-0b2c-402e-9a2e-509b13aa1ffb> ;
+        fae:hasSourceHost      <http://example.org/sepses/#0f90890e-1d57-4a25-a509-59b9ce96d870> ;
+        fae:hasTargetFile      <http://example.org/sepses/#15b4ca2f-ab86-4206-87ea-7c22bab35cf1> ;
+        fae:hasTargetHost      <http://example.org/sepses/#191dde48-8d41-4c0a-98c5-7479980a66ec> ;
+        fae:hasUser            <http://example.org/sepses/#38d508af-7d4a-4579-a2aa-7744433f19fe> ;
+        fae:targetFile         "test9.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.062Z" .
+
+<http://example.org/sepses/#91f52142-a11b-4953-a392-2a45661d5719>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#228118b7-7beb-4f3f-b42c-33e7e538661b>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#dfc254b1-e216-4bd5-bc86-b8318df9a09a>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#390de952-7ab3-469e-858c-2be29eec25a9>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test2_copy_rename.txt" .
+
+<http://example.org/sepses/#3f141250-d503-4330-9755-5b19de614541>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#8ab8cc0d-134a-4413-8b86-0267b11dc2f3>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#1ca18f01-285c-44fc-b82f-7ed142b77a4b>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#67ab2a4f-3c35-4ca0-a0e7-c8cb0c6f4b08>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#957d1c55-7e7d-4cf7-b705-37e8c8540764>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#12df08bb-5fa8-422b-8abf-452fdf7d8e4b>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test1_copy_rename.txt" .
+
+<http://example.org/sepses/#6a5cf46f-3ab5-453c-be0e-d140b1a79c3d>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test4_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#17bf3727-70d1-4ccb-8c02-0c90150f8718>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#5a75cd9b-8a08-4cf7-b991-d340d47dd8b3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#72402bf5-de9a-4805-81f5-4fd67c6c83e5> ;
+        fae:hasSourceHost      <http://example.org/sepses/#8b617860-ef63-422d-9409-6e3dd7b32e73> ;
+        fae:hasTargetFile      <http://example.org/sepses/#228118b7-7beb-4f3f-b42c-33e7e538661b> ;
+        fae:hasTargetHost      <http://example.org/sepses/#5267a01c-e5fe-4588-ae4d-8fc92b8bc26b> ;
+        fae:hasUser            <http://example.org/sepses/#9175fa87-e9d2-48e5-be5f-2f02bbca882f> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.040Z" .
+
+<http://example.org/sepses/#3f5c93b4-cc51-4730-bb78-809fbb800896>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#4d3cb5bd-e269-49ba-b443-487b0a75f7bf>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test9.txt" .
+
+<http://example.org/sepses/#10bf4ef5-bd30-462f-921a-95ea44c4ceda>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#68533828-ddfd-44ce-994a-65a2c8c72a9d>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#37daee09-1286-4e4a-aff2-c791acacb89a>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#55cc5da5-2715-4221-97e7-599ce70ba326> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#28188f64-3e33-44d4-9a8c-bdd8f8bdd6a1> ;
+        fae:hasSourceFile      <http://example.org/sepses/#122b2ce7-6079-4942-8e84-c0d7ed768c5e> ;
+        fae:hasSourceHost      <http://example.org/sepses/#0e69ed4f-2ee8-4437-b316-8a3a8a3cbbeb> ;
+        fae:hasTargetFile      <http://example.org/sepses/#a1c17075-4ae5-4eff-8360-ffcc2a1e6b84> ;
+        fae:hasTargetHost      <http://example.org/sepses/#fe86618f-a378-4540-bcc3-f12dbf02e062> ;
+        fae:hasUser            <http://example.org/sepses/#3f141250-d503-4330-9755-5b19de614541> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.974Z" .
+
+<http://example.org/sepses/#5ff63f0e-abcf-474e-8219-80e2c52c4987>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#2f7f87bf-34ba-4995-9b08-a61f3ab04995>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test9_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#c3c056a3-4a1a-41a0-81f2-234118f8b890>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#cba426c5-3bb1-4f4d-8114-497044d699eb> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#7b29443e-089d-4e52-932a-dd32d24ae4a0> ;
+        fae:hasSourceFile      <http://example.org/sepses/#ac8c8493-cae9-44a9-9024-8d1f6cead2e6> ;
+        fae:hasSourceHost      <http://example.org/sepses/#b2cfbfd0-15d0-42b5-ae45-09f201477a71> ;
+        fae:hasTargetFile      <http://example.org/sepses/#5e1883a9-77bf-4559-b8ee-b5599e0dd256> ;
+        fae:hasTargetHost      <http://example.org/sepses/#5a6d686c-89e3-4606-b1f7-0af61c0271a6> ;
+        fae:hasUser            <http://example.org/sepses/#4b4ac6e5-17e7-4bc6-89ad-a4a6cd1c6487> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.967Z" .
+
+<http://example.org/sepses/fileAccessEvent#7b29443e-089d-4e52-932a-dd32d24ae4a0>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#b09029cf-363c-449d-9019-da3582f2caf7> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#12f4ca4f-d34d-4e1c-9d43-a67f7057495b> , <http://example.org/sepses/fileAccessEvent#51fc8621-d23c-417f-8a7d-57d0f600fd43> ;
+        fae:hasSourceFile      <http://example.org/sepses/#3e722f4f-599c-4db6-a888-c5191a0b45d8> ;
+        fae:hasSourceHost      <http://example.org/sepses/#4bae9ab4-f865-42d8-99e3-b33b7d35cb36> ;
+        fae:hasTargetFile      <http://example.org/sepses/#869e42be-0db5-43d5-81b9-dfea10b4ce52> ;
+        fae:hasTargetHost      <http://example.org/sepses/#e6662998-23c4-4fc9-a45b-11dae99c45b6> ;
+        fae:hasUser            <http://example.org/sepses/#6098010a-8138-432e-81bb-97b604c561c7> ;
+        fae:targetFile         "test6.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.015Z" .
+
+<http://example.org/sepses/#591ff71d-f996-4bb4-9e85-0d1b21ed331f>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#50b09f6e-99c3-4323-9c02-c10a2e8ba2f7>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#8b7ab1c8-efff-461a-99c8-ad87dffe4151>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#56213a39-b4cd-4418-965f-d1e78eae5b5d>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\d510f073046b16adc1f1fb2ddf82a1be" .
+
+<http://example.org/sepses/#91343a21-361b-4427-be41-01f893512d5b>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/fileAccessEvent#ef4b052b-66ec-48dd-80d0-ce031726706f>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#be02c853-7443-440e-a35a-354cd1020f9b> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#17c4556b-f5fe-4218-8de7-ff8794a2ef02> ;
+        fae:hasSourceFile      <http://example.org/sepses/#415cb5e6-4390-4baf-8936-10862d8c3104> ;
+        fae:hasSourceHost      <http://example.org/sepses/#b72b3f09-f0cb-4830-9c7d-0e4dbbb7a0f6> ;
+        fae:hasTargetFile      <http://example.org/sepses/#6ec0c6f3-6767-4b83-9131-3579a825a8d4> ;
+        fae:hasTargetHost      <http://example.org/sepses/#9349ee3f-8ec0-4d20-9220-8fe72d8892bd> ;
+        fae:hasUser            <http://example.org/sepses/#45fba09a-83c5-4348-962b-a9be2c268b92> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.965Z" .
+
+<http://example.org/sepses/#ab2c5890-3d36-4907-b2cd-709d82f8bbdd>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#c0e2599f-d142-48f3-aa30-b01eb48241ba>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#15b4ca2f-ab86-4206-87ea-7c22bab35cf1>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test9.txt" .
+
+<http://example.org/sepses/#9837a1ac-d80c-4240-87dd-fcb0dbbff9e0>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#72402bf5-de9a-4805-81f5-4fd67c6c83e5>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test8_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#756346d3-b50a-4bd9-9e94-40b9cfacc48b>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#22cfe4a0-1b93-4cab-bab6-417c9500c847>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#610a71c3-76d9-425c-a8c1-42e985de1615> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#6719e7bc-f3ec-4013-a78d-ac7f394f94dc> , <http://example.org/sepses/fileAccessEvent#d2d94bfd-cfe6-4fba-9fbd-f23e6a5059e6> ;
+        fae:hasSourceFile      <http://example.org/sepses/#30101e80-c178-45aa-84b2-8306342bb3e2> ;
+        fae:hasSourceHost      <http://example.org/sepses/#5ca5e64d-4efa-4971-bde8-0e22cdad307d> ;
+        fae:hasTargetFile      <http://example.org/sepses/#aab52f5c-62be-4416-baaf-6581ffb1c880> ;
+        fae:hasTargetHost      <http://example.org/sepses/#dc6696c1-ee9f-4050-94d5-1f3407857453> ;
+        fae:hasUser            <http://example.org/sepses/#50b09f6e-99c3-4323-9c02-c10a2e8ba2f7> ;
+        fae:targetFile         "test10_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.555Z" .
+
+<http://example.org/sepses/#c65cf1ac-f3b9-4319-9a29-f5e08a9cbb7c>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test3_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#97f1ca58-4bb2-4a88-a326-5cf8ece27000>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#49abbabf-4f4e-40cb-a9c2-4935fd5f6de9> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#5b161fda-70f1-4937-b280-0347504b8594> ;
+        fae:hasSourceFile      <http://example.org/sepses/#2b31c3ac-c435-4708-bc7a-7afde585fa5e> ;
+        fae:hasSourceHost      <http://example.org/sepses/#e2b5e350-fdf0-4e58-8cc3-f7c97fdebd3a> ;
+        fae:hasTargetFile      <http://example.org/sepses/#335d28ec-9cc5-4434-b774-21e528cbbd95> ;
+        fae:hasTargetHost      <http://example.org/sepses/#5cdedb32-4625-403a-bdad-42161403b589> ;
+        fae:hasUser            <http://example.org/sepses/#bd6200ec-b03a-4a7c-a72c-8be018b5614f> ;
+        fae:targetFile         "d510f073046b16adc1f1fb2ddf82a1be" ;
+        fae:timestamp          "2019-05-15T12:59:31.611Z" .
+
+<http://example.org/sepses/#5cdedb32-4625-403a-bdad-42161403b589>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#9c306333-76c3-489a-a287-2775d5633a2f>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#6dff6237-d4f8-4ce9-a6c0-1ee4ccc6459c>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\c7a26e6c6f6c487b425b6a3a7c74e7bb" .
+
+<http://example.org/sepses/fileAccessEvent#92ff6d39-217d-450c-832b-29383a5396e3>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#10bef421-9052-4fd2-8666-9aa5cc3f9296> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#31c436f6-a6d3-4374-9887-0c7a9688b30a> ;
+        fae:hasSourceFile      <http://example.org/sepses/#6dff6237-d4f8-4ce9-a6c0-1ee4ccc6459c> ;
+        fae:hasSourceHost      <http://example.org/sepses/#306f0e4e-d84a-41be-8f64-02b615667ba8> ;
+        fae:hasTargetFile      <http://example.org/sepses/#fc84d968-00ee-470d-a57b-e963b42184e2> ;
+        fae:hasTargetHost      <http://example.org/sepses/#a4bfe005-8374-4601-bd73-2e9d007c0623> ;
+        fae:hasUser            <http://example.org/sepses/#468ad0b2-c328-473a-b99f-38b5d1e9cd8a> ;
+        fae:targetFile         "066590171cd28ce95debbced656a1ca6" ;
+        fae:timestamp          "2019-05-15T12:59:31.622Z" .
+
+<http://example.org/sepses/#180244fa-97ee-4f66-9497-04169fc452bb>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\6ba48be64a0a743f252ad93594ea6890" .
+
+<http://example.org/sepses/#468ad0b2-c328-473a-b99f-38b5d1e9cd8a>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#03de0082-9f38-46d6-9ab3-f084e0d08e18>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#a4a44df3-9209-4e43-bd2a-d313ba938061>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test7.txt" .
+
+<http://example.org/sepses/#bf5a7deb-3b15-432e-8a5c-293fe79f078d>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#0f90890e-1d57-4a25-a509-59b9ce96d870>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#1c359a44-cdf0-450e-8132-317d7e3fbbe8>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test10_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#5ca5e64d-4efa-4971-bde8-0e22cdad307d>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#21db9129-e884-4c17-8f03-c9762617a5f6>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test2_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#aab52f5c-62be-4416-baaf-6581ffb1c880>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test10_copy_rename.txt" .
+
+<http://example.org/sepses/#d008eb91-ad9d-4006-93ba-ca341492fb8f>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test2_copy_rename.txt" .
+
+<http://example.org/sepses/#61d3a8b9-3e80-455a-87d0-f385bde50374>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#c262b433-5e8e-4f60-b232-c03c2526c5b4>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#869e42be-0db5-43d5-81b9-dfea10b4ce52>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test6.txt" .
+
+<http://example.org/sepses/#3c431c4d-3933-423a-bd55-bc3f7304b826>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#0f9598d1-6fa3-4701-b1f8-7f240138fd9c>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#be02c853-7443-440e-a35a-354cd1020f9b>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#5bbd09df-5968-4e88-9352-16882d497cb9>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test7.txt" .
+
+<http://example.org/sepses/#4ee8489d-0a84-464a-a8cc-11a348e02b9e>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#22ae4824-68d1-49ee-8cba-a5581f4debd1>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#baba7124-3c8a-4ac5-b85d-5b34868bb041>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#6b7c1e43-bafa-48b7-9aa8-b920fd08e52b>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#34f1115c-97c7-4761-be12-a27f1eb9de51>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#59096982-70f9-4c64-b55b-59d4416ba9f6>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#28188f64-3e33-44d4-9a8c-bdd8f8bdd6a1>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#f7d0ae1f-ae27-4d1e-bf43-b4f41899c8e6> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#e09fa9e3-1fcd-40c7-82cf-2e995f87c701> , <http://example.org/sepses/fileAccessEvent#3a7cdfe4-ba18-4207-b3d7-965313f3f8f8> ;
+        fae:hasSourceFile      <http://example.org/sepses/#09268124-1154-40de-a97f-1fa5d0104966> ;
+        fae:hasSourceHost      <http://example.org/sepses/#c5b11c2e-ade2-46bf-a6f9-bcc64a329e54> ;
+        fae:hasTargetFile      <http://example.org/sepses/#0f7b8c39-2a79-4d1b-8056-6e28ab50143d> ;
+        fae:hasTargetHost      <http://example.org/sepses/#943c66a7-97f9-4c23-99ef-2c9a66fbc6d2> ;
+        fae:hasUser            <http://example.org/sepses/#19c37e58-083b-4335-9617-8eb097b7a509> ;
+        fae:targetFile         "test8.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.046Z" .
+
+<http://example.org/sepses/#cccf4931-f6b7-4fd9-8b06-71a13b5f25a8>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#b44292b2-9fbd-4586-8045-81afc3635f08>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#99acd992-5146-42f7-ad2e-da4df6dc93c0>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#f7b5fd25-e90b-4ab7-b246-3660665deb61>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#6fd111e1-7d3e-4a43-80d1-3aac6e4585af>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#f9641447-8e76-4e61-b435-16228ac047fd>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#6ec0c6f3-6767-4b83-9131-3579a825a8d4>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#35aa78fd-9205-4b73-ae79-de541778d676>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#91cd42e2-90ee-4151-8264-fec4c558d4aa>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#d402ec40-fb5e-4134-885a-a516d9c4968f>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#3d3a9277-c769-4492-bd29-af4655211eb2>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#699c347a-ddf5-4f5d-a55c-55b820cae943>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#c57d27ad-1d66-4465-9084-27ff04aa0072>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#dd9d4531-290d-443f-9a54-c43ab8e7da5c>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#c0e2599f-d142-48f3-aa30-b01eb48241ba> ;
+        fae:hasSourceFile      <http://example.org/sepses/#dc9a1839-b9f2-40f5-b0d6-e2e950f4e866> ;
+        fae:hasSourceHost      <http://example.org/sepses/#4596f9c1-7f3f-4eaa-9208-7247393b6402> ;
+        fae:hasTargetFile      <http://example.org/sepses/#4bca53c3-5b1a-479e-8a62-591d440fd95e> ;
+        fae:hasTargetHost      <http://example.org/sepses/#68533828-ddfd-44ce-994a-65a2c8c72a9d> ;
+        fae:hasUser            <http://example.org/sepses/#cfd07268-607b-4283-a18d-d4f616ec4550> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.041Z" .
+
+<http://example.org/sepses/fileAccessEvent#50a33906-3417-4063-bb58-2ea6197c0bcf>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#ef8833d0-d4b4-4c9f-88ac-7bcacedfe872> ;
+        fae:hasSourceFile      <http://example.org/sepses/#fa74b8f3-859f-423c-ab5b-cc2aa5971aeb> ;
+        fae:hasSourceHost      <http://example.org/sepses/#ca79ddb2-18e9-4505-a799-c52a7912f7a9> ;
+        fae:hasTargetFile      <http://example.org/sepses/#d5ee57cc-b86b-44e4-bfac-0e9faea794a6> ;
+        fae:hasTargetHost      <http://example.org/sepses/#b44292b2-9fbd-4586-8045-81afc3635f08> ;
+        fae:hasUser            <http://example.org/sepses/#f7b5fd25-e90b-4ab7-b246-3660665deb61> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.038Z" .
+
+<http://example.org/sepses/#86055635-a1c2-4edc-8f75-cd814ef5dc4a>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test6_copy_rename.txt" .
+
+<http://example.org/sepses/#90ca8827-de7e-4339-b459-5d5737deb5b7>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test2.txt" .
+
+<http://example.org/sepses/#d5ee57cc-b86b-44e4-bfac-0e9faea794a6>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#e799833f-a139-4c07-8e79-8920055af3de>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4ea35d52-ae9b-4a2b-9de2-4493a6eb5354>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#82ecbfa9-184d-48b6-9054-f24268065d33>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test10.txt" .
+
+<http://example.org/sepses/#db1dd56b-b984-4514-8325-491027d5f38b>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#1414ca45-4932-421d-8943-5124564a2153>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#555283eb-9d43-4969-b828-95c0874a0bc7>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#8b617860-ef63-422d-9409-6e3dd7b32e73>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#569f2015-baf4-408c-81d8-570ff3e4126f>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#c7944188-7a5e-4840-be33-488ce8721d7d>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#b5297c32-7797-4f9d-b60f-c2100fcd5d95>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#accc3203-ca9b-4ccb-aa0f-e9942dba5cfc>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#9175fa87-e9d2-48e5-be5f-2f02bbca882f>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#d342cacd-c8fd-4b77-b6fd-27606d8386b4>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test10.txt" .
+
+<http://example.org/sepses/#074f5a05-41e9-42c0-a455-89caa89b9b63>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#7ede38f3-3d7a-41e7-94be-1d11efa35c3e>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#e61fbfd9-a396-4a4a-9c53-5c736cc678f7>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#df635c4e-f087-49a2-8f8c-beed7e4f5c6a>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#23297f11-74fb-4efd-9216-123e86094e4c>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#644edc04-20ac-44e3-9476-1a84a332477c>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#dad33397-28c1-46b6-a31c-1481bac5e641>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test7_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#cc5cf63d-b30e-4635-8a23-07b50ec0b459>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#69afc8e0-ed80-426d-8ffc-0c6e4ac1401e>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test9.txt" .
+
+<http://example.org/sepses/#9c017533-8c03-4034-9ba0-6d6f3017fddb>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#989551aa-f9d0-48ab-be41-01e89f46fbf7>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#9eacb6c7-3db4-47ed-915f-2605be35cad0>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#8cd9088a-bf9a-4449-a39c-bd28d8e885c1> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#fa78f050-9e9d-4de5-b450-c86b6b9c22e0> ;
+        fae:hasSourceFile      <http://example.org/sepses/#90ca8827-de7e-4339-b459-5d5737deb5b7> ;
+        fae:hasSourceHost      <http://example.org/sepses/#66083261-7597-4432-a9d4-b10c9cc39fa7> ;
+        fae:hasTargetFile      <http://example.org/sepses/#fc1d3ba0-ef11-4822-95ed-800fdb0a1188> ;
+        fae:hasTargetHost      <http://example.org/sepses/#f7f8496b-dc9b-433d-8640-9c86c94047a9> ;
+        fae:hasUser            <http://example.org/sepses/#ec4574d6-4fba-4d64-b2b2-40474a1a6efa> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.966Z" .
+
+<http://example.org/sepses/#415cb5e6-4390-4baf-8936-10862d8c3104>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test1.txt" .
+
+<http://example.org/sepses/fileAccessEvent#11ca50bd-c57b-48b1-a692-c300cdc9c8e6>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#ca099ed9-e07a-4df4-b326-87ec885d1ed7> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#93181151-578b-4164-850b-1e4abc2852bb> ;
+        fae:hasSourceFile      <http://example.org/sepses/#92b26e94-0cae-406b-8c3a-893c33478dda> ;
+        fae:hasSourceHost      <http://example.org/sepses/#b148c9d4-ae02-41fd-9f2d-10604fa482a3> ;
+        fae:hasTargetFile      <http://example.org/sepses/#7f2119fd-da36-4285-bcfd-aa0c77860093> ;
+        fae:hasTargetHost      <http://example.org/sepses/#d4b0cbfa-86f7-40eb-a144-3f3d64af533f> ;
+        fae:hasUser            <http://example.org/sepses/#feafc674-3775-4ab0-9f42-db32bed1f470> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.127Z" .
+
+<http://example.org/sepses/#9349ee3f-8ec0-4d20-9220-8fe72d8892bd>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#a914f308-aa58-4686-a704-1385250c6681>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#373f5a10-1667-4a27-b82d-e017dde376a7>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#5ff63f0e-abcf-474e-8219-80e2c52c4987> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#f529d91d-1396-444f-b495-ccab256120ab> ;
+        fae:hasSourceFile      <http://example.org/sepses/#390de952-7ab3-469e-858c-2be29eec25a9> ;
+        fae:hasSourceHost      <http://example.org/sepses/#34f1115c-97c7-4761-be12-a27f1eb9de51> ;
+        fae:hasTargetFile      <http://example.org/sepses/#f9744be0-bb68-472d-acba-36a34e288cd6> ;
+        fae:hasTargetHost      <http://example.org/sepses/#885574a2-27d5-41ca-99c4-e8fceb493de2> ;
+        fae:hasUser            <http://example.org/sepses/#43f51f5e-f83f-485e-b934-4e0ccf0a803b> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.148Z" .
+
+<http://example.org/sepses/#e1edd110-e0bb-4ef6-a378-7605cc433a8d>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#fa74b8f3-859f-423c-ab5b-cc2aa5971aeb>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test6_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#cba426c5-3bb1-4f4d-8114-497044d699eb>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#e13e41f2-7174-4e31-8efd-052af899e76e>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#30101e80-c178-45aa-84b2-8306342bb3e2>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test6_copy_rename.txt" .
+
+<http://example.org/sepses/#9c8ee8ba-266c-4eff-9c19-6d3d78d7800b>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#ce084aa6-5849-4738-8afc-43276796dedd>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#82e8e1b9-e392-4295-8535-91eb59af8d41> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#982f8c3f-026d-48ba-9bb1-badcded1ffbf> ;
+        fae:hasSourceFile      <http://example.org/sepses/#5bbd09df-5968-4e88-9352-16882d497cb9> ;
+        fae:hasSourceHost      <http://example.org/sepses/#a34bd819-1feb-4ed8-b9d2-bec872969ad3> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b1ec1389-5ecd-4e42-ad4b-f0b59d6b4ddc> ;
+        fae:hasTargetHost      <http://example.org/sepses/#4e067d15-a2da-4ee0-aab9-d5d521b06715> ;
+        fae:hasUser            <http://example.org/sepses/#459ca660-620b-4dcf-aa43-a41bb3d1ba66> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.979Z" .
+
+<http://example.org/sepses/#82e8e1b9-e392-4295-8535-91eb59af8d41>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#7981e2c9-489c-4104-aed7-3b85fff91bb6>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#ddda4069-7c51-4867-8833-42dfaddefdb1>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#335d28ec-9cc5-4434-b774-21e528cbbd95>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\d510f073046b16adc1f1fb2ddf82a1be" .
+
+<http://example.org/sepses/#feafc674-3775-4ab0-9f42-db32bed1f470>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#43b02524-6577-4bc1-8650-29bbb094c636>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#8165f9c5-8c34-4001-abc4-60ed58941735>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#957d1c55-7e7d-4cf7-b705-37e8c8540764> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#22cfe4a0-1b93-4cab-bab6-417c9500c847> ;
+        fae:hasSourceFile      <http://example.org/sepses/#82bea50c-4856-4355-aa4c-aa9263a835a3> ;
+        fae:hasSourceHost      <http://example.org/sepses/#7b744714-db3a-45fb-bfef-20da92acd8f0> ;
+        fae:hasTargetFile      <http://example.org/sepses/#074f5a05-41e9-42c0-a455-89caa89b9b63> ;
+        fae:hasTargetHost      <http://example.org/sepses/#e61fbfd9-a396-4a4a-9c53-5c736cc678f7> ;
+        fae:hasUser            <http://example.org/sepses/#23297f11-74fb-4efd-9216-123e86094e4c> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.236Z" .
+
+<http://example.org/sepses/#d4b0cbfa-86f7-40eb-a144-3f3d64af533f>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#a00e2b25-fc85-4e70-a391-ce7b19f96928>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#4bca53c3-5b1a-479e-8a62-591d440fd95e>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#891c5974-a412-456c-a954-deef6e753218>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#c05edf30-9fc5-4484-bf91-8a0d48dad3fa>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#90da06fc-244b-4e65-befe-ae22135f2f24>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#fe86618f-a378-4540-bcc3-f12dbf02e062>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#ab93684b-4e8c-47b3-bcfb-0d61bb53797d>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#2b3c43b2-5a3f-437a-8525-5106868af6c8>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#0f7b8c39-2a79-4d1b-8056-6e28ab50143d>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test8.txt" .
+
+<http://example.org/sepses/#54793d61-722d-4b0a-98b1-9524b81dc5cd>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\884e202024dbce684c6cef323261df6f" .
+
+<http://example.org/sepses/#ef551a2e-700a-4a3b-9acd-913b5ef065e3>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#9991d8c7-b43f-4497-8b5b-8b969be56f36>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#6853736a-dc21-4ade-b3e7-7de292a449a1>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test1.txt" .
+
+<http://example.org/sepses/#2e858645-1095-4877-9f71-f604b5e5a465>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#4f7772b2-f114-4293-8969-d34a71cc4477>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\926d96a0bd22df846cbd556a32e12644" .
+
+<http://example.org/sepses/#53e41f25-52e5-4436-ab89-3c9608f21243>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#69d9cded-e0dc-4a30-b4eb-f2926f1049a6>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#128bb8e8-7837-4422-a567-7d18cabdbf05>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test1_rename.txt" .
+
+<http://example.org/sepses/#79d65705-98c5-441c-89e8-d0428e1ecad3>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4e067d15-a2da-4ee0-aab9-d5d521b06715>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#0958350c-9e6e-40fb-960c-1e90461f9e32>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret:com.dropbox.attrs" .
+
+<http://example.org/sepses/#b94c5e21-b417-4e6f-a866-4942989efdfb>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#0e69ed4f-2ee8-4437-b316-8a3a8a3cbbeb>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#18a19f87-c396-49b1-8241-298c9a429028>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#4f3e4e6c-aba3-4594-9ed1-fea4771deb11>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#49abbabf-4f4e-40cb-a9c2-4935fd5f6de9>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#82bea50c-4856-4355-aa4c-aa9263a835a3>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test6_copy_rename.txt" .
+
+<http://example.org/sepses/#38d508af-7d4a-4579-a2aa-7744433f19fe>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#7644d936-68ee-41d2-82a3-dde70ea57c42>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#459ca660-620b-4dcf-aa43-a41bb3d1ba66>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#5bcef2f8-c393-4ce7-90b2-fb0f41827afe>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#332466e3-e10c-4d3c-ab88-d19a5357dd3c>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#2b31c3ac-c435-4708-bc7a-7afde585fa5e>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\6ba48be64a0a743f252ad93594ea6890" .
+
+<http://example.org/sepses/#b156395c-2951-476a-b136-17bb3c2b379f>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#e1829ec8-88a9-4d15-a67c-b8fea72cb4bc>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#292fd86c-86ef-49a4-9ff1-b82199f41b10>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#76e4d67b-6671-4be4-b2be-fe8b2ea20782>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#05e58dd5-f4e6-4ab0-af74-74dabcaec0e9>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#2761813a-ae53-428b-bbec-31fe9cd2d5fb>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test8_copy_rename.txt" .
+
+<http://example.org/sepses/#6098010a-8138-432e-81bb-97b604c561c7>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#f935e596-9a78-4d3a-a1db-c16a251b4e03>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#ac8c8493-cae9-44a9-9024-8d1f6cead2e6>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test3.txt" .
+
+<http://example.org/sepses/#f6dc67f5-7a35-4677-bf1d-508cf2f0199b>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#09268124-1154-40de-a97f-1fa5d0104966>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test5.txt" .
+
+<http://example.org/sepses/#b148c9d4-ae02-41fd-9f2d-10604fa482a3>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#e20530fa-bc87-4b7f-be6f-7424646bcfca>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test4.txt" .
+
+<http://example.org/sepses/#bbd32eaf-5f18-499a-b553-0904a38f24ab>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test5_copy_rename.txt" .
+
+<http://example.org/sepses/#6bc4c6d0-df31-41e4-8b31-4ef3e2eddce8>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#c2072010-2021-4190-8147-ca7d63ec8ee2>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#a1c17075-4ae5-4eff-8360-ffcc2a1e6b84>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#5273314f-fafc-47d5-a02d-c7a796c04cfd>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test3_copy_rename.txt" .
+
+<http://example.org/sepses/#7733a14e-8cc1-4dd3-b5ec-2a0b5eb74444>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#62bf3339-7617-4bbf-a66e-6b35f6482a50>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#7b744714-db3a-45fb-bfef-20da92acd8f0>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#ef9f185d-d122-4bad-9ced-2f033784b56e>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#45fba09a-83c5-4348-962b-a9be2c268b92>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#62b7945c-c695-43ae-ad1e-1fc03dba637e>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#f19d22e9-2a53-4100-a0b8-1ee187106dec>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#10bef421-9052-4fd2-8666-9aa5cc3f9296>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#cfe890bf-c21c-4b6e-b21c-15edba0b8bba>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#f7a14960-aa45-4a47-9bb0-190a10e2f75e> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#df536377-43b8-4932-ad90-fab5dc7e260e> ;
+        fae:hasSourceFile      <http://example.org/sepses/#a618b8e6-284c-4cff-963b-f5aebd9d9ab6> ;
+        fae:hasSourceHost      <http://example.org/sepses/#453901f2-7f63-4dd9-97bf-02a4f291eb7f> ;
+        fae:hasTargetFile      <http://example.org/sepses/#be02223f-d48f-4e79-9312-5a1e01741857> ;
+        fae:hasTargetHost      <http://example.org/sepses/#fd2ee48c-eaf4-40cd-8343-0b75748e5bda> ;
+        fae:hasUser            <http://example.org/sepses/#43b02524-6577-4bc1-8650-29bbb094c636> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.968Z" .
+
+<http://example.org/sepses/#63e48706-77e7-432e-831f-0c5f58f9cd30>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test7_copy_rename.txt" .
+
+<http://example.org/sepses/#55cc5da5-2715-4221-97e7-599ce70ba326>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#b72b3f09-f0cb-4830-9c7d-0e4dbbb7a0f6>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#31c42dd6-facf-41bf-a916-d7c5b0676191>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#dc6696c1-ee9f-4050-94d5-1f3407857453>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#a49bffa2-0b2c-402e-9a2e-509b13aa1ffb>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test6.txt" .
+
+<http://example.org/sepses/#5ac23085-ad9a-440c-a070-a39bd5de326d>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#7cab57ab-ab89-4eb5-baab-88f6da807ead>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#3702e7fc-613d-4481-ac1c-dfb44c3af5c8>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#c68be9e6-d5d9-43ad-b44c-960793e1828a>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#3d3a9277-c769-4492-bd29-af4655211eb2> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#5fe82dcc-be67-4ecb-a7cd-d56889000ea3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#a7b03fd8-5cd2-40bf-a7e4-625b3e299fed> ;
+        fae:hasSourceHost      <http://example.org/sepses/#327712df-b406-4a7c-8d66-64394598e9ad> ;
+        fae:hasTargetFile      <http://example.org/sepses/#565956b2-3bb9-4843-9dc2-2f69fcda16d9> ;
+        fae:hasTargetHost      <http://example.org/sepses/#7ede38f3-3d7a-41e7-94be-1d11efa35c3e> ;
+        fae:hasUser            <http://example.org/sepses/#ac97f6a8-4448-4f60-95a1-72f91ef08f62> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.287Z" .
+
+<http://example.org/sepses/#5267a01c-e5fe-4588-ae4d-8fc92b8bc26b>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#aec3a0a9-3ff0-4d06-a10d-df54a8c2d0bd>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#39e94f7f-d178-49aa-8776-e98110ec97e4>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#9991d8c7-b43f-4497-8b5b-8b969be56f36> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#ea52c1fe-63f8-49c1-bd99-d530369d2411> ;
+        fae:hasSourceFile      <http://example.org/sepses/#6a5cf46f-3ab5-453c-be0e-d140b1a79c3d> ;
+        fae:hasSourceHost      <http://example.org/sepses/#cccf4931-f6b7-4fd9-8b06-71a13b5f25a8> ;
+        fae:hasTargetFile      <http://example.org/sepses/#7cab57ab-ab89-4eb5-baab-88f6da807ead> ;
+        fae:hasTargetHost      <http://example.org/sepses/#699c347a-ddf5-4f5d-a55c-55b820cae943> ;
+        fae:hasUser            <http://example.org/sepses/#2afbe0f6-6d4c-428c-967c-c6b292bb6790> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.210Z" .
+
+<http://example.org/sepses/#e13cacfa-96fb-4df9-b82b-67f57e6d1060>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test4_copy_rename.txt" .
+
+<http://example.org/sepses/#a4f31d6e-a866-49f9-b46c-1134e0625994>
+        fae:fileName  "" .
+
+<http://example.org/sepses/fileAccessEvent#51fc8621-d23c-417f-8a7d-57d0f600fd43>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#9c017533-8c03-4034-9ba0-6d6f3017fddb> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#12f4ca4f-d34d-4e1c-9d43-a67f7057495b> ;
+        fae:hasSourceFile      <http://example.org/sepses/#09dda614-ddf7-48e2-97d4-4e818184715a> ;
+        fae:hasSourceHost      <http://example.org/sepses/#937a0ab8-d343-412d-a232-80477200e732> ;
+        fae:hasTargetFile      <http://example.org/sepses/#9c668931-c1b4-4bf3-a92c-8b30f415616d> ;
+        fae:hasTargetHost      <http://example.org/sepses/#bf5a7deb-3b15-432e-8a5c-293fe79f078d> ;
+        fae:hasUser            <http://example.org/sepses/#05597fdd-f4d6-482e-b58c-01f6f03b5787> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.977Z" .
+
+<http://example.org/sepses/#a041e537-f95b-4d82-a792-cbbd8b3fb70b>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#49c1ae42-c628-4388-8345-61aadd2f0d36>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#b1f37234-1205-426a-bc37-af03cd783387>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#f10bfe51-db83-47c3-bed3-7c49e42cfe40>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#62bf3339-7617-4bbf-a66e-6b35f6482a50> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#5b161fda-70f1-4937-b280-0347504b8594> ;
+        fae:hasSourceFile      <http://example.org/sepses/#478dc4e3-f7b5-4bfc-bb01-d237681ac0a6> ;
+        fae:hasSourceHost      <http://example.org/sepses/#0c1032b9-35a9-4bce-ba42-4d7512d2678a> ;
+        fae:hasTargetFile      <http://example.org/sepses/#aa4b5e6a-0cfe-49af-8eac-9f3d5f66b004> ;
+        fae:hasTargetHost      <http://example.org/sepses/#1ca18f01-285c-44fc-b82f-7ed142b77a4b> ;
+        fae:hasUser            <http://example.org/sepses/#f19d22e9-2a53-4100-a0b8-1ee187106dec> ;
+        fae:targetFile         "d510f073046b16adc1f1fb2ddf82a1be" ;
+        fae:timestamp          "2019-05-15T12:59:31.617Z" .
+
+<http://example.org/sepses/#5a6d686c-89e3-4606-b1f7-0af61c0271a6>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#a6c435ae-dace-4f3a-b19c-693cf8975139>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#9bc08af7-ee2e-49b9-a940-ead64fc562ec>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#dd3cda20-f016-4bb1-ae18-fa1945b482d7> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#21dbaa04-0082-404a-8caa-57615d5d4246> ;
+        fae:hasSourceFile      <http://example.org/sepses/#54793d61-722d-4b0a-98b1-9524b81dc5cd> ;
+        fae:hasSourceHost      <http://example.org/sepses/#3f5c93b4-cc51-4730-bb78-809fbb800896> ;
+        fae:hasTargetFile      <http://example.org/sepses/#9bdb026d-8d33-4c82-8d64-97c1bdf407fa> ;
+        fae:hasTargetHost      <http://example.org/sepses/#a0837232-cddc-428b-8e57-1a447ba7e365> ;
+        fae:hasUser            <http://example.org/sepses/#faf619a5-5fa1-4050-b1c2-2cfb111010a1> ;
+        fae:targetFile         "926d96a0bd22df846cbd556a32e12644" ;
+        fae:timestamp          "2019-05-15T12:59:31.623Z" .
+
+<http://example.org/sepses/fileAccessEvent#c298506d-c84f-4986-b3ec-41b211edb063>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#31c42dd6-facf-41bf-a916-d7c5b0676191> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#78cad981-adc5-42cd-9cf5-2a496915caab> ;
+        fae:hasSourceFile      <http://example.org/sepses/#d342cacd-c8fd-4b77-b6fd-27606d8386b4> ;
+        fae:hasSourceHost      <http://example.org/sepses/#dfc254b1-e216-4bd5-bc86-b8318df9a09a> ;
+        fae:hasTargetFile      <http://example.org/sepses/#c61f4aad-3e75-4df1-933f-5fc7b912b7aa> ;
+        fae:hasTargetHost      <http://example.org/sepses/#eec68630-704f-48e7-a5a3-f59a07758997> ;
+        fae:hasUser            <http://example.org/sepses/#569f2015-baf4-408c-81d8-570ff3e4126f> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.986Z" .
+
+<http://example.org/sepses/fileAccessEvent#df536377-43b8-4932-ad90-fab5dc7e260e>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#1414ca45-4932-421d-8943-5124564a2153> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#ce084aa6-5849-4738-8afc-43276796dedd> , <http://example.org/sepses/fileAccessEvent#982f8c3f-026d-48ba-9bb1-badcded1ffbf> ;
+        fae:hasSourceFile      <http://example.org/sepses/#d4bd38f5-1a71-4cb9-a6db-bb2cd1adb1ab> ;
+        fae:hasSourceHost      <http://example.org/sepses/#ba364e85-7b86-45da-bebc-603b9de83bbf> ;
+        fae:hasTargetFile      <http://example.org/sepses/#20e929ce-8792-4347-a6c1-fe483ae29427> ;
+        fae:hasTargetHost      <http://example.org/sepses/#6fd111e1-7d3e-4a43-80d1-3aac6e4585af> ;
+        fae:hasUser            <http://example.org/sepses/#03de0082-9f38-46d6-9ab3-f084e0d08e18> ;
+        fae:targetFile         "test7.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.030Z" .
+
+<http://example.org/sepses/#f6839267-8dc9-4f60-856c-93e4f41273c4>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test7_copy_rename.txt" .
+
+<http://example.org/sepses/#ca79ddb2-18e9-4505-a799-c52a7912f7a9>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/fileAccessEvent#d7e887b6-adec-478e-b1d8-fd68701364f7>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#f3b44002-8614-4665-b4c9-a131633e40da> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#b7a2e299-4648-47b6-acc5-1c6a95028ea1> , <http://example.org/sepses/fileAccessEvent#cc363dd2-d724-4e45-8218-dfe6e73a9d36> ;
+        fae:hasSourceFile      <http://example.org/sepses/#c0a1cfff-1957-4829-a651-75d179020a1a> ;
+        fae:hasSourceHost      <http://example.org/sepses/#91f52142-a11b-4953-a392-2a45661d5719> ;
+        fae:hasTargetFile      <http://example.org/sepses/#63e48706-77e7-432e-831f-0c5f58f9cd30> ;
+        fae:hasTargetHost      <http://example.org/sepses/#c57d27ad-1d66-4465-9084-27ff04aa0072> ;
+        fae:hasUser            <http://example.org/sepses/#a00e2b25-fc85-4e70-a391-ce7b19f96928> ;
+        fae:targetFile         "test7_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.536Z" .
+
+<http://example.org/sepses/#885574a2-27d5-41ca-99c4-e8fceb493de2>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#ff975ae8-abd1-48ff-a60d-027fa02268b8>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\c1a7ae58541c1fdcc0a16084eca3b1c0" .
+
+<http://example.org/sepses/#5f95ee8c-5ed4-40df-ae6b-37a0fd6fc829>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test5_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/#a31cf17f-920a-4993-b912-34600c563ec9>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#088b1865-bed1-4dda-815b-80b6316b1106>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#b2cfbfd0-15d0-42b5-ae45-09f201477a71>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#7f2119fd-da36-4285-bcfd-aa0c77860093>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#96910184-3848-46d0-8893-a380e3059608>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#3fcdf1cd-206b-4142-9dd5-dd23936af764>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#83ab35c4-88c5-41b0-ba65-28566892b878>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#dfc95f37-5b51-4298-8df9-898935cc5034>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#114f2fd5-3b22-4abd-81ad-92798b654a80>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#883ad0b0-107b-424c-bf11-f6771d1e2cf5>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test10_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#36d8d7f6-8f79-44fe-a2d6-917c6ad93b37>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#e3d6009f-48d8-4169-80ef-0b7812c9ee05> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#97f1ca58-4bb2-4a88-a326-5cf8ece27000> ;
+        fae:hasSourceFile      <http://example.org/sepses/#dd3f5953-f042-48f3-b13e-dcff5022636e> ;
+        fae:hasSourceHost      <http://example.org/sepses/#65696017-ccb5-4ce3-9b95-d218b4abd2d6> ;
+        fae:hasTargetFile      <http://example.org/sepses/#180244fa-97ee-4f66-9497-04169fc452bb> ;
+        fae:hasTargetHost      <http://example.org/sepses/#6c2852bc-4116-47cc-bde2-ab42ceb6e441> ;
+        fae:hasUser            <http://example.org/sepses/#c7944188-7a5e-4840-be33-488ce8721d7d> ;
+        fae:targetFile         "6ba48be64a0a743f252ad93594ea6890" ;
+        fae:timestamp          "2019-05-15T12:59:31.624Z" .
+
+<http://example.org/sepses/#9d366951-0cdb-4460-ac48-9c839e229787>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\6a956d61b4750b85ceeee5206bea61b5" .
+
+<http://example.org/sepses/#be2a7624-bd67-49a0-bcd5-71d9c3de820c>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/fileAccessEvent#be2ec76c-83f5-420f-8f07-1944786f4ca3>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#69d9cded-e0dc-4a30-b4eb-f2926f1049a6> ;
+        fae:hasSourceFile      <http://example.org/sepses/#1c359a44-cdf0-450e-8132-317d7e3fbbe8> ;
+        fae:hasSourceHost      <http://example.org/sepses/#ab2c5890-3d36-4907-b2cd-709d82f8bbdd> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b159d3d3-94ea-4d9e-87f7-618fb46cc961> ;
+        fae:hasTargetHost      <http://example.org/sepses/#b5e85073-5d47-4d63-b028-99b12ea20761> ;
+        fae:hasUser            <http://example.org/sepses/#aec3a0a9-3ff0-4d06-a10d-df54a8c2d0bd> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.042Z" .
+
+<http://example.org/sepses/fileAccessEvent#93181151-578b-4164-850b-1e4abc2852bb>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#7644d936-68ee-41d2-82a3-dde70ea57c42> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#c330bdbc-c0ef-4441-a862-3b36606cfdf9> , <http://example.org/sepses/fileAccessEvent#a451e110-62e7-45f2-9316-4c18a6e8e03f> ;
+        fae:hasSourceFile      <http://example.org/sepses/#12df08bb-5fa8-422b-8abf-452fdf7d8e4b> ;
+        fae:hasSourceHost      <http://example.org/sepses/#5bcef2f8-c393-4ce7-90b2-fb0f41827afe> ;
+        fae:hasTargetFile      <http://example.org/sepses/#c177c659-e969-42df-a5be-b572ff5c62df> ;
+        fae:hasTargetHost      <http://example.org/sepses/#b1f37234-1205-426a-bc37-af03cd783387> ;
+        fae:hasUser            <http://example.org/sepses/#4f7ff9f6-a83e-44ab-a4ee-b05ecac687f7> ;
+        fae:targetFile         "test5_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.517Z" .
+
+<http://example.org/sepses/fileAccessEvent#5fdf7f01-2911-46bb-9002-64be385ea7f4>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#a734eab7-8ad6-42cd-91a0-131d65c787fa> ;
+        fae:hasSourceFile      <http://example.org/sepses/#4198d462-db6b-467e-b631-2e36f70bc5fe> ;
+        fae:hasSourceHost      <http://example.org/sepses/#402793c8-e2a6-4ab2-a644-3ca2f70b365e> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b156395c-2951-476a-b136-17bb3c2b379f> ;
+        fae:hasTargetHost      <http://example.org/sepses/#554abfdc-ad37-4427-a4a2-35131b3af6cc> ;
+        fae:hasUser            <http://example.org/sepses/#2508b2fe-f52a-41b4-b022-b2a311b62e06> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.045Z" .
+
+<http://example.org/sepses/#079d2a7c-d0c5-43f4-a7db-cc89ffab52a7>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#445511fb-ec0b-4fd3-ad63-dfb3302f3548>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#61d3a8b9-3e80-455a-87d0-f385bde50374> ;
+        fae:hasSourceFile      <http://example.org/sepses/#69afc8e0-ed80-426d-8ffc-0c6e4ac1401e> ;
+        fae:hasSourceHost      <http://example.org/sepses/#6bc4c6d0-df31-41e4-8b31-4ef3e2eddce8> ;
+        fae:hasTargetFile      <http://example.org/sepses/#ee061a91-abc7-47b6-b411-f46f7301c06a> ;
+        fae:hasTargetHost      <http://example.org/sepses/#79d65705-98c5-441c-89e8-d0428e1ecad3> ;
+        fae:hasUser            <http://example.org/sepses/#f935e596-9a78-4d3a-a1db-c16a251b4e03> ;
+        fae:targetFile         "test1_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.125Z" .
+
+<http://example.org/sepses/#4f7ff9f6-a83e-44ab-a4ee-b05ecac687f7>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#e3e7be7d-6e5b-4d53-b68a-95a5123749b8>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#17c4556b-f5fe-4218-8de7-ff8794a2ef02>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#47a6e429-cf34-4102-9f8c-c930a27c1bb8> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#cfe890bf-c21c-4b6e-b21c-15edba0b8bba> , <http://example.org/sepses/fileAccessEvent#df536377-43b8-4932-ad90-fab5dc7e260e> ;
+        fae:hasSourceFile      <http://example.org/sepses/#6853736a-dc21-4ade-b3e7-7de292a449a1> ;
+        fae:hasSourceHost      <http://example.org/sepses/#20c238b8-0cb2-4470-8523-670c7156520c> ;
+        fae:hasTargetFile      <http://example.org/sepses/#e20530fa-bc87-4b7f-be6f-7424646bcfca> ;
+        fae:hasTargetHost      <http://example.org/sepses/#40cdb565-3a16-4481-9526-7c87bb441195> ;
+        fae:hasUser            <http://example.org/sepses/#96910184-3848-46d0-8893-a380e3059608> ;
+        fae:targetFile         "test4.txt" ;
+        fae:timestamp          "2019-05-15T12:58:33.998Z" .
+
+<http://example.org/sepses/#c3a6bd91-fd4e-422d-ab1c-bfa29a6548a3>
+        fae:hasProgramName  "C:\\Windows\\explorer.exe" .
+
+<http://example.org/sepses/#2508b2fe-f52a-41b4-b022-b2a311b62e06>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#f7a14960-aa45-4a47-9bb0-190a10e2f75e>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#053f5b67-f6ef-4ad6-81ee-c978c03e325b>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#c69f2275-468a-4228-bb5f-36bc61cb3a5c>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\066590171cd28ce95debbced656a1ca6" .
+
+<http://example.org/sepses/#f18b6218-ea4a-4aa4-863c-7cf3f311e2b3>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\6a956d61b4750b85ceeee5206bea61b5" .
+
+<http://example.org/sepses/#1d73e629-4600-43d4-b5be-53c9c36efd40>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test8.txt" .
+
+<http://example.org/sepses/#943c66a7-97f9-4c23-99ef-2c9a66fbc6d2>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#ce780c5a-0cac-40b3-9f69-78fda764c0d2>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\884e202024dbce684c6cef323261df6f" .
+
+<http://example.org/sepses/fileAccessEvent#e1831e24-5d97-4132-888b-add0baa92ca7>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#a041e537-f95b-4d82-a792-cbbd8b3fb70b> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#d7e887b6-adec-478e-b1d8-fd68701364f7> ;
+        fae:hasSourceFile      <http://example.org/sepses/#2761813a-ae53-428b-bbec-31fe9cd2d5fb> ;
+        fae:hasSourceHost      <http://example.org/sepses/#891c5974-a412-456c-a954-deef6e753218> ;
+        fae:hasTargetFile      <http://example.org/sepses/#ceb5acad-581f-45a8-b8dc-e8a983a58d57> ;
+        fae:hasTargetHost      <http://example.org/sepses/#555283eb-9d43-4969-b828-95c0874a0bc7> ;
+        fae:hasUser            <http://example.org/sepses/#91cd42e2-90ee-4151-8264-fec4c558d4aa> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.268Z" .
+
+<http://example.org/sepses/#41de26cd-97ec-4ec9-84b5-1c675893d197>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#83320ed5-034b-4727-9ad0-ae238521302b>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#937a0ab8-d343-412d-a232-80477200e732>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#66083261-7597-4432-a9d4-b10c9cc39fa7>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#fc84d968-00ee-470d-a57b-e963b42184e2>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\066590171cd28ce95debbced656a1ca6" .
+
+<http://example.org/sepses/fileAccessEvent#5aadbe9f-1a3a-406c-9ee4-8fb01fe96261>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#99acd992-5146-42f7-ad2e-da4df6dc93c0> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#92ff6d39-217d-450c-832b-29383a5396e3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#9d366951-0cdb-4460-ac48-9c839e229787> ;
+        fae:hasSourceHost      <http://example.org/sepses/#7e9bc5e5-2d2f-4a7b-8fd3-5b3751535c16> ;
+        fae:hasTargetFile      <http://example.org/sepses/#535b4dda-b2fe-4d9b-827c-e053f2c42a91> ;
+        fae:hasTargetHost      <http://example.org/sepses/#a914f308-aa58-4686-a704-1385250c6681> ;
+        fae:hasUser            <http://example.org/sepses/#cb632dc3-4224-4b7d-a947-5822d7f16380> ;
+        fae:targetFile         "c7a26e6c6f6c487b425b6a3a7c74e7bb" ;
+        fae:timestamp          "2019-05-15T12:59:31.619Z" .
+
+<http://example.org/sepses/#fd8bbb48-4308-4ad2-8131-5bac30758533>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#f3b44002-8614-4665-b4c9-a131633e40da>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#0a159b91-4af4-4188-9d09-7512773fb7f7>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#b579d663-0664-4bd6-8216-0f248834d36e>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#52da73eb-3a6c-4fbf-bc9e-b365c886db99> ;
+        fae:hasSourceFile      <http://example.org/sepses/#0958350c-9e6e-40fb-960c-1e90461f9e32> ;
+        fae:hasSourceHost      <http://example.org/sepses/#292fd86c-86ef-49a4-9ff1-b82199f41b10> ;
+        fae:hasTargetFile      <http://example.org/sepses/#a4f31d6e-a866-49f9-b46c-1134e0625994> ;
+        fae:hasTargetHost      <http://example.org/sepses/#e13e41f2-7174-4e31-8efd-052af899e76e> ;
+        fae:hasUser            <http://example.org/sepses/#c05edf30-9fc5-4484-bf91-8a0d48dad3fa> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.723Z" .
+
+<http://example.org/sepses/#d4cf24dc-5945-4c4f-bea0-f8ce40d957a3>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#a5cf042d-e272-45cd-9ed8-ed2e7e854918>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Created/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#ddda4069-7c51-4867-8833-42dfaddefdb1> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#445511fb-ec0b-4fd3-ad63-dfb3302f3548> ;
+        fae:hasSourceFile      <http://example.org/sepses/#4d3cb5bd-e269-49ba-b443-487b0a75f7bf> ;
+        fae:hasSourceHost      <http://example.org/sepses/#88c482a9-3c30-4fd8-9fe4-405b27e63277> ;
+        fae:hasTargetFile      <http://example.org/sepses/#aecf7a48-f541-4f40-9620-2f2c4b0a7517> ;
+        fae:hasTargetHost      <http://example.org/sepses/#db1dd56b-b984-4514-8325-491027d5f38b> ;
+        fae:hasUser            <http://example.org/sepses/#4c3eca47-6d1e-4d8a-a03d-c818844490d4> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.983Z" .
+
+<http://example.org/sepses/#47ec6350-dcc8-4d80-9556-89ab2d061264>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#c9896967-a53f-477a-8bdd-4a8215bc3fcb>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test8.txt" .
+
+<http://example.org/sepses/#e2b5e350-fdf0-4e58-8cc3-f7c97fdebd3a>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#191dde48-8d41-4c0a-98c5-7479980a66ec>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#cb9fd481-23ee-4d00-9fa1-e924b154c009>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#c3a6bd91-fd4e-422d-ab1c-bfa29a6548a3> ;
+        fae:hasSourceFile      <http://example.org/sepses/#d27d1b85-e8d9-40eb-bcbf-75c3f3b79e33> ;
+        fae:hasSourceHost      <http://example.org/sepses/#d8ca1b7c-cdd9-472e-a666-49fd8b7e0afa> ;
+        fae:hasTargetFile      <http://example.org/sepses/#22ae4824-68d1-49ee-8cba-a5581f4debd1> ;
+        fae:hasTargetHost      <http://example.org/sepses/#19796b1f-f4b2-4242-9cab-856b2d9923fe> ;
+        fae:hasUser            <http://example.org/sepses/#9c8ee8ba-266c-4eff-9c19-6d3d78d7800b> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:33.841Z" .
+
+<http://example.org/sepses/#6c2852bc-4116-47cc-bde2-ab42ceb6e441>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#d26947ac-ceda-46ed-b158-5bb0d6dddb3f>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/#c177c659-e969-42df-a5be-b572ff5c62df>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test5_copy_rename.txt" .
+
+<http://example.org/sepses/#f413d438-f2f5-41a0-a6dc-b377577ffffd>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test10.txt" .
+
+<http://example.org/sepses/#05597fdd-f4d6-482e-b58c-01f6f03b5787>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#cc363dd2-d724-4e45-8218-dfe6e73a9d36>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#fd8bbb48-4308-4ad2-8131-5bac30758533> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#b7a2e299-4648-47b6-acc5-1c6a95028ea1> ;
+        fae:hasSourceFile      <http://example.org/sepses/#0eacda9c-43dc-4180-8591-4d07b32b2c84> ;
+        fae:hasSourceHost      <http://example.org/sepses/#6b7c1e43-bafa-48b7-9aa8-b920fd08e52b> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b36bdaa3-e973-4e8d-838c-303512c42e61> ;
+        fae:hasTargetHost      <http://example.org/sepses/#3fcdf1cd-206b-4142-9dd5-dd23936af764> ;
+        fae:hasUser            <http://example.org/sepses/#83320ed5-034b-4727-9ad0-ae238521302b> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.254Z" .
+
+<http://example.org/sepses/#ec4574d6-4fba-4d64-b2b2-40474a1a6efa>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#4bae9ab4-f865-42d8-99e3-b33b7d35cb36>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#c36b9e84-5ab5-4483-ba80-e9326275bcc5>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#535b4dda-b2fe-4d9b-827c-e053f2c42a91>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\c7a26e6c6f6c487b425b6a3a7c74e7bb" .
+
+<http://example.org/sepses/#67c697aa-8385-4ca1-a9a1-f980864d00ea>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test10_copy_rename.txt" .
+
+<http://example.org/sepses/fileAccessEvent#6719e7bc-f3ec-4013-a78d-ac7f394f94dc>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#be2a7624-bd67-49a0-bcd5-71d9c3de820c> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#d2d94bfd-cfe6-4fba-9fbd-f23e6a5059e6> ;
+        fae:hasSourceFile      <http://example.org/sepses/#883ad0b0-107b-424c-bf11-f6771d1e2cf5> ;
+        fae:hasSourceHost      <http://example.org/sepses/#df635c4e-f087-49a2-8f8c-beed7e4f5c6a> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b94c5e21-b417-4e6f-a866-4942989efdfb> ;
+        fae:hasTargetHost      <http://example.org/sepses/#587a0e73-8de4-4113-ab96-e4647be0ab69> ;
+        fae:hasUser            <http://example.org/sepses/#10bf4ef5-bd30-462f-921a-95ea44c4ceda> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:34.297Z" .
+
+<http://example.org/sepses/#1c410556-307e-439b-ba33-eabe3a0768bd>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test3_copy_rename.txt" .
+
+<http://example.org/sepses/#dd3cda20-f016-4bb1-ae18-fa1945b482d7>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .
+
+<http://example.org/sepses/fileAccessEvent#31c436f6-a6d3-4374-9887-0c7a9688b30a>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#d26947ac-ceda-46ed-b158-5bb0d6dddb3f> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#d0b1eb41-9919-426a-8392-de0fcb140399> ;
+        fae:hasSourceFile      <http://example.org/sepses/#c69f2275-468a-4228-bb5f-36bc61cb3a5c> ;
+        fae:hasSourceHost      <http://example.org/sepses/#5d881e5c-e0a0-40da-b550-3da9c3147efe> ;
+        fae:hasTargetFile      <http://example.org/sepses/#b30817b5-1d6f-4fee-9066-55e6256f186f> ;
+        fae:hasTargetHost      <http://example.org/sepses/#e1829ec8-88a9-4d15-a67c-b8fea72cb4bc> ;
+        fae:hasUser            <http://example.org/sepses/#d402ec40-fb5e-4134-885a-a516d9c4968f> ;
+        fae:targetFile         "c1a7ae58541c1fdcc0a16084eca3b1c0" ;
+        fae:timestamp          "2019-05-15T12:59:31.611Z" .
+
+<http://example.org/sepses/#0b1bc212-5275-4235-8809-1add1cabc627>
+        fae:hostName  "" .
+
+<http://example.org/sepses/fileAccessEvent#4579fc0f-92f7-477e-b457-98f840eddc65>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#35aa78fd-9205-4b73-ae79-de541778d676> ;
+        fae:hasSourceFile      <http://example.org/sepses/#5f95ee8c-5ed4-40df-ae6b-37a0fd6fc829> ;
+        fae:hasSourceHost      <http://example.org/sepses/#053f5b67-f6ef-4ad6-81ee-c978c03e325b> ;
+        fae:hasTargetFile      <http://example.org/sepses/#8ab8cc0d-134a-4413-8b86-0267b11dc2f3> ;
+        fae:hasTargetHost      <http://example.org/sepses/#62b7945c-c695-43ae-ad1e-1fc03dba637e> ;
+        fae:hasUser            <http://example.org/sepses/#3613e188-c0f3-4bf6-a7cb-884565d6c5ae> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.045Z" .
+
+<http://example.org/sepses/#b8416f62-5b95-4dd1-a987-fbde4ac8bc53>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#f7d0ae1f-ae27-4d1e-bf43-b4f41899c8e6>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#18b7d49b-cd50-45cb-a51f-3fb7eddab3d5>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#40cdb565-3a16-4481-9526-7c87bb441195>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#098b021a-347c-4b76-9964-f8e5806d7738>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/fileAccessEvent#d0b1eb41-9919-426a-8392-de0fcb140399>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#1de295b1-112b-499e-8f4f-ce99bd8984c9> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#9bc08af7-ee2e-49b9-a940-ead64fc562ec> ;
+        fae:hasSourceFile      <http://example.org/sepses/#ff975ae8-abd1-48ff-a60d-027fa02268b8> ;
+        fae:hasSourceHost      <http://example.org/sepses/#ccd2e6de-f2e0-41fc-9b31-17117abed139> ;
+        fae:hasTargetFile      <http://example.org/sepses/#ce780c5a-0cac-40b3-9f69-78fda764c0d2> ;
+        fae:hasTargetHost      <http://example.org/sepses/#05e58dd5-f4e6-4ab0-af74-74dabcaec0e9> ;
+        fae:hasUser            <http://example.org/sepses/#756346d3-b50a-4bd9-9e94-40b9cfacc48b> ;
+        fae:targetFile         "884e202024dbce684c6cef323261df6f" ;
+        fae:timestamp          "2019-05-15T12:59:31.620Z" .
+
+<http://example.org/sepses/#a4bfe005-8374-4601-bd73-2e9d007c0623>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#7e9bc5e5-2d2f-4a7b-8fd3-5b3751535c16>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#ceb5acad-581f-45a8-b8dc-e8a983a58d57>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#0c1032b9-35a9-4bce-ba42-4d7512d2678a>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/fileAccessEvent#f0f99796-8455-45d3-a793-e613ba9fd017>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#b52951ee-f8fe-4f03-a8ad-ca3b1dfe5dd5> ;
+        fae:hasSourceFile      <http://example.org/sepses/#dad33397-28c1-46b6-a31c-1481bac5e641> ;
+        fae:hasSourceHost      <http://example.org/sepses/#dfc95f37-5b51-4298-8df9-898935cc5034> ;
+        fae:hasTargetFile      <http://example.org/sepses/#3702e7fc-613d-4481-ac1c-dfb44c3af5c8> ;
+        fae:hasTargetHost      <http://example.org/sepses/#18a19f87-c396-49b1-8241-298c9a429028> ;
+        fae:hasUser            <http://example.org/sepses/#4ee8489d-0a84-464a-a8cc-11a348e02b9e> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.043Z" .
+
+<http://example.org/sepses/#dc3decba-1df5-48f5-9676-f73fbe469008>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#ac97f6a8-4448-4f60-95a1-72f91ef08f62>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/fileAccessEvent#5fe82dcc-be67-4ecb-a7cd-d56889000ea3>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#d4cf24dc-5945-4c4f-bea0-f8ce40d957a3> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#93181151-578b-4164-850b-1e4abc2852bb> , <http://example.org/sepses/fileAccessEvent#11ca50bd-c57b-48b1-a692-c300cdc9c8e6> ;
+        fae:hasSourceFile      <http://example.org/sepses/#2f7f87bf-34ba-4995-9b08-a61f3ab04995> ;
+        fae:hasSourceHost      <http://example.org/sepses/#53e41f25-52e5-4436-ab89-3c9608f21243> ;
+        fae:hasTargetFile      <http://example.org/sepses/#febbfe0b-90d5-463e-b6a6-14eb9734c45d> ;
+        fae:hasTargetHost      <http://example.org/sepses/#9837a1ac-d80c-4240-87dd-fcb0dbbff9e0> ;
+        fae:hasUser            <http://example.org/sepses/#7a7db863-f2c3-4869-877e-642fc1da28c5> ;
+        fae:targetFile         "test1_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.512Z" .
+
+<http://example.org/sepses/#1f76b37a-d6ce-4fb1-ad4b-0c4768e12def>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#478dc4e3-f7b5-4bfc-bb01-d237681ac0a6>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\e7b5bd61dbcff910314fe02a94255b07" .
+
+<http://example.org/sepses/#09dda614-ddf7-48e2-97d4-4e818184715a>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test6.txt" .
+
+<http://example.org/sepses/#4596f9c1-7f3f-4eaa-9208-7247393b6402>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/#aa4b5e6a-0cfe-49af-8eac-9f3d5f66b004>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\.dropbox.cache\\old_files\\d510f073046b16adc1f1fb2ddf82a1be" .
+
+<http://example.org/sepses/fileAccessEvent#f360a621-8c63-4c48-bf6a-4a16cd171c58>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#c77946ee-f33d-49b2-a50b-f332aafa955c> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#8165f9c5-8c34-4001-abc4-60ed58941735> , <http://example.org/sepses/fileAccessEvent#22cfe4a0-1b93-4cab-bab6-417c9500c847> ;
+        fae:hasSourceFile      <http://example.org/sepses/#df387c58-2677-44f2-8749-876044cfd12c> ;
+        fae:hasSourceHost      <http://example.org/sepses/#0f9598d1-6fa3-4701-b1f8-7f240138fd9c> ;
+        fae:hasTargetFile      <http://example.org/sepses/#86055635-a1c2-4edc-8f75-cd814ef5dc4a> ;
+        fae:hasTargetHost      <http://example.org/sepses/#5286dcd5-ea5e-4daf-8935-aed6d2021160> ;
+        fae:hasUser            <http://example.org/sepses/#db3f348b-8727-4243-8e7a-7a84c9b8eeae> ;
+        fae:targetFile         "test6_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.550Z" .
+
+<http://example.org/sepses/#453901f2-7f63-4dd9-97bf-02a4f291eb7f>
+        fae:hostName  "DESKTOP-F650GTN" .
+
+<http://example.org/sepses/fileAccessEvent#020d89a5-b103-4c8e-9e39-44df60404014>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Create/Modified> ;
+        fae:hasProgram         <http://example.org/sepses/#9c306333-76c3-489a-a287-2775d5633a2f> ;
+        fae:hasSourceFile      <http://example.org/sepses/#1e10e7b7-e182-4090-91e3-3e59a1ad97d8> ;
+        fae:hasSourceHost      <http://example.org/sepses/#aebb92c9-998c-4433-9568-6de7ed5aa211> ;
+        fae:hasTargetFile      <http://example.org/sepses/#cc5cf63d-b30e-4635-8a23-07b50ec0b459> ;
+        fae:hasTargetHost      <http://example.org/sepses/#332466e3-e10c-4d3c-ab88-d19a5357dd3c> ;
+        fae:hasUser            <http://example.org/sepses/#ec74eb19-e8cc-441f-8a34-26589c6439d5> ;
+        fae:targetFile         "" ;
+        fae:timestamp          "2019-05-15T12:58:35.043Z" .
+
+<http://example.org/sepses/#fc1d3ba0-ef11-4822-95ed-800fdb0a1188>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#15a7d607-3343-4272-8f70-4065bb33d3b0>
+        fae:hasProgramName  "C:\\Windows\\System32\\cmd.exe" .
+
+<http://example.org/sepses/#6fff081d-bed6-4185-9831-55b5964d96b4>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#d4bd38f5-1a71-4cb9-a6db-bb2cd1adb1ab>
+        fae:fileName  "C:\\Users\\KKurniawan\\userDocuments\\Secret\\test4.txt" .
+
+<http://example.org/sepses/#febbfe0b-90d5-463e-b6a6-14eb9734c45d>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test1_copy_rename.txt" .
+
+<http://example.org/sepses/#eec68630-704f-48e7-a5a3-f59a07758997>
+        fae:hostName  "" .
+
+<http://example.org/sepses/#2afbe0f6-6d4c-428c-967c-c6b292bb6790>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#186ee39d-310e-4206-a0a3-80ed6c34ec06>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#b1ec1389-5ecd-4e42-ad4b-f0b59d6b4ddc>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#cb632dc3-4224-4b7d-a947-5822d7f16380>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#29de5a1b-e2a5-49bd-af2d-c2bce211b568>
+        fae:fileName  "C:\\Users\\KKurniawan\\Dropbox\\Secret\\test3_copy_rename.txt:com.dropbox.attrs" .
+
+<http://example.org/sepses/fileAccessEvent#d2d94bfd-cfe6-4fba-9fbd-f23e6a5059e6>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#d76627c7-18e3-4ec3-8e4a-adfb79f56650> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#c330bdbc-c0ef-4441-a862-3b36606cfdf9> , <http://example.org/sepses/fileAccessEvent#a451e110-62e7-45f2-9316-4c18a6e8e03f> ;
+        fae:hasSourceFile      <http://example.org/sepses/#67c697aa-8385-4ca1-a9a1-f980864d00ea> ;
+        fae:hasSourceHost      <http://example.org/sepses/#67ab2a4f-3c35-4ca0-a0e7-c8cb0c6f4b08> ;
+        fae:hasTargetFile      <http://example.org/sepses/#7f0968ee-69bf-4867-881f-a050554cb093> ;
+        fae:hasTargetHost      <http://example.org/sepses/#c262b433-5e8e-4f60-b232-c03c2526c5b4> ;
+        fae:hasUser            <http://example.org/sepses/#e3e7be7d-6e5b-4d53-b68a-95a5123749b8> ;
+        fae:targetFile         "test5_copy_rename.txt" ;
+        fae:timestamp          "2019-05-15T12:59:01.516Z" .
+
+<http://example.org/sepses/fileAccessEvent#fa78f050-9e9d-4de5-b450-c86b6b9c22e0>
+        a                      fae:FileAccessEvent ;
+        fae:eventID            "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        fae:hasFileAccessType  <http://sepses.ifs.tuwien.ac.at/knowledge/sepsesEventKnowledge#Renamed> ;
+        fae:hasProgram         <http://example.org/sepses/#7981e2c9-489c-4104-aed7-3b85fff91bb6> ;
+        fae:hasSameFileTo      <http://example.org/sepses/fileAccessEvent#37daee09-1286-4e4a-aff2-c791acacb89a> , <http://example.org/sepses/fileAccessEvent#28188f64-3e33-44d4-9a8c-bdd8f8bdd6a1> ;
+        fae:hasSourceFile      <http://example.org/sepses/#e7c4574b-46bf-43d6-b6ea-5ac4789a4a7d> ;
+        fae:hasSourceHost      <http://example.org/sepses/#1f76b37a-d6ce-4fb1-ad4b-0c4768e12def> ;
+        fae:hasTargetFile      <http://example.org/sepses/#fc0458b0-2b8b-4701-82f9-e0814f607f91> ;
+        fae:hasTargetHost      <http://example.org/sepses/#e799833f-a139-4c07-8e79-8920055af3de> ;
+        fae:hasUser            <http://example.org/sepses/#b5297c32-7797-4f9d-b60f-c2100fcd5d95> ;
+        fae:targetFile         "test5.txt" ;
+        fae:timestamp          "2019-05-15T12:58:34.001Z" .
+
+<http://example.org/sepses/#9c668931-c1b4-4bf3-a92c-8b30f415616d>
+        fae:fileName  "" .
+
+<http://example.org/sepses/#bd6200ec-b03a-4a7c-a72c-8be018b5614f>
+        fae:userName  "KKurniawan" .
+
+<http://example.org/sepses/#d76627c7-18e3-4ec3-8e4a-adfb79f56650>
+        fae:hasProgramName  "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" .

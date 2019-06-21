@@ -1,0 +1,735 @@
+<http://example.org/sepses/hle#b995eb85-88ab-4d5a-a12c-b8d6c2f91ff0>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cbc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#bdc72e64-b6eb-4862-b733-3d25800ff1d6>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\VirtualWindows8User\\UserDocuments\\test2.txt process: C:\\Program Files (x86)\\Notepad++\\notepad++.exe accountName: VirtualWindows8User handle: 0x278" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x278" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Notepad++\\notepad++.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#01dbaa10-0793-4086-96cc-5dab942b4f10>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt process: C:\\Windows\\explorer.exe accountName: VirtualWindows8User handle: 0x1438" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1438" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#c9b0a17a-ed83-4928-ad32-502f1ff8f143>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x10d4" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#7336d2cb-84ef-406c-b78a-8829ab38647d>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1ddc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#6bfe6187-aedb-47a6-b467-87a20597fa1d>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cbc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#35c19226-f66e-4371-9ee3-636ff7bb3d06>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cbc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#5b7c8887-d3fc-4217-9f5a-80c73d3ae0dc>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\VirtualWindows8User\\UserDocuments\\New Text Document.txt to C:\\Users\\VirtualWindows8User\\UserDocuments\\test2.txt handle: 0x1cd8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cd8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\New Text Document.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#9b122104-25dc-4a7f-9891-ea98b6e34424>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#ee0314ef-ad57-4a86-a768-ce48d5b1e078>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1dd0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#ae155b6d-715c-46e9-8a3c-fa23ef3d2e85>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#dad9841f-f723-40be-ab91-cfa622967eaa>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt:com.dropbox.attributes process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: VirtualWindows8User handle: 0x1cd0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cd0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#2e93716f-82a8-4af0-bb33-e5abb46b2bf4>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#623c7472-5efc-4bdb-8e68-aa3946f98f54>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Renamed C:\\Users\\VirtualWindows8User\\UserDocuments\\New Text Document.txt to C:\\Users\\VirtualWindows8User\\UserDocuments\\test1.txt handle: 0x1aac" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "renamed" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1aac" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\New Text Document.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#1f50d8c1-0380-48ae-840c-2db58e97a382>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#e5ba8920-458e-442f-a6fb-c07bd6c9d9ec>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1dd0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#afc7417a-461e-4845-9558-98188adf0eed>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d88" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#b6a16a46-443e-40f6-b203-11bdc0ea71bc>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cbc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#f3215b2a-cc59-49f7-821f-ab7940cae9ea>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "create/modified/copied C:\\Users\\VirtualWindows8User\\UserDocuments\\test1.txt process: C:\\Windows\\System32\\notepad.exe accountName: VirtualWindows8User handle: 0x190 from(C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt)" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified/copied" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x190" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\System32\\notepad.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#66142b79-fc8f-45f5-9b14-7334535fb084>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1ddc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#daf794c2-1ab3-45a0-b1c8-b45077f91172>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "Moved to recycle bin C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt to C:\\$Recycle.Bin\\S-1-5-21-2361021202-3253521353-2316283985-1001\\$RAGLJ4V.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "moved to recycle bin" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0xe2c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test1.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\$Recycle.Bin\\S-1-5-21-2361021202-3253521353-2316283985-1001\\$RAGLJ4V.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#d7ae5e11-f9a9-461a-ae15-f6d9e8dbc347>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#0a24f39c-3ade-4edc-87ce-9db88d6d9d01>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#54ec531d-1d8b-49a0-bca9-4b09b82b4b90>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d38" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#0b360000-61ba-4449-baf6-c4cf071c3f57>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#67d669eb-3b7f-42b1-98b9-d400d921cb1d>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cbc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#0f594ef6-63c8-4b09-8f4f-60bd42b849ac>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#6ba3263a-7591-4808-94d8-8d8e50564c20>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d88" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#1a5a5854-7013-4875-a9aa-4dc8f5b86c16>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes process: C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe accountName: VirtualWindows8User handle: 0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "created/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1d4c" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt:com.dropbox.attributes" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#c3fb4add-9b3a-4506-9166-03c04e00eadc>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1dd0" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#949e9de4-36a8-4336-9af7-50e48a5e0cf8>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "created/modified C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt process: C:\\Windows\\explorer.exe accountName: VirtualWindows8User handle: 0x1b30" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x2" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "create/modified" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1b30" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Windows\\explorer.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .
+
+<http://example.org/sepses/hle#cfad4e82-310c-4bf8-8f68-67e8cf371947>
+        a       "http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#WindowsHighLevelEvent" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#logMessage>
+                "User moved C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt to C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#accessMask>
+                "0x80" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#action>
+                "User moved" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#eventId>
+                "4663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#handleId>
+                "0x1cbc" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#processName>
+                "C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceHost>
+                "VirtualWindows8" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#sourceObjectName>
+                "C:\\Users\\VirtualWindows8User\\UserDocuments\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#targetObjectName>
+                "C:\\Users\\VirtualWindows8User\\Dropbox\\test2 - Copy.txt" ;
+        <http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#user>
+                "VirtualWindows8User" .

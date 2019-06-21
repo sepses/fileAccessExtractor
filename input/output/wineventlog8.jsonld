@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://sepses.ifs.tuwien.ac.at/vocab/log/winEventLog#"
+    xmlns:j.1="http://sepses.ifs.tuwien.ac.at/vocab/log/coreLog#">
+  <rdf:Description rdf:about="http://example.org/sepses/hle#df2731fd-e5f8-4742-8add-66ed2ff4381a">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:action>User moved</j.0:action>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:handleId>0x1cbc</j.0:handleId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#9da18f9e-1b1e-49f6-934c-2a2cce44658c">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:action>User moved</j.0:action>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:handleId>0x10d4</j.0:handleId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#a20f5bde-ffe4-45c0-95bd-f41757489bc1">
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:action>User moved</j.0:action>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:handleId>0x1dd0</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#9b185360-4df3-47cb-9942-7f281ff2bc87">
+    <j.0:action>User moved</j.0:action>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#4b8f5d95-411d-490e-b5eb-98df9825fd9a">
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:action>User moved</j.0:action>
+    <j.0:handleId>0x1ddc</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#c28de951-66a9-4d17-9e0b-960621a99834">
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:action>User moved</j.0:action>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#9f9d1d47-2bb7-4e71-ba1a-6d0bb591e723">
+    <j.0:handleId>0x1aac</j.0:handleId>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\New Text Document.txt</j.0:sourceObjectName>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.1:logMessage>Renamed C:\Users\VirtualWindows8User\UserDocuments\New Text Document.txt to C:\Users\VirtualWindows8User\UserDocuments\test1.txt handle: 0x1aac</j.1:logMessage>
+    <j.0:action>renamed</j.0:action>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\UserDocuments\test1.txt</j.0:targetObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:user>VirtualWindows8User</j.0:user>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#066c771a-b4f2-4a77-9d4a-e7b9b2a1e563">
+    <j.0:action>moved to recycle bin</j.0:action>
+    <j.0:handleId>0xe2c</j.0:handleId>
+    <j.1:logMessage>Moved to recycle bin C:\Users\VirtualWindows8User\Dropbox\test1.txt to C:\$Recycle.Bin\S-1-5-21-2361021202-3253521353-2316283985-1001\$RAGLJ4V.txt</j.1:logMessage>
+    <j.0:targetObjectName>C:\$Recycle.Bin\S-1-5-21-2361021202-3253521353-2316283985-1001\$RAGLJ4V.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#e790e1ad-a65b-4eb0-a71e-4ff53ca7eb33">
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:action>User moved</j.0:action>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#7a65b52f-0941-4e15-ae4d-4dda99a75333">
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:action>User moved</j.0:action>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1ddc</j.0:handleId>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#543b066c-64e5-4565-841d-c07ee157f973">
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.1:logMessage>created/modified C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt:com.dropbox.attributes process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: VirtualWindows8User handle: 0x1d4c</j.1:logMessage>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#50bd899f-d7bd-440b-a94a-c3358950e31e">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:action>User moved</j.0:action>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#df86811c-f4d6-4400-af50-bd8eaf2c071e">
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\UserDocuments\test1.txt</j.0:targetObjectName>
+    <j.0:handleId>0x190</j.0:handleId>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.1:logMessage>create/modified/copied C:\Users\VirtualWindows8User\UserDocuments\test1.txt process: C:\Windows\System32\notepad.exe accountName: VirtualWindows8User handle: 0x190 from(C:\Users\VirtualWindows8User\Dropbox\test1.txt)</j.1:logMessage>
+    <j.0:action>create/modified/copied</j.0:action>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:processName>C:\Windows\System32\notepad.exe</j.0:processName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#d2b54164-a223-41dd-8d8c-712de8245ced">
+    <j.0:action>renamed</j.0:action>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2.txt</j.0:targetObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\New Text Document.txt</j.0:sourceObjectName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1cd8</j.0:handleId>
+    <j.1:logMessage>Renamed C:\Users\VirtualWindows8User\UserDocuments\New Text Document.txt to C:\Users\VirtualWindows8User\UserDocuments\test2.txt handle: 0x1cd8</j.1:logMessage>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#9dcaa484-d7df-40f6-a752-6086dfe49260">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:handleId>0x1dd0</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:action>User moved</j.0:action>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#588f1f43-b21c-49e1-b11d-83babce1c0cf">
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:handleId>0x1cbc</j.0:handleId>
+    <j.0:action>User moved</j.0:action>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:accessMask>0x80</j.0:accessMask>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#dba1d95d-25a5-4634-9ee1-19bb0aab93ef">
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:action>User moved</j.0:action>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#65eafa7a-9c97-47b9-939b-4e69098e115d">
+    <j.0:action>User moved</j.0:action>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:handleId>0x1d38</j.0:handleId>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:accessMask>0x80</j.0:accessMask>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#200e1514-06a9-4b37-8b89-aea513e34a52">
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\Dropbox\test1.txt</j.0:sourceObjectName>
+    <j.1:logMessage>created/modified C:\Users\VirtualWindows8User\Dropbox\test1.txt process: C:\Windows\explorer.exe accountName: VirtualWindows8User handle: 0x1438</j.1:logMessage>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:handleId>0x1438</j.0:handleId>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#0831eee4-d1c8-4d1d-943c-44d36183f21d">
+    <j.1:logMessage>created/modified C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt process: C:\Windows\explorer.exe accountName: VirtualWindows8User handle: 0x1b30</j.1:logMessage>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:action>create/modified</j.0:action>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:handleId>0x1b30</j.0:handleId>
+    <j.0:processName>C:\Windows\explorer.exe</j.0:processName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#1b3986d6-b206-43a3-bf6c-8f6ce02495ca">
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.1:logMessage>created/modified C:\Users\VirtualWindows8User\Dropbox\test1.txt:com.dropbox.attributes process: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe accountName: VirtualWindows8User handle: 0x1cd0</j.1:logMessage>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\Dropbox\test1.txt:com.dropbox.attributes</j.0:sourceObjectName>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:action>created/modified</j.0:action>
+    <j.0:handleId>0x1cd0</j.0:handleId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#f9a01bd0-7a63-4645-af5d-ed4ccf523660">
+    <j.0:action>User moved</j.0:action>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:handleId>0x1cbc</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:user>VirtualWindows8User</j.0:user>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#710e6d14-be09-43ca-8ff5-8079df9cc032">
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:accessMask>0x2</j.0:accessMask>
+    <j.0:targetObjectName></j.0:targetObjectName>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2.txt</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:action>create/modified</j.0:action>
+    <j.0:processName>C:\Program Files (x86)\Notepad++\notepad++.exe</j.0:processName>
+    <j.0:handleId>0x278</j.0:handleId>
+    <j.1:logMessage>created/modified C:\Users\VirtualWindows8User\UserDocuments\test2.txt process: C:\Program Files (x86)\Notepad++\notepad++.exe accountName: VirtualWindows8User handle: 0x278</j.1:logMessage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#64b1471c-7c66-4853-9060-2c2a1d859da0">
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:handleId>0x1d88</j.0:handleId>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:action>User moved</j.0:action>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#7a2356fe-7286-4961-96c1-29ce3e287c73">
+    <j.0:handleId>0x1d4c</j.0:handleId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:action>User moved</j.0:action>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#4b303590-bef8-437d-951a-ccb5fbf80eb6">
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:action>User moved</j.0:action>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:handleId>0x1cbc</j.0:handleId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#d16beda6-3f0a-4309-bc63-39461b699481">
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:action>User moved</j.0:action>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#2a31d830-0660-44d2-8e49-3f65186220c1">
+    <j.0:action>User moved</j.0:action>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:handleId>0x1d4c</j.0:handleId>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#4656c626-fa3a-49fd-96dd-fb92e445fb16">
+    <j.0:handleId>0x1cbc</j.0:handleId>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:action>User moved</j.0:action>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#2e5baeeb-259f-4685-ae4c-8b62397b078f">
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:action>User moved</j.0:action>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1cbc</j.0:handleId>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:user>VirtualWindows8User</j.0:user>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#6880be9c-6057-4db3-8d2d-7b285024fe9d">
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.0:handleId>0x1dd0</j.0:handleId>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:action>User moved</j.0:action>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/sepses/hle#bb3bef85-85fc-447d-9efc-ab005de82ccf">
+    <j.0:sourceObjectName>C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt</j.0:sourceObjectName>
+    <j.0:targetObjectName>C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.0:targetObjectName>
+    <j.0:processName>C:\Program Files (x86)\Dropbox\Client\Dropbox.exe</j.0:processName>
+    <j.0:handleId>0x1d88</j.0:handleId>
+    <j.0:eventId rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >4663</j.0:eventId>
+    <j.0:user>VirtualWindows8User</j.0:user>
+    <j.0:accessMask>0x80</j.0:accessMask>
+    <j.1:logMessage>User moved C:\Users\VirtualWindows8User\UserDocuments\test2 - Copy.txt to C:\Users\VirtualWindows8User\Dropbox\test2 - Copy.txt</j.1:logMessage>
+    <j.0:sourceHost>VirtualWindows8</j.0:sourceHost>
+    <j.0:action>User moved</j.0:action>
+  </rdf:Description>
+</rdf:RDF>
