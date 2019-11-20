@@ -1,0 +1,73 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix sr: <http://purl.oclc.org/rsp/srml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix schema: <https://schema.org/>.
+@prefix ue: <http://w3id.org/sepses/vocab/unix-event#>.
+@prefix : <http://epfl.ch/mapping/>.
+
+
+:LogEntryMap a rr:TriplesMap;
+	rml:logicalSource [
+        rml:root true;
+        rml:source "jdbc coso"; ];
+ rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#LogEntry-{id}"];
+ rr:predicateObjectMap [ rr:predicate rdf:type; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#UnixEventLogEntry"]];
+ rr:predicateObjectMap [ rr:predicate ue:timestamp;  rr:objectMap [ rr:template "{@timestamp}"]];
+ rr:predicateObjectMap [ rr:predicate ue:logtimestamp;  rr:objectMap [ rr:template "{timestamp}"]];
+ rr:predicateObjectMap [ rr:predicate ue:message;  rr:objectMap [ rr:template "{message}"]];
+ rr:predicateObjectMap [ rr:predicate ue:workingDirectory;  rr:objectMap [ rr:template "{workdir}"]];
+ rr:predicateObjectMap [ rr:predicate ue:hashSha1; rr:objectMap [rr:template "{hash_sha1}"]];
+ rr:predicateObjectMap [ rr:predicate ue:sourceIp;  rr:objectMap [ rr:template "{source_ip}"]];
+ rr:predicateObjectMap [ rr:predicate ue:hasProcess; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#process-{id}"; rr:parentTriplesMap :ProcessMap ]];
+ rr:predicateObjectMap [ rr:predicate ue:hasEvent; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#event-{id}"; rr:parentTriplesMap :EventMap ]];
+ rr:predicateObjectMap [ rr:predicate ue:hasFile; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#file-{id}"; rr:parentTriplesMap :FileMap ]];
+ rr:predicateObjectMap [ rr:predicate ue:hasHost; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#host-{id}"; rr:parentTriplesMap :HostMap ]];
+ rr:predicateObjectMap [ rr:predicate ue:hasUser; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#user-{id}"; rr:parentTriplesMap :UserMap ]] .
+ 
+ :ProcessMap a rr:TriplesMap;
+ 	rml:logicalSource [
+   	 	rml:root true;
+    	rml:source "jdbc coso"; ];
+ 	rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#process-{id}"];
+ rr:predicateObjectMap [ rr:predicate ue:processID; rr:objectMap [ rr:template "{pid}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:processName; rr:objectMap [rr:template "{programname}" ]].
+
+:EventMap a rr:TriplesMap;
+ 	rml:logicalSource [
+   	 	rml:root true;
+    	rml:source "jdbc coso"; ];
+ 	rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#event-{id}"];
+ rr:predicateObjectMap [ rr:predicate ue:eventName; rr:objectMap [rr:template "{eventname}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:eventSequence; rr:objectMap [rr:template "{sequence}" ]].
+ 
+ :FileMap a rr:TriplesMap;
+ 	rml:logicalSource [
+   	 	rml:root true;
+    	rml:source "jdbc coso"; ];
+ 	rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#file-{id}"];
+        rr:predicateObjectMap [ rr:predicate ue:pathName; rr:objectMap [rr:template "{pathfile}"]];
+        rr:predicateObjectMap [ rr:predicate ue:fileType; rr:objectMap [rr:template "{filetype}"]].
+
+
+
+  :HostMap a rr:TriplesMap;
+ 	rml:logicalSource [
+   	 	rml:root true;
+    	rml:source "jdbc coso"; ];
+ 	rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#host-{id}"];
+ rr:predicateObjectMap [ rr:predicate ue:hostName; rr:objectMap [rr:template "{hostname}"]];
+rr:predicateObjectMap [ rr:predicate ue:hostOS; rr:objectMap [rr:template "{host_os_platform}"]];
+rr:predicateObjectMap [ rr:predicate ue:hostOSVersion; rr:objectMap [rr:template "{host_os_version}"]];
+rr:predicateObjectMap [ rr:predicate ue:hostArchitecture; rr:objectMap [rr:template "{host_arch}" ]].
+ 
+  :UserMap a rr:TriplesMap;
+ 	rml:logicalSource [
+   	 	rml:root true;
+    	rml:source "jdbc coso"; ];
+ 	rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#user-{id}"];
+ rr:predicateObjectMap [ rr:predicate ue:userName; rr:objectMap [rr:template "{username}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:owner; rr:objectMap [rr:template "{owner}" ]].

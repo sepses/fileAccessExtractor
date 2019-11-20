@@ -1,0 +1,1 @@
+grant execute on "DB.DBA.SPARQL_DELETE_DICT_CONTENT" to "SPARQL";

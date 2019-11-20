@@ -1,0 +1,40 @@
+version: '2.4'
+
+services:
+  agent:
+    image: ubuntu-sepses25:latest
+    #image: ubuntu-agent:latest
+    privileged: true
+    pid: host
+    cap_add: ['AUDIT_CONTROL','AUDIT_READ'] 
+    volumes:
+    #- D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\auditbeat\auditbeat.yml:/etc/auditbeat/auditbeat.yml
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\filebeat\filebeat.yml:/etc/filebeat/filebeat.yml
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\supervisor.conf:/etc/supervisor.conf
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\agent:/usr/local/bin
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\agent\log:/var/log/agent
+    networks:
+    - ubuntu
+    #command: ["sh","-c","auditbeat -e -c /etc/auditbeat/auditbeat.yml"]
+    command: ["sh","-c","/usr/bin/supervisord -c /etc/supervisor.conf"]
+
+  logstash:
+    #image: ubuntu-logstash-ws:latest
+    image: ubuntu-logstash-new:latest
+    volumes:
+    #- D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\logstash\logstash2.conf:/etc/logstash2.conf
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\logstash\logstash-test.conf:/etc/logstash2.conf
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_auditbeat\logstash\output:/home
+    #ports: ['3232:3232']
+    networks:
+    - ubuntu
+    depends_on:
+      - "agent"
+    command: ["sh","-c","/usr/share/logstash/bin/logstash -f /etc/logstash2.conf && tail -f /dev/null"]
+
+networks:
+  ubuntu:
+   driver: bridge
+   ipam:
+     config:
+     - subnet: 172.0.0.0/16

@@ -1,0 +1,11 @@
+windows_agent:
+    platform: windows
+    image: winserv3:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\auditbeat\:C:\auditbeat\conf\
+    command: powershell expand-archive winlogbeat.zip ; C:\\winlogbeat\\winlogbeat.exe -e -c C:\\auditbeat\\conf\\winlogbeat.yml  
+
+
+C:\\auditbeat\\auditbeat.exe -e -c C:\\auditbeat\\conf\\auditbeat_win.yml 
+  command: powershell expand-archive -Path OpenSSH-Win64.zip ; cd OpenSSH-Win64 ; cd OpenSSH-Win64 ; powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1 ; net start sshd ; C:\\auditbeat\\auditbeat.exe -e -c C:\\auditbeat\\conf\\auditbeat_win.yml 
+

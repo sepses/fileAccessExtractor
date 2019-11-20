@@ -1,0 +1,1 @@
+sshpass -p 'root' ssh -o 'StrictHostKeyChecking no' dockerfiles_auditbeat_agent_1 'screen -d -m /usr/local/bin/ran_cmd_142517289_1.sh'

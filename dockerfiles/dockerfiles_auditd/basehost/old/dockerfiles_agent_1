@@ -1,0 +1,485 @@
+#!/bin/sh
+cd /home && echo 'go to /home'
+mkdir 221248244 && echo 'create directory 221248244'
+cd 221248244 && echo 'go to 221248244
+touch 234274581.txt && echo 'create file 234274581.txt
+sleep 5
+cp 234274581.txt copy_of_234274581.txt && echo 'copy 234274581.txt to copy_of_234274581.txt
+sleep 5
+cp copy_of_234274581.txt copy_of_copy_of_234274581.txt && echo 'copy copy_of_234274581.txt to copy_of_copy_of_234274581.txt
+sleep 5
+rm copy_of_copy_of_234274581.txt && echo 'remove copy_of_copy_of_234274581.txt
+sleep 5
+touch 426646289.txt && echo 'create file 426646289.txt
+sleep 5
+touch 692746078.txt && echo 'create file 692746078.txt
+sleep 5
+cp 692746078.txt copy_of_692746078.txt && echo 'copy 692746078.txt to copy_of_692746078.txt
+sleep 5
+mv copy_of_692746078.txt ren_copy_of_692746078.txt && echo 'rename copy_of_692746078.txt to ren_copy_of_692746078.txt
+sleep 5
+cp ren_copy_of_692746078.txt copy_of_ren_copy_of_692746078.txt && echo 'copy ren_copy_of_692746078.txt to copy_of_ren_copy_of_692746078.txt
+sleep 5
+cp copy_of_ren_copy_of_692746078.txt copy_of_copy_of_ren_copy_of_692746078.txt && echo 'copy copy_of_ren_copy_of_692746078.txt to copy_of_copy_of_ren_copy_of_692746078.txt
+sleep 5
+touch 122331548.txt && echo 'create file 122331548.txt
+sleep 5
+mv 122331548.txt ren_122331548.txt && echo 'rename 122331548.txt to ren_122331548.txt
+sleep 5
+mv ren_122331548.txt ren_ren_122331548.txt && echo 'rename ren_122331548.txt to ren_ren_122331548.txt
+sleep 5
+mv ren_ren_122331548.txt ren_ren_ren_122331548.txt && echo 'rename ren_ren_122331548.txt to ren_ren_ren_122331548.txt
+sleep 5
+touch 3114057.txt && echo 'create file 3114057.txt
+sleep 5
+cp 3114057.txt copy_of_3114057.txt && echo 'copy 3114057.txt to copy_of_3114057.txt
+sleep 5
+mv copy_of_3114057.txt ren_copy_of_3114057.txt && echo 'rename copy_of_3114057.txt to ren_copy_of_3114057.txt
+sleep 5
+rm ren_copy_of_3114057.txt && echo 'remove ren_copy_of_3114057.txt
+sleep 5
+touch 554125307.txt && echo 'create file 554125307.txt
+sleep 5
+touch 682955395.txt && echo 'create file 682955395.txt
+sleep 5
+cp 682955395.txt copy_of_682955395.txt && echo 'copy 682955395.txt to copy_of_682955395.txt
+sleep 5
+rm copy_of_682955395.txt && echo 'remove copy_of_682955395.txt
+sleep 5
+touch 281120911.txt && echo 'create file 281120911.txt
+sleep 5
+rm 281120911.txt && echo 'remove 281120911.txt
+sleep 5
+touch 686674716.txt && echo 'create file 686674716.txt
+sleep 5
+mv 686674716.txt ren_686674716.txt && echo 'rename 686674716.txt to ren_686674716.txt
+sleep 5
+cp ren_686674716.txt copy_of_ren_686674716.txt && echo 'copy ren_686674716.txt to copy_of_ren_686674716.txt
+sleep 5
+rm copy_of_ren_686674716.txt && echo 'remove copy_of_ren_686674716.txt
+sleep 5
+touch 804525610.txt && echo 'create file 804525610.txt
+sleep 5
+touch 198448118.txt && echo 'create file 198448118.txt
+sleep 5
+mv 198448118.txt ren_198448118.txt && echo 'rename 198448118.txt to ren_198448118.txt
+sleep 5
+touch 372213572.txt && echo 'create file 372213572.txt
+sleep 5
+mv 372213572.txt ren_372213572.txt && echo 'rename 372213572.txt to ren_372213572.txt
+sleep 5
+cp ren_372213572.txt copy_of_ren_372213572.txt && echo 'copy ren_372213572.txt to copy_of_ren_372213572.txt
+sleep 5
+touch 728677874.txt && echo 'create file 728677874.txt
+sleep 5
+mv 728677874.txt ren_728677874.txt && echo 'rename 728677874.txt to ren_728677874.txt
+sleep 5
+mv ren_728677874.txt ren_ren_728677874.txt && echo 'rename ren_728677874.txt to ren_ren_728677874.txt
+sleep 5
+mv ren_ren_728677874.txt ren_ren_ren_728677874.txt && echo 'rename ren_ren_728677874.txt to ren_ren_ren_728677874.txt
+sleep 5
+rm ren_ren_ren_728677874.txt && echo 'remove ren_ren_ren_728677874.txt
+sleep 5
+touch 406873242.txt && echo 'create file 406873242.txt
+sleep 5
+touch 994258015.txt && echo 'create file 994258015.txt
+sleep 5
+cp 994258015.txt copy_of_994258015.txt && echo 'copy 994258015.txt to copy_of_994258015.txt
+sleep 5
+rm copy_of_994258015.txt && echo 'remove copy_of_994258015.txt
+sleep 5
+touch 208662764.txt && echo 'create file 208662764.txt
+sleep 5
+touch 566985527.txt && echo 'create file 566985527.txt
+sleep 5
+cp 566985527.txt copy_of_566985527.txt && echo 'copy 566985527.txt to copy_of_566985527.txt
+sleep 5
+mv copy_of_566985527.txt ren_copy_of_566985527.txt && echo 'rename copy_of_566985527.txt to ren_copy_of_566985527.txt
+sleep 5
+cp ren_copy_of_566985527.txt copy_of_ren_copy_of_566985527.txt && echo 'copy ren_copy_of_566985527.txt to copy_of_ren_copy_of_566985527.txt
+sleep 5
+rm copy_of_ren_copy_of_566985527.txt && echo 'remove copy_of_ren_copy_of_566985527.txt
+sleep 5
+touch 56462142.txt && echo 'create file 56462142.txt
+sleep 5
+rm 56462142.txt && echo 'remove 56462142.txt
+sleep 5
+touch 62024058.txt && echo 'create file 62024058.txt
+sleep 5
+mv 62024058.txt ren_62024058.txt && echo 'rename 62024058.txt to ren_62024058.txt
+sleep 5
+mv ren_62024058.txt ren_ren_62024058.txt && echo 'rename ren_62024058.txt to ren_ren_62024058.txt
+sleep 5
+cp ren_ren_62024058.txt copy_of_ren_ren_62024058.txt && echo 'copy ren_ren_62024058.txt to copy_of_ren_ren_62024058.txt
+sleep 5
+cp copy_of_ren_ren_62024058.txt copy_of_copy_of_ren_ren_62024058.txt && echo 'copy copy_of_ren_ren_62024058.txt to copy_of_copy_of_ren_ren_62024058.txt
+sleep 5
+cp copy_of_copy_of_ren_ren_62024058.txt copy_of_copy_of_copy_of_ren_ren_62024058.txt && echo 'copy copy_of_copy_of_ren_ren_62024058.txt to copy_of_copy_of_copy_of_ren_ren_62024058.txt
+sleep 5
+cp copy_of_copy_of_copy_of_ren_ren_62024058.txt copy_of_copy_of_copy_of_copy_of_ren_ren_62024058.txt && echo 'copy copy_of_copy_of_copy_of_ren_ren_62024058.txt to copy_of_copy_of_copy_of_copy_of_ren_ren_62024058.txt
+sleep 5
+rm copy_of_copy_of_copy_of_copy_of_ren_ren_62024058.txt && echo 'remove copy_of_copy_of_copy_of_copy_of_ren_ren_62024058.txt
+sleep 5
+touch 900301056.txt && echo 'create file 900301056.txt
+sleep 5
+rm 900301056.txt && echo 'remove 900301056.txt
+sleep 5
+touch 31483181.txt && echo 'create file 31483181.txt
+sleep 5
+touch 330610611.txt && echo 'create file 330610611.txt
+sleep 5
+cp 330610611.txt copy_of_330610611.txt && echo 'copy 330610611.txt to copy_of_330610611.txt
+sleep 5
+cp copy_of_330610611.txt copy_of_copy_of_330610611.txt && echo 'copy copy_of_330610611.txt to copy_of_copy_of_330610611.txt
+sleep 5
+cp copy_of_copy_of_330610611.txt copy_of_copy_of_copy_of_330610611.txt && echo 'copy copy_of_copy_of_330610611.txt to copy_of_copy_of_copy_of_330610611.txt
+sleep 5
+touch 754993284.txt && echo 'create file 754993284.txt
+sleep 5
+mv 754993284.txt ren_754993284.txt && echo 'rename 754993284.txt to ren_754993284.txt
+sleep 5
+cp ren_754993284.txt copy_of_ren_754993284.txt && echo 'copy ren_754993284.txt to copy_of_ren_754993284.txt
+sleep 5
+rm copy_of_ren_754993284.txt && echo 'remove copy_of_ren_754993284.txt
+sleep 5
+touch 848241064.txt && echo 'create file 848241064.txt
+sleep 5
+mv 848241064.txt ren_848241064.txt && echo 'rename 848241064.txt to ren_848241064.txt
+sleep 5
+rm ren_848241064.txt && echo 'remove ren_848241064.txt
+sleep 5
+touch 712345272.txt && echo 'create file 712345272.txt
+sleep 5
+touch 729926317.txt && echo 'create file 729926317.txt
+sleep 5
+touch 463360712.txt && echo 'create file 463360712.txt
+sleep 5
+rm 463360712.txt && echo 'remove 463360712.txt
+sleep 5
+touch 754124753.txt && echo 'create file 754124753.txt
+sleep 5
+touch 17000893.txt && echo 'create file 17000893.txt
+sleep 5
+touch 931686776.txt && echo 'create file 931686776.txt
+sleep 5
+touch 170214821.txt && echo 'create file 170214821.txt
+sleep 5
+cp 170214821.txt copy_of_170214821.txt && echo 'copy 170214821.txt to copy_of_170214821.txt
+sleep 5
+touch 391220080.txt && echo 'create file 391220080.txt
+sleep 5
+touch 425351777.txt && echo 'create file 425351777.txt
+sleep 5
+rm 425351777.txt && echo 'remove 425351777.txt
+sleep 5
+touch 155406202.txt && echo 'create file 155406202.txt
+sleep 5
+cp 155406202.txt copy_of_155406202.txt && echo 'copy 155406202.txt to copy_of_155406202.txt
+sleep 5
+touch 639876744.txt && echo 'create file 639876744.txt
+sleep 5
+touch 713995839.txt && echo 'create file 713995839.txt
+sleep 5
+mv 713995839.txt ren_713995839.txt && echo 'rename 713995839.txt to ren_713995839.txt
+sleep 5
+cp ren_713995839.txt copy_of_ren_713995839.txt && echo 'copy ren_713995839.txt to copy_of_ren_713995839.txt
+sleep 5
+touch 717229991.txt && echo 'create file 717229991.txt
+sleep 5
+rm 717229991.txt && echo 'remove 717229991.txt
+sleep 5
+touch 533000911.txt && echo 'create file 533000911.txt
+sleep 5
+cp 533000911.txt copy_of_533000911.txt && echo 'copy 533000911.txt to copy_of_533000911.txt
+sleep 5
+cp copy_of_533000911.txt copy_of_copy_of_533000911.txt && echo 'copy copy_of_533000911.txt to copy_of_copy_of_533000911.txt
+sleep 5
+touch 546333757.txt && echo 'create file 546333757.txt
+sleep 5
+touch 993844519.txt && echo 'create file 993844519.txt
+sleep 5
+cp 993844519.txt copy_of_993844519.txt && echo 'copy 993844519.txt to copy_of_993844519.txt
+sleep 5
+rm copy_of_993844519.txt && echo 'remove copy_of_993844519.txt
+sleep 5
+touch 302772853.txt && echo 'create file 302772853.txt
+sleep 5
+cp 302772853.txt copy_of_302772853.txt && echo 'copy 302772853.txt to copy_of_302772853.txt
+sleep 5
+rm copy_of_302772853.txt && echo 'remove copy_of_302772853.txt
+sleep 5
+touch 192222550.txt && echo 'create file 192222550.txt
+sleep 5
+cp 192222550.txt copy_of_192222550.txt && echo 'copy 192222550.txt to copy_of_192222550.txt
+sleep 5
+touch 495590764.txt && echo 'create file 495590764.txt
+sleep 5
+mv 495590764.txt ren_495590764.txt && echo 'rename 495590764.txt to ren_495590764.txt
+sleep 5
+cp ren_495590764.txt copy_of_ren_495590764.txt && echo 'copy ren_495590764.txt to copy_of_ren_495590764.txt
+sleep 5
+cp copy_of_ren_495590764.txt copy_of_copy_of_ren_495590764.txt && echo 'copy copy_of_ren_495590764.txt to copy_of_copy_of_ren_495590764.txt
+sleep 5
+mv copy_of_copy_of_ren_495590764.txt ren_copy_of_copy_of_ren_495590764.txt && echo 'rename copy_of_copy_of_ren_495590764.txt to ren_copy_of_copy_of_ren_495590764.txt
+sleep 5
+touch 928244063.txt && echo 'create file 928244063.txt
+sleep 5
+rm 928244063.txt && echo 'remove 928244063.txt
+sleep 5
+touch 248336872.txt && echo 'create file 248336872.txt
+sleep 5
+mv 248336872.txt ren_248336872.txt && echo 'rename 248336872.txt to ren_248336872.txt
+sleep 5
+rm ren_248336872.txt && echo 'remove ren_248336872.txt
+sleep 5
+touch 37232262.txt && echo 'create file 37232262.txt
+sleep 5
+touch 406564587.txt && echo 'create file 406564587.txt
+sleep 5
+cp 406564587.txt copy_of_406564587.txt && echo 'copy 406564587.txt to copy_of_406564587.txt
+sleep 5
+mv copy_of_406564587.txt ren_copy_of_406564587.txt && echo 'rename copy_of_406564587.txt to ren_copy_of_406564587.txt
+sleep 5
+mv ren_copy_of_406564587.txt ren_ren_copy_of_406564587.txt && echo 'rename ren_copy_of_406564587.txt to ren_ren_copy_of_406564587.txt
+sleep 5
+cp ren_ren_copy_of_406564587.txt copy_of_ren_ren_copy_of_406564587.txt && echo 'copy ren_ren_copy_of_406564587.txt to copy_of_ren_ren_copy_of_406564587.txt
+sleep 5
+cp copy_of_ren_ren_copy_of_406564587.txt copy_of_copy_of_ren_ren_copy_of_406564587.txt && echo 'copy copy_of_ren_ren_copy_of_406564587.txt to copy_of_copy_of_ren_ren_copy_of_406564587.txt
+sleep 5
+mv copy_of_copy_of_ren_ren_copy_of_406564587.txt ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt && echo 'rename copy_of_copy_of_ren_ren_copy_of_406564587.txt to ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt
+sleep 5
+cp ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt copy_of_ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt && echo 'copy ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt to copy_of_ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt
+sleep 5
+rm copy_of_ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt && echo 'remove copy_of_ren_copy_of_copy_of_ren_ren_copy_of_406564587.txt
+sleep 5
+touch 205241300.txt && echo 'create file 205241300.txt
+sleep 5
+cp 205241300.txt copy_of_205241300.txt && echo 'copy 205241300.txt to copy_of_205241300.txt
+sleep 5
+mv copy_of_205241300.txt ren_copy_of_205241300.txt && echo 'rename copy_of_205241300.txt to ren_copy_of_205241300.txt
+sleep 5
+touch 357275899.txt && echo 'create file 357275899.txt
+sleep 5
+mv 357275899.txt ren_357275899.txt && echo 'rename 357275899.txt to ren_357275899.txt
+sleep 5
+touch 268286859.txt && echo 'create file 268286859.txt
+sleep 5
+mv 268286859.txt ren_268286859.txt && echo 'rename 268286859.txt to ren_268286859.txt
+sleep 5
+mv ren_268286859.txt ren_ren_268286859.txt && echo 'rename ren_268286859.txt to ren_ren_268286859.txt
+sleep 5
+cp ren_ren_268286859.txt copy_of_ren_ren_268286859.txt && echo 'copy ren_ren_268286859.txt to copy_of_ren_ren_268286859.txt
+sleep 5
+rm copy_of_ren_ren_268286859.txt && echo 'remove copy_of_ren_ren_268286859.txt
+sleep 5
+touch 349388647.txt && echo 'create file 349388647.txt
+sleep 5
+cp 349388647.txt copy_of_349388647.txt && echo 'copy 349388647.txt to copy_of_349388647.txt
+sleep 5
+touch 278193357.txt && echo 'create file 278193357.txt
+sleep 5
+cp 278193357.txt copy_of_278193357.txt && echo 'copy 278193357.txt to copy_of_278193357.txt
+sleep 5
+touch 900941750.txt && echo 'create file 900941750.txt
+sleep 5
+touch 940962886.txt && echo 'create file 940962886.txt
+sleep 5
+mv 940962886.txt ren_940962886.txt && echo 'rename 940962886.txt to ren_940962886.txt
+sleep 5
+mv ren_940962886.txt ren_ren_940962886.txt && echo 'rename ren_940962886.txt to ren_ren_940962886.txt
+sleep 5
+cp ren_ren_940962886.txt copy_of_ren_ren_940962886.txt && echo 'copy ren_ren_940962886.txt to copy_of_ren_ren_940962886.txt
+sleep 5
+touch 671470792.txt && echo 'create file 671470792.txt
+sleep 5
+cp 671470792.txt copy_of_671470792.txt && echo 'copy 671470792.txt to copy_of_671470792.txt
+sleep 5
+mv copy_of_671470792.txt ren_copy_of_671470792.txt && echo 'rename copy_of_671470792.txt to ren_copy_of_671470792.txt
+sleep 5
+mv ren_copy_of_671470792.txt ren_ren_copy_of_671470792.txt && echo 'rename ren_copy_of_671470792.txt to ren_ren_copy_of_671470792.txt
+sleep 5
+mv ren_ren_copy_of_671470792.txt ren_ren_ren_copy_of_671470792.txt && echo 'rename ren_ren_copy_of_671470792.txt to ren_ren_ren_copy_of_671470792.txt
+sleep 5
+cp ren_ren_ren_copy_of_671470792.txt copy_of_ren_ren_ren_copy_of_671470792.txt && echo 'copy ren_ren_ren_copy_of_671470792.txt to copy_of_ren_ren_ren_copy_of_671470792.txt
+sleep 5
+cp copy_of_ren_ren_ren_copy_of_671470792.txt copy_of_copy_of_ren_ren_ren_copy_of_671470792.txt && echo 'copy copy_of_ren_ren_ren_copy_of_671470792.txt to copy_of_copy_of_ren_ren_ren_copy_of_671470792.txt
+sleep 5
+mv copy_of_copy_of_ren_ren_ren_copy_of_671470792.txt ren_copy_of_copy_of_ren_ren_ren_copy_of_671470792.txt && echo 'rename copy_of_copy_of_ren_ren_ren_copy_of_671470792.txt to ren_copy_of_copy_of_ren_ren_ren_copy_of_671470792.txt
+sleep 5
+touch 509088842.txt && echo 'create file 509088842.txt
+sleep 5
+cp 509088842.txt copy_of_509088842.txt && echo 'copy 509088842.txt to copy_of_509088842.txt
+sleep 5
+rm copy_of_509088842.txt && echo 'remove copy_of_509088842.txt
+sleep 5
+touch 994706154.txt && echo 'create file 994706154.txt
+sleep 5
+touch 78032433.txt && echo 'create file 78032433.txt
+sleep 5
+rm 78032433.txt && echo 'remove 78032433.txt
+sleep 5
+touch 319925550.txt && echo 'create file 319925550.txt
+sleep 5
+cp 319925550.txt copy_of_319925550.txt && echo 'copy 319925550.txt to copy_of_319925550.txt
+sleep 5
+cp copy_of_319925550.txt copy_of_copy_of_319925550.txt && echo 'copy copy_of_319925550.txt to copy_of_copy_of_319925550.txt
+sleep 5
+cp copy_of_copy_of_319925550.txt copy_of_copy_of_copy_of_319925550.txt && echo 'copy copy_of_copy_of_319925550.txt to copy_of_copy_of_copy_of_319925550.txt
+sleep 5
+touch 449663580.txt && echo 'create file 449663580.txt
+sleep 5
+rm 449663580.txt && echo 'remove 449663580.txt
+sleep 5
+touch 813129654.txt && echo 'create file 813129654.txt
+sleep 5
+rm 813129654.txt && echo 'remove 813129654.txt
+sleep 5
+touch 558498545.txt && echo 'create file 558498545.txt
+sleep 5
+rm 558498545.txt && echo 'remove 558498545.txt
+sleep 5
+touch 993097990.txt && echo 'create file 993097990.txt
+sleep 5
+mv 993097990.txt ren_993097990.txt && echo 'rename 993097990.txt to ren_993097990.txt
+sleep 5
+mv ren_993097990.txt ren_ren_993097990.txt && echo 'rename ren_993097990.txt to ren_ren_993097990.txt
+sleep 5
+rm ren_ren_993097990.txt && echo 'remove ren_ren_993097990.txt
+sleep 5
+touch 295679891.txt && echo 'create file 295679891.txt
+sleep 5
+cp 295679891.txt copy_of_295679891.txt && echo 'copy 295679891.txt to copy_of_295679891.txt
+sleep 5
+cp copy_of_295679891.txt copy_of_copy_of_295679891.txt && echo 'copy copy_of_295679891.txt to copy_of_copy_of_295679891.txt
+sleep 5
+cp copy_of_copy_of_295679891.txt copy_of_copy_of_copy_of_295679891.txt && echo 'copy copy_of_copy_of_295679891.txt to copy_of_copy_of_copy_of_295679891.txt
+sleep 5
+touch 702639348.txt && echo 'create file 702639348.txt
+sleep 5
+touch 686655291.txt && echo 'create file 686655291.txt
+sleep 5
+mv 686655291.txt ren_686655291.txt && echo 'rename 686655291.txt to ren_686655291.txt
+sleep 5
+touch 656149619.txt && echo 'create file 656149619.txt
+sleep 5
+cp 656149619.txt copy_of_656149619.txt && echo 'copy 656149619.txt to copy_of_656149619.txt
+sleep 5
+rm copy_of_656149619.txt && echo 'remove copy_of_656149619.txt
+sleep 5
+touch 331426647.txt && echo 'create file 331426647.txt
+sleep 5
+rm 331426647.txt && echo 'remove 331426647.txt
+sleep 5
+touch 726525781.txt && echo 'create file 726525781.txt
+sleep 5
+rm 726525781.txt && echo 'remove 726525781.txt
+sleep 5
+touch 260482547.txt && echo 'create file 260482547.txt
+sleep 5
+rm 260482547.txt && echo 'remove 260482547.txt
+sleep 5
+touch 990240488.txt && echo 'create file 990240488.txt
+sleep 5
+mv 990240488.txt ren_990240488.txt && echo 'rename 990240488.txt to ren_990240488.txt
+sleep 5
+rm ren_990240488.txt && echo 'remove ren_990240488.txt
+sleep 5
+touch 11785766.txt && echo 'create file 11785766.txt
+sleep 5
+touch 187682066.txt && echo 'create file 187682066.txt
+sleep 5
+cp 187682066.txt copy_of_187682066.txt && echo 'copy 187682066.txt to copy_of_187682066.txt
+sleep 5
+mv copy_of_187682066.txt ren_copy_of_187682066.txt && echo 'rename copy_of_187682066.txt to ren_copy_of_187682066.txt
+sleep 5
+mv ren_copy_of_187682066.txt ren_ren_copy_of_187682066.txt && echo 'rename ren_copy_of_187682066.txt to ren_ren_copy_of_187682066.txt
+sleep 5
+mv ren_ren_copy_of_187682066.txt ren_ren_ren_copy_of_187682066.txt && echo 'rename ren_ren_copy_of_187682066.txt to ren_ren_ren_copy_of_187682066.txt
+sleep 5
+cp ren_ren_ren_copy_of_187682066.txt copy_of_ren_ren_ren_copy_of_187682066.txt && echo 'copy ren_ren_ren_copy_of_187682066.txt to copy_of_ren_ren_ren_copy_of_187682066.txt
+sleep 5
+mv copy_of_ren_ren_ren_copy_of_187682066.txt ren_copy_of_ren_ren_ren_copy_of_187682066.txt && echo 'rename copy_of_ren_ren_ren_copy_of_187682066.txt to ren_copy_of_ren_ren_ren_copy_of_187682066.txt
+sleep 5
+rm ren_copy_of_ren_ren_ren_copy_of_187682066.txt && echo 'remove ren_copy_of_ren_ren_ren_copy_of_187682066.txt
+sleep 5
+touch 261338895.txt && echo 'create file 261338895.txt
+sleep 5
+cp 261338895.txt copy_of_261338895.txt && echo 'copy 261338895.txt to copy_of_261338895.txt
+sleep 5
+cp copy_of_261338895.txt copy_of_copy_of_261338895.txt && echo 'copy copy_of_261338895.txt to copy_of_copy_of_261338895.txt
+sleep 5
+touch 400790094.txt && echo 'create file 400790094.txt
+sleep 5
+mv 400790094.txt ren_400790094.txt && echo 'rename 400790094.txt to ren_400790094.txt
+sleep 5
+touch 198633559.txt && echo 'create file 198633559.txt
+sleep 5
+mv 198633559.txt ren_198633559.txt && echo 'rename 198633559.txt to ren_198633559.txt
+sleep 5
+rm ren_198633559.txt && echo 'remove ren_198633559.txt
+sleep 5
+touch 35288653.txt && echo 'create file 35288653.txt
+sleep 5
+rm 35288653.txt && echo 'remove 35288653.txt
+sleep 5
+touch 998889410.txt && echo 'create file 998889410.txt
+sleep 5
+cp 998889410.txt copy_of_998889410.txt && echo 'copy 998889410.txt to copy_of_998889410.txt
+sleep 5
+touch 364483542.txt && echo 'create file 364483542.txt
+sleep 5
+rm 364483542.txt && echo 'remove 364483542.txt
+sleep 5
+touch 536768278.txt && echo 'create file 536768278.txt
+sleep 5
+mv 536768278.txt ren_536768278.txt && echo 'rename 536768278.txt to ren_536768278.txt
+sleep 5
+mv ren_536768278.txt ren_ren_536768278.txt && echo 'rename ren_536768278.txt to ren_ren_536768278.txt
+sleep 5
+cp ren_ren_536768278.txt copy_of_ren_ren_536768278.txt && echo 'copy ren_ren_536768278.txt to copy_of_ren_ren_536768278.txt
+sleep 5
+cp copy_of_ren_ren_536768278.txt copy_of_copy_of_ren_ren_536768278.txt && echo 'copy copy_of_ren_ren_536768278.txt to copy_of_copy_of_ren_ren_536768278.txt
+sleep 5
+cp copy_of_copy_of_ren_ren_536768278.txt copy_of_copy_of_copy_of_ren_ren_536768278.txt && echo 'copy copy_of_copy_of_ren_ren_536768278.txt to copy_of_copy_of_copy_of_ren_ren_536768278.txt
+sleep 5
+cp copy_of_copy_of_copy_of_ren_ren_536768278.txt copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt && echo 'copy copy_of_copy_of_copy_of_ren_ren_536768278.txt to copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt
+sleep 5
+cp copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt copy_of_copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt && echo 'copy copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt to copy_of_copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt
+sleep 5
+rm copy_of_copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt && echo 'remove copy_of_copy_of_copy_of_copy_of_copy_of_ren_ren_536768278.txt
+sleep 5
+touch 849340705.txt && echo 'create file 849340705.txt
+sleep 5
+rm 849340705.txt && echo 'remove 849340705.txt
+sleep 5
+touch 128945366.txt && echo 'create file 128945366.txt
+sleep 5
+rm 128945366.txt && echo 'remove 128945366.txt
+sleep 5
+touch 429505180.txt && echo 'create file 429505180.txt
+sleep 5
+touch 801743025.txt && echo 'create file 801743025.txt
+sleep 5
+touch 170998908.txt && echo 'create file 170998908.txt
+sleep 5
+cp 170998908.txt copy_of_170998908.txt && echo 'copy 170998908.txt to copy_of_170998908.txt
+sleep 5
+cp copy_of_170998908.txt copy_of_copy_of_170998908.txt && echo 'copy copy_of_170998908.txt to copy_of_copy_of_170998908.txt
+sleep 5
+mv copy_of_copy_of_170998908.txt ren_copy_of_copy_of_170998908.txt && echo 'rename copy_of_copy_of_170998908.txt to ren_copy_of_copy_of_170998908.txt
+sleep 5
+rm ren_copy_of_copy_of_170998908.txt && echo 'remove ren_copy_of_copy_of_170998908.txt
+sleep 5
+touch 510814852.txt && echo 'create file 510814852.txt
+sleep 5
+touch 936585655.txt && echo 'create file 936585655.txt
+sleep 5
+cp 936585655.txt copy_of_936585655.txt && echo 'copy 936585655.txt to copy_of_936585655.txt
+sleep 5
+mv copy_of_936585655.txt ren_copy_of_936585655.txt && echo 'rename copy_of_936585655.txt to ren_copy_of_936585655.txt
+sleep 5
+cp ren_copy_of_936585655.txt copy_of_ren_copy_of_936585655.txt && echo 'copy ren_copy_of_936585655.txt to copy_of_ren_copy_of_936585655.txt
+sleep 5
+cp copy_of_ren_copy_of_936585655.txt copy_of_copy_of_ren_copy_of_936585655.txt && echo 'copy copy_of_ren_copy_of_936585655.txt to copy_of_copy_of_ren_copy_of_936585655.txt
+sleep 5
+tail -f

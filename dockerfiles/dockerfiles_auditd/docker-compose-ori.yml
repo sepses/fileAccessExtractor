@@ -1,0 +1,76 @@
+version: '2.4'
+
+services:
+  agent:
+    image: ubuntu-sepses22:latest
+    #image: ubuntu-agent:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\filebeat\filebeat.yml:/etc/filebeat.yml
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\supervisor.conf:/etc/supervisor.conf
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\agent:/usr/local/bin
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\agent\log:/var/log/agent
+    networks:
+    - ubuntu
+    command: ["sh","-c","/usr/bin/supervisord -c /etc/supervisor.conf"]
+
+  logstash:
+    #image: ubuntu-logstash-ws:latest
+    image: ubuntu-logstash-new:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\logstash\logstash2.conf:/etc/logstash2.conf
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\logstash\output:/home
+    #ports: ['3232:3232']
+    networks:
+    - ubuntu
+    depends_on:
+      - "agent"
+    command: ["sh","-c","/usr/share/logstash/bin/logstash -f /etc/logstash2.conf && tail -f /dev/null"]
+
+  basehost:
+    image: ubuntu-host:18.04
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\basehost\:/usr/local/bin/
+    networks:
+    - ubuntu
+    command: ["sh","-c","sleep 60 && /usr/local/bin/start.sh && tail -f /dev/null"]
+    #command: ["sh","-c","tail -f /dev/null"]
+
+  triplewave:
+    image: ubuntu-twave:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\basehost\cmd.sh:/usr/local/bin/cmd.sh
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\triplewave\examples\transform:/home/TripleWave/examples/transform
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\triplewave\config:/home/TripleWave/config
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\triplewave\stream\input_stream:/home/TripleWave/stream/input_stream
+    ports: ['8124:8124']
+    networks:
+    - ubuntu
+    depends_on:
+      - "logstash"
+    command: ["sh","-c","sleep 50 && cd /home/TripleWave && ./start.sh"]
+
+  virtuoso:
+    image: tenforce/virtuoso-ssh:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\virtuoso\grant.sql:/bin/grant.sql
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\virtuoso\grant2.sql:/bin/grant2.sql
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\virtuoso\grant3.sql:/bin/grant3.sql
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\virtuoso\start.sh:/bin/start.sh
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles\supervisor2.conf:/etc/supervisor2.conf
+    environment:
+      SPARQL_UPDATE: "true"
+      DEFAULT_GRAPH: "http://www.example.com/my-graph"
+    ports: ['8890:8890','1111:1111']
+    networks:
+    - ubuntu
+    depends_on:
+      - "triplewave"
+    command: ["sh","-c","/usr/bin/supervisord -c /etc/supervisor2.conf"]
+
+
+networks:
+  ubuntu:
+   driver: bridge
+   ipam:
+     config:
+     - subnet: 172.0.0.0/16

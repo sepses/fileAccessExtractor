@@ -1,0 +1,31 @@
+  windows_agent:
+    platform: windows
+    image: winserv3:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\auditbeat\:C:\auditbeat\conf\
+    command: powershell expand-archive -Path OpenSSH-Win64.zip ; cd OpenSSH-Win64 ; cd OpenSSH-Win64 ; powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1 ; net start sshd ; C:\\auditbeat\\auditbeat.exe -e -c C:\\auditbeat\\conf\\auditbeat_win.yml 
+
+  logstash:
+    #image: ubuntu-logstash-ws:latest
+    image: ubuntu-logstash-win6:latest
+    platform: linux
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\logstash\:/etc/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\logstash\output:/home
+    ports: ['3232:3232']
+    #command: ["sh","-c","export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64 && /usr/share/logstash/bin/logstash -f '/etc/logstash/pipelines/{logstash_auditfile.conf,logstash_process.conf}' && tail -f /dev/null"]
+    command: ["sh","-c","export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64 && /usr/share/logstash/bin/logstash -f /etc/logstash2.conf && tail -f /dev/null"]
+
+  triplewave:
+    image: ubuntu-tw-new3:latest
+    platform: linux
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\basehost\:/usr/local/bin/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\triplewave\examples\transform\:/home/triplewave/examples/transform/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\triplewave\config\:/home/triplewave/config/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\triplewave\stream\input_stream\:/home/triplewave/stream/input_stream/
+    ports: ['8124:8124']
+    depends_on:
+      - "logstash"
+    command: ["sh","-c","sleep 65 && cd /home/triplewave && chmod +x start.sh && ./start.sh"]
+    #command: ["sh","-c","tail -f /dev/null"]

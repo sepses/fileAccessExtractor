@@ -1,0 +1,1 @@
+/usr/local/virtuoso-opensource/bin/isql-v 1111 dba dba VERBOSE=OFF /bin/virtuoso/grant.sql && /usr/local/virtuoso-opensource/bin/isql-v 1111 dba dba VERBOSE=OFF /bin/virtuoso/grant2.sql && /usr/local/virtuoso-opensource/bin/isql-v 1111 dba dba VERBOSE=OFF /bin/virtuoso/grant3.sql

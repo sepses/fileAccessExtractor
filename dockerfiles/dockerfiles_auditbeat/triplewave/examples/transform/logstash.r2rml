@@ -1,0 +1,29 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix sr: <http://purl.oclc.org/rsp/srml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix schema: <https://schema.org/>.
+@prefix ue: <http://w3id.org/sepses/vocab/unix-event#>.
+@prefix : <http://epfl.ch/mapping/>.
+
+
+:LogEntryMap a rr:TriplesMap;
+	rml:logicalSource [
+        rml:root true;
+        rml:source "jdbc coso"; ];
+ rr:subjectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#LogEntry-{id}"];
+ rr:predicateObjectMap [ rr:predicate rdf:type; rr:objectMap [ rr:template "http://w3id.org/sepses/resource/unix-event#UnixEventLogEntry"]];
+ rr:predicateObjectMap [ rr:predicate ue:timestamp;  rr:objectMap [ rr:template "{@timestamp}";  rr:datatype xsd:dateTime;]];
+ rr:predicateObjectMap [ rr:predicate ue:logtimestamp;  rr:objectMap [ rr:template "{timestamp}"; rr:datatype xsd:dateTime;]];
+ rr:predicateObjectMap [ rr:predicate ue:sourceIp;  rr:objectMap [ rr:template "{source_ip}"]];
+ rr:predicateObjectMap [ rr:predicate ue:processID; rr:objectMap [ rr:template "{pid}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:processName; rr:objectMap [rr:template "{programname}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:eventName; rr:objectMap [rr:template "{eventname}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:pathName; rr:objectMap [rr:template "{pathfile}"]];
+ rr:predicateObjectMap [ rr:predicate ue:fileType; rr:objectMap [rr:template "{filetype}"]];
+ rr:predicateObjectMap [ rr:predicate ue:hostName; rr:objectMap [rr:template "{hostname}"]];
+ rr:predicateObjectMap [ rr:predicate ue:userName; rr:objectMap [rr:template "{username}" ]];
+ rr:predicateObjectMap [ rr:predicate ue:owner; rr:objectMap [rr:template "{owner}" ]].

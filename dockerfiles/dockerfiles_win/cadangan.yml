@@ -1,0 +1,50 @@
+ virtuoso:
+    image: ubuntu-virtuoso-new:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\virtuoso\:/bin/virtuoso/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\:/etc/supervisor/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\:/etc/virtuoso
+    environment:
+      SPARQL_UPDATE: "true"
+      DEFAULT_GRAPH: "http://www.example.com/my-graph"
+    ports: ['8890:8890','1111:1111']
+    depends_on:
+      - "triplewave"
+    command: ["sh","-c","/usr/bin/supervisord -c /etc/supervisor/supervisor2_win.conf"]
+
+triplewave2:
+    image: ubuntu-tw-new3:latest
+    platform: linux
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\basehost\:/usr/local/bin/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\triplewave2\examples\transform\:/home/triplewave/examples/transform/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\triplewave2\config\:/home/triplewave/config/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\triplewave2\stream\input_stream\:/home/triplewave/stream/input_stream/
+    #ports: ['8124:8124']
+    depends_on:
+      - "triplewave"
+    command: ["sh","-c","sleep 70 && cd /home/triplewave && chmod +x start.sh && ./start.sh"]
+    #command: ["sh","-c","tail -f /dev/null"]
+
+
+  virtuoso:
+    image: ubuntu-virtuoso-new:latest
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\virtuoso\:/bin/virtuoso/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\:/etc/supervisor/
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\:/etc/virtuoso
+    environment:
+      SPARQL_UPDATE: "true"
+      DEFAULT_GRAPH: "http://www.example.com/my-graph"
+    ports: ['8890:8890','1111:1111']
+    depends_on:
+      - "triplewave"
+    command: ["sh","-c","/usr/bin/supervisord -c /etc/supervisor/supervisor2_win.conf"]
+
+  basehost:
+    image: ubuntu-host:18.04
+    platform: linux
+    volumes:
+    - D:\GDriveUndip\PhD\FileAccess\dockerfiles_win\basehost\:/usr/local/bin/
+    #command: ["sh","-c","sleep 60 && /usr/local/bin/start.sh && tail -f /dev/null"]
+    command: ["sh","-c","tail -f /dev/null"]
